@@ -1,0 +1,731 @@
+ #=======================================================================
+ #
+ #    ______________________ ____    ________  __      __  _________
+ #    \__    ___/\_   _____/|    |   \_____  \/  \    /  \/   _____/
+ #      |    |    |    __)  |    |    /   |   \   \/\/   /\_____  \
+ #      |    |    |     \   |    |___/    |    \        / /        \
+ #      |____|    \___  /   |_______ \_______  /\__/\  / /_______  /
+ #                    \/            \/       \/      \/          \/
+ #                         ___  _      _    __
+ #                        / _ \(_)  __(_)__/ /__
+ #                       / // / / |/ / / _  / -_)
+ #                      /____/_/|___/_/\_,_/\__/
+ #
+ #                        Double precision mode
+ #                 Compiled with nonrecursive heapsort
+ #-----------------------------------------------------------------------
+ # Input problem name: (without extension)
+ # Number of subdomains:
+ # Reading the binary file: Scriven-Unstructured_dual.cfn
+ # Expanding memory for nodes to size:   1958173
+ # Expanding memory for cells to size:    319156    39336
+ # Expanding memory for faces to size:   2276422        0
+ # Reading the binary file: Scriven-Unstructured_dual.dim
+ #=============================================
+ # Saving subdomain     1 with:
+ #      6020 cells
+ #     39563 nodes
+ #     44263 faces
+ #         0 shadow faces
+ #      1402 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/01/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/01/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/01/Scriven-Unstructured_dual.vtu
+ # Creating the ASCII file: Scriven-Unstructured_dual.pvtu
+ #=============================================
+ # Saving subdomain     2 with:
+ #      6526 cells
+ #     45409 nodes
+ #     49950 faces
+ #         0 shadow faces
+ #       873 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/02/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/02/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/02/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain     3 with:
+ #      6339 cells
+ #     43431 nodes
+ #     48021 faces
+ #         0 shadow faces
+ #      1013 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/03/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/03/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/03/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain     4 with:
+ #      6871 cells
+ #     49566 nodes
+ #     53970 faces
+ #         0 shadow faces
+ #       310 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/04/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/04/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/04/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain     5 with:
+ #      6893 cells
+ #     49730 nodes
+ #     54174 faces
+ #         0 shadow faces
+ #       302 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/05/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/05/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/05/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain     6 with:
+ #      6280 cells
+ #     42799 nodes
+ #     47407 faces
+ #         0 shadow faces
+ #       984 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/06/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/06/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/06/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain     7 with:
+ #      6596 cells
+ #     46160 nodes
+ #     50680 faces
+ #         0 shadow faces
+ #       897 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/07/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/07/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/07/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain     8 with:
+ #      7289 cells
+ #     54248 nodes
+ #     58438 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/08/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/08/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/08/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain     9 with:
+ #      6748 cells
+ #     48173 nodes
+ #     52620 faces
+ #         0 shadow faces
+ #       520 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/09/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/09/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/09/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    10 with:
+ #      6229 cells
+ #     42251 nodes
+ #     46846 faces
+ #         0 shadow faces
+ #      1054 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/10/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/10/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/10/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    11 with:
+ #      7033 cells
+ #     51817 nodes
+ #     56082 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/11/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/11/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/11/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    12 with:
+ #      6652 cells
+ #     47243 nodes
+ #     51689 faces
+ #         0 shadow faces
+ #       512 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/12/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/12/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/12/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    13 with:
+ #      6272 cells
+ #     42721 nodes
+ #     47328 faces
+ #         0 shadow faces
+ #      1080 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/13/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/13/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/13/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    14 with:
+ #      5971 cells
+ #     39282 nodes
+ #     43979 faces
+ #         0 shadow faces
+ #      1354 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/14/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/14/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/14/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    15 with:
+ #      6798 cells
+ #     48816 nodes
+ #     53218 faces
+ #         0 shadow faces
+ #       402 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/15/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/15/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/15/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    16 with:
+ #      6519 cells
+ #     45440 nodes
+ #     50000 faces
+ #         0 shadow faces
+ #       772 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/16/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/16/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/16/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    17 with:
+ #      7169 cells
+ #     52719 nodes
+ #     56996 faces
+ #         0 shadow faces
+ #       222 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/17/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/17/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/17/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    18 with:
+ #      6593 cells
+ #     46302 nodes
+ #     50807 faces
+ #         0 shadow faces
+ #       713 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/18/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/18/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/18/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    19 with:
+ #      6303 cells
+ #     42911 nodes
+ #     47533 faces
+ #         0 shadow faces
+ #      1017 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/19/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/19/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/19/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    20 with:
+ #      6817 cells
+ #     49024 nodes
+ #     53448 faces
+ #         0 shadow faces
+ #       387 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/20/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/20/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/20/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    21 with:
+ #      6229 cells
+ #     42262 nodes
+ #     46892 faces
+ #         0 shadow faces
+ #       994 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/21/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/21/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/21/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    22 with:
+ #      6013 cells
+ #     39657 nodes
+ #     44363 faces
+ #         0 shadow faces
+ #      1296 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/22/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/22/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/22/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    23 with:
+ #      6285 cells
+ #     42840 nodes
+ #     47453 faces
+ #         0 shadow faces
+ #       978 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/23/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/23/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/23/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    24 with:
+ #      6712 cells
+ #     47603 nodes
+ #     52085 faces
+ #         0 shadow faces
+ #       585 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/24/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/24/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/24/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    25 with:
+ #      6862 cells
+ #     49540 nodes
+ #     53956 faces
+ #         0 shadow faces
+ #       363 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/25/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/25/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/25/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    26 with:
+ #      6389 cells
+ #     43948 nodes
+ #     48533 faces
+ #         0 shadow faces
+ #       957 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/26/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/26/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/26/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    27 with:
+ #      5972 cells
+ #     39231 nodes
+ #     43935 faces
+ #         0 shadow faces
+ #      1338 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/27/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/27/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/27/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    28 with:
+ #      6366 cells
+ #     43731 nodes
+ #     48324 faces
+ #         0 shadow faces
+ #       943 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/28/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/28/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/28/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    29 with:
+ #      6268 cells
+ #     42467 nodes
+ #     47104 faces
+ #         0 shadow faces
+ #      1121 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/29/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/29/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/29/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    30 with:
+ #      6706 cells
+ #     47659 nodes
+ #     52100 faces
+ #         0 shadow faces
+ #       505 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/30/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/30/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/30/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    31 with:
+ #      7064 cells
+ #     52074 nodes
+ #     56311 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/31/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/31/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/31/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    32 with:
+ #      6814 cells
+ #     48830 nodes
+ #     53255 faces
+ #         0 shadow faces
+ #       390 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/32/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/32/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/32/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    33 with:
+ #      6818 cells
+ #     48877 nodes
+ #     53295 faces
+ #         0 shadow faces
+ #       400 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/33/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/33/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/33/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    34 with:
+ #      6366 cells
+ #     43508 nodes
+ #     48100 faces
+ #         0 shadow faces
+ #      1013 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/34/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/34/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/34/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    35 with:
+ #      6523 cells
+ #     45531 nodes
+ #     50041 faces
+ #         0 shadow faces
+ #       843 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/35/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/35/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/35/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    36 with:
+ #      7087 cells
+ #     52244 nodes
+ #     56510 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/36/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/36/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/36/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    37 with:
+ #      5970 cells
+ #     39308 nodes
+ #     43991 faces
+ #         0 shadow faces
+ #      1283 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/37/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/37/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/37/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    38 with:
+ #      6551 cells
+ #     45742 nodes
+ #     50272 faces
+ #         0 shadow faces
+ #       802 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/38/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/38/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/38/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    39 with:
+ #      6311 cells
+ #     42922 nodes
+ #     47575 faces
+ #         0 shadow faces
+ #      1021 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/39/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/39/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/39/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    40 with:
+ #      6781 cells
+ #     48568 nodes
+ #     53025 faces
+ #         0 shadow faces
+ #       419 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/40/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/40/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/40/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    41 with:
+ #      6904 cells
+ #     49731 nodes
+ #     54125 faces
+ #         0 shadow faces
+ #       450 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/41/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/41/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/41/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    42 with:
+ #      6790 cells
+ #     48777 nodes
+ #     53216 faces
+ #         0 shadow faces
+ #       366 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/42/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/42/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/42/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    43 with:
+ #      7294 cells
+ #     54568 nodes
+ #     58669 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/43/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/43/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/43/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    44 with:
+ #      6557 cells
+ #     45547 nodes
+ #     50104 faces
+ #         0 shadow faces
+ #      1009 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/44/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/44/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/44/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    45 with:
+ #      6301 cells
+ #     43033 nodes
+ #     47609 faces
+ #         0 shadow faces
+ #      1080 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/45/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/45/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/45/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    46 with:
+ #      6227 cells
+ #     42012 nodes
+ #     46609 faces
+ #         0 shadow faces
+ #      1221 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/46/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/46/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/46/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    47 with:
+ #      6281 cells
+ #     42625 nodes
+ #     47294 faces
+ #         0 shadow faces
+ #      1053 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/47/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/47/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/47/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    48 with:
+ #      6878 cells
+ #     49430 nodes
+ #     53853 faces
+ #         0 shadow faces
+ #       442 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/48/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/48/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/48/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    49 with:
+ #      6660 cells
+ #     47066 nodes
+ #     51554 faces
+ #         0 shadow faces
+ #       606 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/49/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/49/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/49/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    50 with:
+ #      6261 cells
+ #     42614 nodes
+ #     47215 faces
+ #         0 shadow faces
+ #      1000 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/50/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/50/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/50/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    51 with:
+ #      6725 cells
+ #     47834 nodes
+ #     52317 faces
+ #         0 shadow faces
+ #       453 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/51/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/51/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/51/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    52 with:
+ #      7073 cells
+ #     52139 nodes
+ #     56410 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/52/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/52/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/52/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    53 with:
+ #      6397 cells
+ #     44153 nodes
+ #     48715 faces
+ #         0 shadow faces
+ #       883 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/53/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/53/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/53/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    54 with:
+ #      6757 cells
+ #     48211 nodes
+ #     52665 faces
+ #         0 shadow faces
+ #       510 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/54/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/54/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/54/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    55 with:
+ #      6419 cells
+ #     44169 nodes
+ #     48792 faces
+ #         0 shadow faces
+ #       887 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/55/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/55/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/55/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    56 with:
+ #      5997 cells
+ #     39318 nodes
+ #     43997 faces
+ #         0 shadow faces
+ #      1401 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/56/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/56/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/56/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    57 with:
+ #      6513 cells
+ #     45361 nodes
+ #     49912 faces
+ #         0 shadow faces
+ #       796 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/57/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/57/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/57/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    58 with:
+ #      5968 cells
+ #     39065 nodes
+ #     43777 faces
+ #         0 shadow faces
+ #      1365 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/58/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/58/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/58/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    59 with:
+ #      6801 cells
+ #     48842 nodes
+ #     53256 faces
+ #         0 shadow faces
+ #       445 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/59/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/59/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/59/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    60 with:
+ #      6423 cells
+ #     44327 nodes
+ #     48939 faces
+ #         0 shadow faces
+ #       825 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/60/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/60/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/60/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    61 with:
+ #      7105 cells
+ #     52531 nodes
+ #     56797 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/61/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/61/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/61/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    62 with:
+ #      6757 cells
+ #     48610 nodes
+ #     53031 faces
+ #         0 shadow faces
+ #       370 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/62/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/62/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/62/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    63 with:
+ #      6631 cells
+ #     46712 nodes
+ #     51225 faces
+ #         0 shadow faces
+ #       611 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/63/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/63/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/63/Scriven-Unstructured_dual.vtu
+ #=============================================
+ # Saving subdomain    64 with:
+ #      6402 cells
+ #     43870 nodes
+ #     48530 faces
+ #         0 shadow faces
+ #       909 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/64/Scriven-Unstructured_dual.cfn
+ # Creating the binary file: Sub/64/Scriven-Unstructured_dual.dim
+ # Creating the binary file: Sub/64/Scriven-Unstructured_dual.vtu
+ # Time =         32.555 seconds.
+EXIT=0
+64

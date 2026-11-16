@@ -1,0 +1,987 @@
+ Courant Number exceded at iteration:            1
+ Co_max =   0.55068605181451014     
+ Try reducing time step
+ Courant Number exceded at iteration:            2
+ Co_max =   0.47207224843338008     
+ Try reducing time step
+ Courant Number exceded at iteration:            3
+ Co_max =   0.52896073983511827     
+ Try reducing time step
+ Courant Number exceded at iteration:            4
+ Co_max =   0.50387031754720468     
+ Try reducing time step
+ Courant Number exceded at iteration:            5
+ Co_max =   0.49155956398174905     
+ Try reducing time step
+ Courant Number exceded at iteration:            6
+ Co_max =   0.53963945355939957     
+ Try reducing time step
+ Courant Number exceded at iteration:            7
+ Co_max =   0.54705278242653610     
+ Try reducing time step
+ Courant Number exceded at iteration:            8
+ Co_max =   0.53659504244434530     
+ Try reducing time step
+ Courant Number exceded at iteration:            9
+ Co_max =   0.58299313029270150     
+ Try reducing time step
+ Courant Number exceded at iteration:           10
+ Co_max =   0.53789382047798695     
+ Try reducing time step
+ Courant Number exceded at iteration:           11
+ Co_max =   0.62138414059459968     
+ Try reducing time step
+ Courant Number exceded at iteration:           12
+ Co_max =   0.60103928206062407     
+ Try reducing time step
+ Courant Number exceded at iteration:           13
+ Co_max =   0.49551090369092021     
+ Try reducing time step
+ Courant Number exceded at iteration:           14
+ Co_max =   0.53852162618871480     
+ Try reducing time step
+ Courant Number exceded at iteration:           15
+ Co_max =   0.50256918365068937     
+ Try reducing time step
+ Courant Number exceded at iteration:           16
+ Co_max =   0.53253763526657605     
+ Try reducing time step
+ Courant Number exceded at iteration:           17
+ Co_max =   0.55674477497586150     
+ Try reducing time step
+ Courant Number exceded at iteration:           18
+ Co_max =   0.55941442572393874     
+ Try reducing time step
+ Courant Number exceded at iteration:           19
+ Co_max =   0.54856853344317524     
+ Try reducing time step
+ Courant Number exceded at iteration:           20
+ Co_max =   0.53238035268424111     
+ Try reducing time step
+ Courant Number exceded at iteration:           21
+ Co_max =   0.53869202261784788     
+ Try reducing time step
+ Courant Number exceded at iteration:           22
+ Co_max =   0.53899860249456466     
+ Try reducing time step
+ Courant Number exceded at iteration:           23
+ Co_max =   0.53479054779433777     
+ Try reducing time step
+ Courant Number exceded at iteration:           24
+ Co_max =   0.54289243792060649     
+ Try reducing time step
+ Courant Number exceded at iteration:           25
+ Co_max =   0.50410540927661440     
+ Try reducing time step
+ Courant Number exceded at iteration:           26
+ Co_max =   0.51687854307683423     
+ Try reducing time step
+ Courant Number exceded at iteration:           27
+ Co_max =   0.54243619584683300     
+ Try reducing time step
+ Courant Number exceded at iteration:           28
+ Co_max =   0.52309217159107846     
+ Try reducing time step
+ Courant Number exceded at iteration:           29
+ Co_max =   0.54102945097812016     
+ Try reducing time step
+ Courant Number exceded at iteration:           30
+ Co_max =   0.55379428084329962     
+ Try reducing time step
+ Courant Number exceded at iteration:           31
+ Co_max =   0.54930232520049205     
+ Try reducing time step
+ Courant Number exceded at iteration:           32
+ Co_max =   0.57325752681933018     
+ Try reducing time step
+ Courant Number exceded at iteration:           33
+ Co_max =   0.59166067225859520     
+ Try reducing time step
+ Courant Number exceded at iteration:           34
+ Co_max =   0.60391096486598905     
+ Try reducing time step
+ Courant Number exceded at iteration:           35
+ Co_max =   0.61041462906940935     
+ Try reducing time step
+ Courant Number exceded at iteration:           36
+ Co_max =   0.61370324796730291     
+ Try reducing time step
+ Courant Number exceded at iteration:           37
+ Co_max =   0.61209127633005966     
+ Try reducing time step
+ Courant Number exceded at iteration:           38
+ Co_max =   0.61011509632936811     
+ Try reducing time step
+ Courant Number exceded at iteration:           39
+ Co_max =   0.61058048316874425     
+ Try reducing time step
+ Courant Number exceded at iteration:           40
+ Co_max =   0.60892219617319254     
+ Try reducing time step
+ Courant Number exceded at iteration:           41
+ Co_max =   0.59481290358415573     
+ Try reducing time step
+ Courant Number exceded at iteration:           42
+ Co_max =   0.60106137259618519     
+ Try reducing time step
+ Courant Number exceded at iteration:           43
+ Co_max =   0.53039164384506865     
+ Try reducing time step
+ Courant Number exceded at iteration:           44
+ Co_max =   0.49130647708937075     
+ Try reducing time step
+ Courant Number exceded at iteration:           45
+ Co_max =   0.45860361614540390     
+ Try reducing time step
+ Courant Number exceded at iteration:           46
+ Co_max =   0.50262624888873852     
+ Try reducing time step
+ Courant Number exceded at iteration:           47
+ Co_max =   0.49655115412381007     
+ Try reducing time step
+ Courant Number exceded at iteration:           48
+ Co_max =   0.44837698652182800     
+ Try reducing time step
+ Courant Number exceded at iteration:           49
+ Co_max =   0.46769753086401250     
+ Try reducing time step
+ Courant Number exceded at iteration:           50
+ Co_max =   0.43552250568585071     
+ Try reducing time step
+ Courant Number exceded at iteration:           51
+ Co_max =   0.44948003904408518     
+ Try reducing time step
+ Courant Number exceded at iteration:           52
+ Co_max =   0.47938522310537462     
+ Try reducing time step
+ Courant Number exceded at iteration:           53
+ Co_max =   0.47113510800222286     
+ Try reducing time step
+ Courant Number exceded at iteration:           54
+ Co_max =   0.42631209259540193     
+ Try reducing time step
+ Courant Number exceded at iteration:           55
+ Co_max =   0.34762924077590385     
+ Try reducing time step
+ Courant Number exceded at iteration:           56
+ Co_max =   0.39895080902786167     
+ Try reducing time step
+ Courant Number exceded at iteration:           57
+ Co_max =   0.44161476669963967     
+ Try reducing time step
+ Courant Number exceded at iteration:           58
+ Co_max =   0.48598168249419688     
+ Try reducing time step
+ Courant Number exceded at iteration:           59
+ Co_max =   0.36303213569758952     
+ Try reducing time step
+ Courant Number exceded at iteration:           60
+ Co_max =   0.40315236416613875     
+ Try reducing time step
+ Courant Number exceded at iteration:           61
+ Co_max =   0.34351901887527803     
+ Try reducing time step
+ Courant Number exceded at iteration:           62
+ Co_max =   0.34412666629128086     
+ Try reducing time step
+ Courant Number exceded at iteration:           63
+ Co_max =   0.34066943744530354     
+ Try reducing time step
+ Courant Number exceded at iteration:           64
+ Co_max =   0.35088622000283193     
+ Try reducing time step
+ Courant Number exceded at iteration:           65
+ Co_max =   0.39653729966995993     
+ Try reducing time step
+ Courant Number exceded at iteration:           66
+ Co_max =   0.33613539718842500     
+ Try reducing time step
+ Courant Number exceded at iteration:           67
+ Co_max =   0.32781543597764368     
+ Try reducing time step
+ Courant Number exceded at iteration:           68
+ Co_max =   0.31850528382606252     
+ Try reducing time step
+ Courant Number exceded at iteration:           69
+ Co_max =   0.35139752545544889     
+ Try reducing time step
+ Courant Number exceded at iteration:           70
+ Co_max =   0.36628765201436625     
+ Try reducing time step
+ Courant Number exceded at iteration:           71
+ Co_max =   0.36263249937690273     
+ Try reducing time step
+ Courant Number exceded at iteration:           72
+ Co_max =   0.34733438438412911     
+ Try reducing time step
+ Courant Number exceded at iteration:           73
+ Co_max =   0.32307139652923200     
+ Try reducing time step
+ Courant Number exceded at iteration:           74
+ Co_max =   0.33085223912740253     
+ Try reducing time step
+ Courant Number exceded at iteration:           75
+ Co_max =   0.33876995513035690     
+ Try reducing time step
+ Courant Number exceded at iteration:           76
+ Co_max =   0.34017370123013191     
+ Try reducing time step
+ Courant Number exceded at iteration:           77
+ Co_max =   0.35307057140081755     
+ Try reducing time step
+ Courant Number exceded at iteration:           78
+ Co_max =   0.35229870826166854     
+ Try reducing time step
+ Courant Number exceded at iteration:           79
+ Co_max =   0.37073214310670610     
+ Try reducing time step
+ Courant Number exceded at iteration:           80
+ Co_max =   0.37468483821365040     
+ Try reducing time step
+ Courant Number exceded at iteration:           81
+ Co_max =   0.37555804347796634     
+ Try reducing time step
+ Courant Number exceded at iteration:           82
+ Co_max =   0.38805895020331593     
+ Try reducing time step
+ Courant Number exceded at iteration:           83
+ Co_max =   0.37796796145893702     
+ Try reducing time step
+ Courant Number exceded at iteration:           84
+ Co_max =   0.37675265109888972     
+ Try reducing time step
+ Courant Number exceded at iteration:           85
+ Co_max =   0.38302665349590431     
+ Try reducing time step
+ Courant Number exceded at iteration:           86
+ Co_max =   0.38171035151272698     
+ Try reducing time step
+ Courant Number exceded at iteration:           87
+ Co_max =   0.37614001579034817     
+ Try reducing time step
+ Courant Number exceded at iteration:           88
+ Co_max =   0.37270858133313717     
+ Try reducing time step
+ Courant Number exceded at iteration:           89
+ Co_max =   0.38349375190829721     
+ Try reducing time step
+ Courant Number exceded at iteration:           90
+ Co_max =   0.37830475431878707     
+ Try reducing time step
+ Courant Number exceded at iteration:           91
+ Co_max =   0.38942865327994908     
+ Try reducing time step
+ Courant Number exceded at iteration:           92
+ Co_max =   0.40023287683670322     
+ Try reducing time step
+ Courant Number exceded at iteration:           93
+ Co_max =   0.40406407257815768     
+ Try reducing time step
+ Courant Number exceded at iteration:           94
+ Co_max =   0.40162737551275157     
+ Try reducing time step
+ Courant Number exceded at iteration:           95
+ Co_max =   0.39310493187127610     
+ Try reducing time step
+ Courant Number exceded at iteration:           96
+ Co_max =   0.38071854598884969     
+ Try reducing time step
+ Courant Number exceded at iteration:           97
+ Co_max =   0.39064833161427720     
+ Try reducing time step
+ Courant Number exceded at iteration:           98
+ Co_max =   0.39333264700541964     
+ Try reducing time step
+ Courant Number exceded at iteration:           99
+ Co_max =   0.39187421646742071     
+ Try reducing time step
+ Courant Number exceded at iteration:          100
+ Co_max =   0.39044755914907492     
+ Try reducing time step
+ Courant Number exceded at iteration:          101
+ Co_max =   0.38451996916402853     
+ Try reducing time step
+ Courant Number exceded at iteration:          102
+ Co_max =   0.37545730731192545     
+ Try reducing time step
+ Courant Number exceded at iteration:          103
+ Co_max =   0.36856232688142732     
+ Try reducing time step
+ Courant Number exceded at iteration:          104
+ Co_max =   0.36485277593017701     
+ Try reducing time step
+ Courant Number exceded at iteration:          105
+ Co_max =   0.36161303114554527     
+ Try reducing time step
+ Courant Number exceded at iteration:          106
+ Co_max =   0.35958992223762715     
+ Try reducing time step
+ Courant Number exceded at iteration:          107
+ Co_max =   0.35843893273810123     
+ Try reducing time step
+ Courant Number exceded at iteration:          108
+ Co_max =   0.35747515274554853     
+ Try reducing time step
+ Courant Number exceded at iteration:          109
+ Co_max =   0.35706192731088737     
+ Try reducing time step
+ Courant Number exceded at iteration:          110
+ Co_max =   0.35687465643015004     
+ Try reducing time step
+ Courant Number exceded at iteration:          111
+ Co_max =   0.35698822687863285     
+ Try reducing time step
+ Courant Number exceded at iteration:          112
+ Co_max =   0.35692733812948313     
+ Try reducing time step
+ Courant Number exceded at iteration:          113
+ Co_max =   0.35632655516392830     
+ Try reducing time step
+ Courant Number exceded at iteration:          114
+ Co_max =   0.35467656294884553     
+ Try reducing time step
+ Courant Number exceded at iteration:          115
+ Co_max =   0.35801534625720488     
+ Try reducing time step
+ Courant Number exceded at iteration:          116
+ Co_max =   0.36872882169782506     
+ Try reducing time step
+ Courant Number exceded at iteration:          117
+ Co_max =   0.37463752946298229     
+ Try reducing time step
+ Courant Number exceded at iteration:          118
+ Co_max =   0.37525001796297025     
+ Try reducing time step
+ Courant Number exceded at iteration:          119
+ Co_max =   0.37135909910037007     
+ Try reducing time step
+ Courant Number exceded at iteration:          120
+ Co_max =   0.36500102995973255     
+ Try reducing time step
+ Courant Number exceded at iteration:          121
+ Co_max =   0.36308586081796257     
+ Try reducing time step
+ Courant Number exceded at iteration:          122
+ Co_max =   0.36730088191221399     
+ Try reducing time step
+ Courant Number exceded at iteration:          123
+ Co_max =   0.37019677693830366     
+ Try reducing time step
+ Courant Number exceded at iteration:          124
+ Co_max =   0.37223176493450494     
+ Try reducing time step
+ Courant Number exceded at iteration:          125
+ Co_max =   0.37359650272281753     
+ Try reducing time step
+ Courant Number exceded at iteration:          126
+ Co_max =   0.37431055058309881     
+ Try reducing time step
+ Courant Number exceded at iteration:          127
+ Co_max =   0.37420537480767346     
+ Try reducing time step
+ Courant Number exceded at iteration:          128
+ Co_max =   0.37318618555770428     
+ Try reducing time step
+ Courant Number exceded at iteration:          129
+ Co_max =   0.37132031686475236     
+ Try reducing time step
+ Courant Number exceded at iteration:          130
+ Co_max =   0.36917739185372578     
+ Try reducing time step
+ Courant Number exceded at iteration:          131
+ Co_max =   0.36711910875143750     
+ Try reducing time step
+ Courant Number exceded at iteration:          132
+ Co_max =   0.36506885421759350     
+ Try reducing time step
+ Courant Number exceded at iteration:          133
+ Co_max =   0.36295222864661991     
+ Try reducing time step
+ Courant Number exceded at iteration:          134
+ Co_max =   0.36043012797229290     
+ Try reducing time step
+ Courant Number exceded at iteration:          135
+ Co_max =   0.35723063738532745     
+ Try reducing time step
+ Courant Number exceded at iteration:          136
+ Co_max =   0.35337096741095431     
+ Try reducing time step
+ Courant Number exceded at iteration:          137
+ Co_max =   0.34873093400285504     
+ Try reducing time step
+ Courant Number exceded at iteration:          138
+ Co_max =   0.34356743637260168     
+ Try reducing time step
+ Courant Number exceded at iteration:          139
+ Co_max =   0.34058387102193932     
+ Try reducing time step
+ Courant Number exceded at iteration:          140
+ Co_max =   0.33761072253207380     
+ Try reducing time step
+ Courant Number exceded at iteration:          141
+ Co_max =   0.33465210307787019     
+ Try reducing time step
+ Courant Number exceded at iteration:          142
+ Co_max =   0.33159357820289403     
+ Try reducing time step
+ Courant Number exceded at iteration:          143
+ Co_max =   0.32841979910855679     
+ Try reducing time step
+ Courant Number exceded at iteration:          144
+ Co_max =   0.32511866958212565     
+ Try reducing time step
+ Courant Number exceded at iteration:          145
+ Co_max =   0.32173069869670756     
+ Try reducing time step
+ Courant Number exceded at iteration:          146
+ Co_max =   0.31829379345079156     
+ Try reducing time step
+ Courant Number exceded at iteration:          147
+ Co_max =   0.31482492529447870     
+ Try reducing time step
+ Courant Number exceded at iteration:          148
+ Co_max =   0.31130932101086300     
+ Try reducing time step
+ Courant Number exceded at iteration:          149
+ Co_max =   0.30772616948433384     
+ Try reducing time step
+ Courant Number exceded at iteration:          150
+ Co_max =   0.30410024351613507     
+ Try reducing time step
+ Courant Number exceded at iteration:          151
+ Co_max =   0.30047140324955124     
+ Try reducing time step
+ Courant Number exceded at iteration:          152
+ Co_max =   0.29684479772958283     
+ Try reducing time step
+ Courant Number exceded at iteration:          153
+ Co_max =   0.29322187945487888     
+ Try reducing time step
+ Courant Number exceded at iteration:          154
+ Co_max =   0.28959205668874988     
+ Try reducing time step
+ Courant Number exceded at iteration:          155
+ Co_max =   0.28592968606143565     
+ Try reducing time step
+ Courant Number exceded at iteration:          156
+ Co_max =   0.28219658163147421     
+ Try reducing time step
+ Courant Number exceded at iteration:          157
+ Co_max =   0.27836843320331722     
+ Try reducing time step
+ Courant Number exceded at iteration:          158
+ Co_max =   0.27442395367500938     
+ Try reducing time step
+ Courant Number exceded at iteration:          159
+ Co_max =   0.27034637975202519     
+ Try reducing time step
+ Courant Number exceded at iteration:          160
+ Co_max =   0.26610797258799473     
+ Try reducing time step
+ Courant Number exceded at iteration:          161
+ Co_max =   0.26172668785747433     
+ Try reducing time step
+ Courant Number exceded at iteration:          162
+ Co_max =   0.25723704584397999     
+ Try reducing time step
+ Courant Number exceded at iteration:          163
+ Co_max =   0.25273527687175634     
+ Try reducing time step
+ Courant Number exceded at iteration:          315
+ Co_max =   0.25117077510107561     
+ Try reducing time step
+ Courant Number exceded at iteration:          316
+ Co_max =   0.25600007365726629     
+ Try reducing time step
+ Courant Number exceded at iteration:          317
+ Co_max =   0.26081576989304717     
+ Try reducing time step
+ Courant Number exceded at iteration:          318
+ Co_max =   0.26576003968957984     
+ Try reducing time step
+ Courant Number exceded at iteration:          319
+ Co_max =   0.27070649144706549     
+ Try reducing time step
+ Courant Number exceded at iteration:          320
+ Co_max =   0.27540825077907277     
+ Try reducing time step
+ Courant Number exceded at iteration:          321
+ Co_max =   0.27962404904824262     
+ Try reducing time step
+ Courant Number exceded at iteration:          322
+ Co_max =   0.28344994075835139     
+ Try reducing time step
+ Courant Number exceded at iteration:          323
+ Co_max =   0.28695261136628319     
+ Try reducing time step
+ Courant Number exceded at iteration:          324
+ Co_max =   0.29013672935647328     
+ Try reducing time step
+ Courant Number exceded at iteration:          325
+ Co_max =   0.29302340820730949     
+ Try reducing time step
+ Courant Number exceded at iteration:          326
+ Co_max =   0.29562155181168481     
+ Try reducing time step
+ Courant Number exceded at iteration:          327
+ Co_max =   0.29792456792565758     
+ Try reducing time step
+ Courant Number exceded at iteration:          328
+ Co_max =   0.29991548137648605     
+ Try reducing time step
+ Courant Number exceded at iteration:          329
+ Co_max =   0.30157604112324476     
+ Try reducing time step
+ Courant Number exceded at iteration:          330
+ Co_max =   0.30289656197974468     
+ Try reducing time step
+ Courant Number exceded at iteration:          331
+ Co_max =   0.30385644505517695     
+ Try reducing time step
+ Courant Number exceded at iteration:          332
+ Co_max =   0.30437293680609823     
+ Try reducing time step
+ Courant Number exceded at iteration:          333
+ Co_max =   0.30440025221742739     
+ Try reducing time step
+ Courant Number exceded at iteration:          334
+ Co_max =   0.30389393849610707     
+ Try reducing time step
+ Courant Number exceded at iteration:          335
+ Co_max =   0.30283480875778207     
+ Try reducing time step
+ Courant Number exceded at iteration:          336
+ Co_max =   0.30121016553531932     
+ Try reducing time step
+ Courant Number exceded at iteration:          337
+ Co_max =   0.30380441622787474     
+ Try reducing time step
+ Courant Number exceded at iteration:          338
+ Co_max =   0.30709116114597396     
+ Try reducing time step
+ Courant Number exceded at iteration:          339
+ Co_max =   0.31184450634696498     
+ Try reducing time step
+ Courant Number exceded at iteration:          340
+ Co_max =   0.31661017236516653     
+ Try reducing time step
+ Courant Number exceded at iteration:          341
+ Co_max =   0.32100607614921089     
+ Try reducing time step
+ Courant Number exceded at iteration:          342
+ Co_max =   0.32508616141651858     
+ Try reducing time step
+ Courant Number exceded at iteration:          343
+ Co_max =   0.32887577255935152     
+ Try reducing time step
+ Courant Number exceded at iteration:          344
+ Co_max =   0.33252758424877699     
+ Try reducing time step
+ Courant Number exceded at iteration:          345
+ Co_max =   0.33614725928124428     
+ Try reducing time step
+ Courant Number exceded at iteration:          346
+ Co_max =   0.33942309191420705     
+ Try reducing time step
+ Courant Number exceded at iteration:          347
+ Co_max =   0.34246000428650608     
+ Try reducing time step
+ Courant Number exceded at iteration:          348
+ Co_max =   0.34532600523030577     
+ Try reducing time step
+ Courant Number exceded at iteration:          349
+ Co_max =   0.35230474926201238     
+ Try reducing time step
+ Courant Number exceded at iteration:          350
+ Co_max =   0.35997737413209308     
+ Try reducing time step
+ Courant Number exceded at iteration:          351
+ Co_max =   0.36622574126252394     
+ Try reducing time step
+ Courant Number exceded at iteration:          352
+ Co_max =   0.37114785458586880     
+ Try reducing time step
+ Courant Number exceded at iteration:          353
+ Co_max =   0.37486576021310009     
+ Try reducing time step
+ Courant Number exceded at iteration:          354
+ Co_max =   0.37741944749220618     
+ Try reducing time step
+ Courant Number exceded at iteration:          355
+ Co_max =   0.37901407208332782     
+ Try reducing time step
+ Courant Number exceded at iteration:          356
+ Co_max =   0.37945446554288392     
+ Try reducing time step
+ Courant Number exceded at iteration:          357
+ Co_max =   0.37810222113796121     
+ Try reducing time step
+ Courant Number exceded at iteration:          358
+ Co_max =   0.37464755541050382     
+ Try reducing time step
+ Courant Number exceded at iteration:          359
+ Co_max =   0.36910259621117009     
+ Try reducing time step
+ Courant Number exceded at iteration:          360
+ Co_max =   0.36802948256836404     
+ Try reducing time step
+ Courant Number exceded at iteration:          361
+ Co_max =   0.36969852517448998     
+ Try reducing time step
+ Courant Number exceded at iteration:          362
+ Co_max =   0.37034799119096545     
+ Try reducing time step
+ Courant Number exceded at iteration:          363
+ Co_max =   0.36986736064329290     
+ Try reducing time step
+ Courant Number exceded at iteration:          364
+ Co_max =   0.36804256859351880     
+ Try reducing time step
+ Courant Number exceded at iteration:          365
+ Co_max =   0.36467500063810021     
+ Try reducing time step
+ Courant Number exceded at iteration:          366
+ Co_max =   0.36321626476075908     
+ Try reducing time step
+ Courant Number exceded at iteration:          367
+ Co_max =   0.36491401783493677     
+ Try reducing time step
+ Courant Number exceded at iteration:          368
+ Co_max =   0.36594006720220634     
+ Try reducing time step
+ Courant Number exceded at iteration:          369
+ Co_max =   0.36597069027138285     
+ Try reducing time step
+ Courant Number exceded at iteration:          370
+ Co_max =   0.36496957491196635     
+ Try reducing time step
+ Courant Number exceded at iteration:          371
+ Co_max =   0.36304397398821420     
+ Try reducing time step
+ Courant Number exceded at iteration:          372
+ Co_max =   0.36037538998238716     
+ Try reducing time step
+ Courant Number exceded at iteration:          373
+ Co_max =   0.35701816777421769     
+ Try reducing time step
+ Courant Number exceded at iteration:          374
+ Co_max =   0.35291138209403838     
+ Try reducing time step
+ Courant Number exceded at iteration:          375
+ Co_max =   0.34787268405171856     
+ Try reducing time step
+ Courant Number exceded at iteration:          376
+ Co_max =   0.36100131564992766     
+ Try reducing time step
+ Courant Number exceded at iteration:          377
+ Co_max =   0.37317826471978560     
+ Try reducing time step
+ Courant Number exceded at iteration:          378
+ Co_max =   0.38207616839303737     
+ Try reducing time step
+ Courant Number exceded at iteration:          379
+ Co_max =   0.38694673021769588     
+ Try reducing time step
+ Courant Number exceded at iteration:          380
+ Co_max =   0.38646175135552308     
+ Try reducing time step
+ Courant Number exceded at iteration:          381
+ Co_max =   0.38290856205452140     
+ Try reducing time step
+ Courant Number exceded at iteration:          382
+ Co_max =   0.38947548328019249     
+ Try reducing time step
+ Courant Number exceded at iteration:          383
+ Co_max =   0.39334636936948209     
+ Try reducing time step
+ Courant Number exceded at iteration:          384
+ Co_max =   0.39270528971613028     
+ Try reducing time step
+ Courant Number exceded at iteration:          385
+ Co_max =   0.39679115837724455     
+ Try reducing time step
+ Courant Number exceded at iteration:          386
+ Co_max =   0.40085230913602449     
+ Try reducing time step
+ Courant Number exceded at iteration:          387
+ Co_max =   0.40048242822170915     
+ Try reducing time step
+ Courant Number exceded at iteration:          388
+ Co_max =   0.39462216109902071     
+ Try reducing time step
+ Courant Number exceded at iteration:          389
+ Co_max =   0.38656991541174557     
+ Try reducing time step
+ Courant Number exceded at iteration:          390
+ Co_max =   0.38956900553856133     
+ Try reducing time step
+ Courant Number exceded at iteration:          391
+ Co_max =   0.39111871518283137     
+ Try reducing time step
+ Courant Number exceded at iteration:          392
+ Co_max =   0.39112125606493986     
+ Try reducing time step
+ Courant Number exceded at iteration:          393
+ Co_max =   0.38913243530532537     
+ Try reducing time step
+ Courant Number exceded at iteration:          394
+ Co_max =   0.38469382997323887     
+ Try reducing time step
+ Courant Number exceded at iteration:          395
+ Co_max =   0.37737651795854354     
+ Try reducing time step
+ Courant Number exceded at iteration:          396
+ Co_max =   0.36650854910186415     
+ Try reducing time step
+ Courant Number exceded at iteration:          397
+ Co_max =   0.35565307557718218     
+ Try reducing time step
+ Courant Number exceded at iteration:          398
+ Co_max =   0.36414518519390265     
+ Try reducing time step
+ Courant Number exceded at iteration:          399
+ Co_max =   0.37167607161407884     
+ Try reducing time step
+ Courant Number exceded at iteration:          400
+ Co_max =   0.37594682971507359     
+ Try reducing time step
+ Courant Number exceded at iteration:          401
+ Co_max =   0.37632550998224240     
+ Try reducing time step
+ Courant Number exceded at iteration:          402
+ Co_max =   0.37233605328954872     
+ Try reducing time step
+ Courant Number exceded at iteration:          403
+ Co_max =   0.36338378215345374     
+ Try reducing time step
+ Courant Number exceded at iteration:          404
+ Co_max =   0.34895626802643442     
+ Try reducing time step
+ Courant Number exceded at iteration:          405
+ Co_max =   0.32873243345594277     
+ Try reducing time step
+ Courant Number exceded at iteration:          406
+ Co_max =   0.35173350582983726     
+ Try reducing time step
+ Courant Number exceded at iteration:          407
+ Co_max =   0.36182218808071692     
+ Try reducing time step
+ Courant Number exceded at iteration:          408
+ Co_max =   0.34615403751866169     
+ Try reducing time step
+ Courant Number exceded at iteration:          409
+ Co_max =   0.34338876150459918     
+ Try reducing time step
+ Courant Number exceded at iteration:          410
+ Co_max =   0.34112714248196047     
+ Try reducing time step
+ Courant Number exceded at iteration:          411
+ Co_max =   0.34554658803848698     
+ Try reducing time step
+ Courant Number exceded at iteration:          412
+ Co_max =   0.35516932947697039     
+ Try reducing time step
+ Courant Number exceded at iteration:          413
+ Co_max =   0.36504351922396588     
+ Try reducing time step
+ Courant Number exceded at iteration:          414
+ Co_max =   0.37473170402523331     
+ Try reducing time step
+ Courant Number exceded at iteration:          415
+ Co_max =   0.38360294092043123     
+ Try reducing time step
+ Courant Number exceded at iteration:          416
+ Co_max =   0.39117191361439974     
+ Try reducing time step
+ Courant Number exceded at iteration:          417
+ Co_max =   0.39719486409284988     
+ Try reducing time step
+ Courant Number exceded at iteration:          418
+ Co_max =   0.40194994021351982     
+ Try reducing time step
+ Courant Number exceded at iteration:          419
+ Co_max =   0.40484712025770525     
+ Try reducing time step
+ Courant Number exceded at iteration:          420
+ Co_max =   0.40526008803890851     
+ Try reducing time step
+ Courant Number exceded at iteration:          421
+ Co_max =   0.40424338997106335     
+ Try reducing time step
+ Courant Number exceded at iteration:          422
+ Co_max =   0.40215326907661098     
+ Try reducing time step
+ Courant Number exceded at iteration:          423
+ Co_max =   0.42371198493561052     
+ Try reducing time step
+ Courant Number exceded at iteration:          424
+ Co_max =   0.44646423156539178     
+ Try reducing time step
+ Courant Number exceded at iteration:          425
+ Co_max =   0.46315252888661962     
+ Try reducing time step
+ Courant Number exceded at iteration:          426
+ Co_max =   0.47226341337230371     
+ Try reducing time step
+ Courant Number exceded at iteration:          427
+ Co_max =   0.47321312675640226     
+ Try reducing time step
+ Courant Number exceded at iteration:          428
+ Co_max =   0.46768983635689843     
+ Try reducing time step
+ Courant Number exceded at iteration:          429
+ Co_max =   0.45926810856734540     
+ Try reducing time step
+ Courant Number exceded at iteration:          430
+ Co_max =   0.47529582450872565     
+ Try reducing time step
+ Courant Number exceded at iteration:          431
+ Co_max =   0.50149950114537667     
+ Try reducing time step
+ Courant Number exceded at iteration:          432
+ Co_max =   0.52854801880533986     
+ Try reducing time step
+ Courant Number exceded at iteration:          433
+ Co_max =   0.55342679811352213     
+ Try reducing time step
+ Courant Number exceded at iteration:          434
+ Co_max =   0.57486185663015776     
+ Try reducing time step
+ Courant Number exceded at iteration:          435
+ Co_max =   0.59083936361418532     
+ Try reducing time step
+ Courant Number exceded at iteration:          436
+ Co_max =   0.59944785880346318     
+ Try reducing time step
+ Courant Number exceded at iteration:          437
+ Co_max =   0.60024190402489663     
+ Try reducing time step
+ Courant Number exceded at iteration:          438
+ Co_max =   0.59355723564297114     
+ Try reducing time step
+ Courant Number exceded at iteration:          439
+ Co_max =   0.58041938509495328     
+ Try reducing time step
+ Courant Number exceded at iteration:          440
+ Co_max =   0.56219872291067619     
+ Try reducing time step
+ Courant Number exceded at iteration:          441
+ Co_max =   0.54008851680021230     
+ Try reducing time step
+ Courant Number exceded at iteration:          442
+ Co_max =   0.51496966754065410     
+ Try reducing time step
+ Courant Number exceded at iteration:          443
+ Co_max =   0.48931168435058997     
+ Try reducing time step
+ Courant Number exceded at iteration:          444
+ Co_max =   0.47567504014268647     
+ Try reducing time step
+ Courant Number exceded at iteration:          445
+ Co_max =   0.47866484706905366     
+ Try reducing time step
+ Courant Number exceded at iteration:          446
+ Co_max =   0.48506460265518991     
+ Try reducing time step
+ Courant Number exceded at iteration:          447
+ Co_max =   0.49046413814609680     
+ Try reducing time step
+ Courant Number exceded at iteration:          448
+ Co_max =   0.49525981350385168     
+ Try reducing time step
+ Courant Number exceded at iteration:          449
+ Co_max =   0.50020277110432165     
+ Try reducing time step
+ Courant Number exceded at iteration:          450
+ Co_max =   0.50643956476972862     
+ Try reducing time step
+ Courant Number exceded at iteration:          451
+ Co_max =   0.51475822365871715     
+ Try reducing time step
+ Courant Number exceded at iteration:          452
+ Co_max =   0.52265463230043252     
+ Try reducing time step
+ Courant Number exceded at iteration:          453
+ Co_max =   0.52965812359973796     
+ Try reducing time step
+ Courant Number exceded at iteration:          454
+ Co_max =   0.53508188049320982     
+ Try reducing time step
+ Courant Number exceded at iteration:          455
+ Co_max =   0.53952693208831015     
+ Try reducing time step
+ Courant Number exceded at iteration:          456
+ Co_max =   0.54317585350569586     
+ Try reducing time step
+ Courant Number exceded at iteration:          457
+ Co_max =   0.54605791091664435     
+ Try reducing time step
+ Courant Number exceded at iteration:          458
+ Co_max =   0.54806047334999752     
+ Try reducing time step
+ Courant Number exceded at iteration:          459
+ Co_max =   0.54900696729039211     
+ Try reducing time step
+ Courant Number exceded at iteration:          460
+ Co_max =   0.54859588454049857     
+ Try reducing time step
+ Courant Number exceded at iteration:          461
+ Co_max =   0.54654505778600670     
+ Try reducing time step
+ Courant Number exceded at iteration:          462
+ Co_max =   0.54262421018528983     
+ Try reducing time step
+ Courant Number exceded at iteration:          463
+ Co_max =   0.53999699955134606     
+ Try reducing time step
+ Courant Number exceded at iteration:          464
+ Co_max =   0.54144779672011456     
+ Try reducing time step
+ Courant Number exceded at iteration:          465
+ Co_max =   0.54249364849378179     
+ Try reducing time step
+ Courant Number exceded at iteration:          466
+ Co_max =   0.54315625313915927     
+ Try reducing time step
+ Courant Number exceded at iteration:          467
+ Co_max =   0.54337185284822698     
+ Try reducing time step
+ Courant Number exceded at iteration:          468
+ Co_max =   0.54266866380218193     
+ Try reducing time step
+ Courant Number exceded at iteration:          469
+ Co_max =   0.54030168113421906     
+ Try reducing time step
+ Courant Number exceded at iteration:          470
+ Co_max =   0.56370163928817951     
+ Try reducing time step
+ Courant Number exceded at iteration:          471
+ Co_max =   0.60635278594428266     
+ Try reducing time step
+ Courant Number exceded at iteration:          472
+ Co_max =   0.62505665380412778     
+ Try reducing time step
+ Courant Number exceded at iteration:          473
+ Co_max =   0.62037443519916491     
+ Try reducing time step
+ Courant Number exceded at iteration:          474
+ Co_max =   0.60320199085327031     
+ Try reducing time step
+ Courant Number exceded at iteration:          475
+ Co_max =   0.58181068694139493     
+ Try reducing time step
+ Courant Number exceded at iteration:          476
+ Co_max =   0.55802645353123903     
+ Try reducing time step
+ Courant Number exceded at iteration:          477
+ Co_max =   0.53029192338076137     
+ Try reducing time step
+ Courant Number exceded at iteration:          478
+ Co_max =   0.53390960586815583     
+ Try reducing time step
+ Courant Number exceded at iteration:          479
+ Co_max =   0.54571902419932483     
+ Try reducing time step
+ Courant Number exceded at iteration:          480
+ Co_max =   0.55273080694361887     
+ Try reducing time step

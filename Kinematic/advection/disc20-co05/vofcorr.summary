@@ -1,0 +1,8 @@
+    129 sweeps=1 lo=0 hi=0
+      6 sweeps=2 lo=0 hi=0
+     77 sweeps=3 lo=0 hi=1
+     11 sweeps=3 lo=0 hi=2
+     12 sweeps=3 lo=0 hi=3
+      3 sweeps=3 lo=0 hi=4
+      2 sweeps=3 lo=0 hi=5
+sum unbounded lo 0 hi 157

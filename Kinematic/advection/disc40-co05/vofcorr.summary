@@ -1,0 +1,19 @@
+    184 sweeps=1 lo=0 hi=0
+     12 sweeps=2 lo=0 hi=0
+    143 sweeps=3 lo=0 hi=1
+     60 sweeps=3 lo=0 hi=2
+     22 sweeps=3 lo=0 hi=3
+     12 sweeps=3 lo=0 hi=4
+      5 sweeps=3 lo=0 hi=5
+      5 sweeps=3 lo=0 hi=6
+      1 sweeps=3 lo=0 hi=7
+      8 sweeps=3 lo=1 hi=0
+      9 sweeps=3 lo=1 hi=1
+      4 sweeps=3 lo=1 hi=2
+      3 sweeps=3 lo=1 hi=3
+      2 sweeps=3 lo=1 hi=4
+      1 sweeps=3 lo=1 hi=5
+      6 sweeps=3 lo=2 hi=0
+      2 sweeps=3 lo=2 hi=1
+      1 sweeps=3 lo=2 hi=3
+sum unbounded lo 45 hi 483

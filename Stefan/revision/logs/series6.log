@@ -1,0 +1,11 @@
+Pfix_dt10: exit 0, 900 rows of 900
+Pfix_N040: exit 0, 1800 rows of 1800
+P_dt10: exit 0, 900 rows of 900
+P_N040: exit 0, 1800 rows of 1800
+Pfix_s040: exit 0, 720 rows of 720
+Pfix_dt2.5: exit 0, 3600 rows of 3600
+P_s040: exit 0, 720 rows of 720
+P_lin: exit 0, 1800 rows of 1800
+Pfix_s200: exit 0, 3600 rows of 3600
+P_s200: exit 0, 3600 rows of 3600
+dispatch done

@@ -1,0 +1,5 @@
+1                            mode: 1 expansion, 2 translation, 3 deformation
+0.0 0.0 0.0  50.0e-6         sphere centre and radius
+4.0647 1.680e-7 0.0 0.0      mode 1: beta, D_l
+0                        inner: 1 = no flux inside R_S(t)
+0                         init: 0 = production linear estimate, 1 = sub-sampled hexahedra

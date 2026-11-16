@@ -1,0 +1,2427 @@
+--------------------------------------------------------------------------
+[[58459,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: workstation
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+ #=======================================================================
+ #
+ #    ______________________ ____    ________  __      __  _________
+ #    \__    ___/\_   _____/|    |   \_____  \/  \    /  \/   _____/
+ #      |    |    |    __)  |    |    /   |   \   \/\/   /\_____  \
+ #      |    |    |     \   |    |___/    |    \        / /        \
+ #      |____|    \___  /   |_______ \_______  /\__/\  / /_______  /
+ #                    \/            \/       \/      \/          \/
+ #                      ___
+ #                     / _ \_______  _______ ___ ___
+ #                    / ___/ __/ _ \/ __/ -_|_-<(_-<
+ #                   /_/  /_/  \___/\__/\__/___/___/
+ #
+ #                        Double precision mode
+ #                    Only native solvers available
+ #-----------------------------------------------------------------------
+ # Reading the ASCII file: [96mcontrol[0m
+ # NOTE! Could not find the keyword: WALL_TIME_MAX_HOURS. Using the default:  1.680E+02
+ # Reading the binary file: [96mdisc10.cfn[0m
+ # Expanding memory for nodes to size:      3162
+ # Expanding memory for cells to size:      1500     3160
+ # Expanding memory for faces to size:      6080        0
+ # Reading the binary file: [96mdisc10.dim[0m
+ # Checking the integrity of cell faces ...
+ # All integrity tests passed
+ # NOTE! Could not find the keyword: STARTING_TIME_STEP_FOR_TURB_STATISTICS. Using the default HUGE_INT value
+ # NOTE! Could not find the keyword: STARTING_TIME_STEP_FOR_SWARM_STATISTICS. Using the default HUGE_INT value
+ # NOTE! Could not find the keyword: STARTING_TIME_STEP_FOR_SWARM_COMPUTATION. Using the default:      1200
+ # Reading about physical models
+ # NOTE! Could not find the keyword: BUOYANCY. Using the default: none
+ # NOTE! Could not find the keyword: REFERENCE_DENSITY. Using the default:  0.000E+00
+ # NOTE! Could not find the keyword: REFERENCE_TEMPERATURE. Using the default:  0.000E+00
+ # NOTE! Could not find the keyword: VOLUME_EXPANSION_COEFFICIENT. Using the default:  1.000E+00
+ # NOTE! Could not find the keyword: EXTRAPOLATE_TEMPERATURE_EXP. Using the default: no
+ # NOTE! Could not find the keyword: ROUGH_WALLS. Using the default: no
+ # NOTE! Could not find the keyword: MONIN_OBUKOV. Using the default: no
+ # NOTE! Could not find the keyword: TURBULENT_HEAT_FLUX_MODEL. Using the default: SGDH
+ # NOTE! Could not find the keyword: NUMBER_OF_SCALARS. Using the default:         0
+ # NOTE! Could not find the keyword: ADAPT_GRID. Using the default: no
+ # NOTE! Could not find the keyword: TRACK_SURFACE. Using the default: no
+ # NOTE! Could not find the keyword: GEOMETRICVOF. Using the default: no
+ # NOTE! Could not find the keyword: EXTENDED_GRADIENT_STENCIL. Using the default: no
+ # NOTE! Could not find the keyword: UNIFORM_MASS_TRANSFER. Using the default: no
+ # NOTE! Could not find the keyword: VOF_BLEND_GAMMA. Using the default: -1.000E+00
+ # NOTE! Could not find the keyword: ISOTROPIC_VOF_BETA. Using the default: -1.000E+00
+ # NOTE! Could not find the keyword: GRADIENT_STENCIL_WEIGHT_EXPONENT. Using the default:  0.000E+00
+ # NOTE! Could not find the keyword: MASS_TRANSFER_MODEL. Using the default: none
+ # NOTE! Could not find the keyword: MASS_TRANSFER_CFL. Using the default:  2.500E-01
+ # NOTE! Could not find the keyword: NUCLEATION. Using the default: no
+  # Nucleation model is off
+ # NOTE! Could not find the keyword: PARTICLE_TRACKING. Using the default: no
+ # NOTE! Could not find the keyword: LINEAR_SOLVERS. Using the default: native
+ # Reading info about native (home-brewed) solvers
+ # Determining matrix topology.
+ # Finished !
+ # Creating the turbulence module
+ # Creating the volume of fluid (VOF) module
+ # Reading info about discretization schemes
+ # NOTE! Could not find the keyword: GU_CORRECTION. Using the default: yes
+ # Reading about physical properties
+ # Reading boundary conditions
+ # Grid name: DISC10
+ # NOTE! Could not find the keyword: FILE.
+ # Volume inflow           :  0.00000E+00
+ # Average inflow velocity :  0.00000E+00
+ # Number of faces on the wall        :            0
+ # Number of inflow faces             :           80
+ # Number of outflow faces            :           80
+ # Number of symetry faces            :         3000
+ # Number of faces on the heated wall :            0
+ # Number of convective outflow faces :            0
+ # Number of pressure outflow faces   :            0
+ # Number of ambient faces            :            0
+ # Variables initialized !
+ # NOTE! Could not find the keyword: NUMBER_OF_POROUS_REGIONS. Using the default:         0
+ # Ax : 3.00000E-01
+ # Ay : 5.00000E-01
+ # Az : 0.00000E+00
+ # NOTE! Could not find the keyword: SWARM_SAVE_INTERVAL. Using the default:        60
+ # NOTE! Could not find the keyword: POTENTIAL_INITIALIZATION. Using the default: no
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :      1               #
+                                         #                                               #
+                                         #    Simulation time : 3.333E-02 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # KIN: mode =  2  inner =  0  init =  1
+ # KIN: max |sum geo| / vol in regular cells =   1.7347E-15   source cells:    0   their share of the source:   0.00000000000000E+00
+ # Appending to file: kin-flux.dat
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+ # Creating the file in append mode: bench-data.dat
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :      2               #
+                                         #                                               #
+                                         #    Simulation time : 6.667E-02 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=3 of max 2  unbounded lo=0 hi=1
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :      3               #
+                                         #                                               #
+                                         #    Simulation time : 1.000E-01 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :      4               #
+                                         #                                               #
+                                         #    Simulation time : 1.333E-01 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :      5               #
+                                         #                                               #
+                                         #    Simulation time : 1.667E-01 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :      6               #
+                                         #                                               #
+                                         #    Simulation time : 2.000E-01 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :      7               #
+                                         #                                               #
+                                         #    Simulation time : 2.333E-01 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :      8               #
+                                         #                                               #
+                                         #    Simulation time : 2.667E-01 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :      9               #
+                                         #                                               #
+                                         #    Simulation time : 3.000E-01 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     10               #
+                                         #                                               #
+                                         #    Simulation time : 3.333E-01 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     11               #
+                                         #                                               #
+                                         #    Simulation time : 3.667E-01 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     12               #
+                                         #                                               #
+                                         #    Simulation time : 4.000E-01 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     13               #
+                                         #                                               #
+                                         #    Simulation time : 4.333E-01 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=3 of max 2  unbounded lo=0 hi=1
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     14               #
+                                         #                                               #
+                                         #    Simulation time : 4.667E-01 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     15               #
+                                         #                                               #
+                                         #    Simulation time : 5.000E-01 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     16               #
+                                         #                                               #
+                                         #    Simulation time : 5.333E-01 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     17               #
+                                         #                                               #
+                                         #    Simulation time : 5.667E-01 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     18               #
+                                         #                                               #
+                                         #    Simulation time : 6.000E-01 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     19               #
+                                         #                                               #
+                                         #    Simulation time : 6.333E-01 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     20               #
+                                         #                                               #
+                                         #    Simulation time : 6.667E-01 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     21               #
+                                         #                                               #
+                                         #    Simulation time : 7.000E-01 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     22               #
+                                         #                                               #
+                                         #    Simulation time : 7.333E-01 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     23               #
+                                         #                                               #
+                                         #    Simulation time : 7.667E-01 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     24               #
+                                         #                                               #
+                                         #    Simulation time : 8.000E-01 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     25               #
+                                         #                                               #
+                                         #    Simulation time : 8.333E-01 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     26               #
+                                         #                                               #
+                                         #    Simulation time : 8.667E-01 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     27               #
+                                         #                                               #
+                                         #    Simulation time : 9.000E-01 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=3 of max 2  unbounded lo=0 hi=1
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     28               #
+                                         #                                               #
+                                         #    Simulation time : 9.333E-01 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=3 of max 2  unbounded lo=0 hi=1
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     29               #
+                                         #                                               #
+                                         #    Simulation time : 9.667E-01 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     30               #
+                                         #                                               #
+                                         #    Simulation time : 1.000E+00 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     31               #
+                                         #                                               #
+                                         #    Simulation time : 1.033E+00 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=3 of max 2  unbounded lo=0 hi=2
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     32               #
+                                         #                                               #
+                                         #    Simulation time : 1.067E+00 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     33               #
+                                         #                                               #
+                                         #    Simulation time : 1.100E+00 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     34               #
+                                         #                                               #
+                                         #    Simulation time : 1.133E+00 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=3 of max 2  unbounded lo=0 hi=1
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     35               #
+                                         #                                               #
+                                         #    Simulation time : 1.167E+00 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=3 of max 2  unbounded lo=0 hi=1
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     36               #
+                                         #                                               #
+                                         #    Simulation time : 1.200E+00 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     37               #
+                                         #                                               #
+                                         #    Simulation time : 1.233E+00 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     38               #
+                                         #                                               #
+                                         #    Simulation time : 1.267E+00 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     39               #
+                                         #                                               #
+                                         #    Simulation time : 1.300E+00 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     40               #
+                                         #                                               #
+                                         #    Simulation time : 1.333E+00 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=3 of max 2  unbounded lo=0 hi=1
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     41               #
+                                         #                                               #
+                                         #    Simulation time : 1.367E+00 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     42               #
+                                         #                                               #
+                                         #    Simulation time : 1.400E+00 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     43               #
+                                         #                                               #
+                                         #    Simulation time : 1.433E+00 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     44               #
+                                         #                                               #
+                                         #    Simulation time : 1.467E+00 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=2 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     45               #
+                                         #                                               #
+                                         #    Simulation time : 1.500E+00 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     46               #
+                                         #                                               #
+                                         #    Simulation time : 1.533E+00 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     47               #
+                                         #                                               #
+                                         #    Simulation time : 1.567E+00 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     48               #
+                                         #                                               #
+                                         #    Simulation time : 1.600E+00 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     49               #
+                                         #                                               #
+                                         #    Simulation time : 1.633E+00 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     50               #
+                                         #                                               #
+                                         #    Simulation time : 1.667E+00 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=3 of max 2  unbounded lo=0 hi=1
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     51               #
+                                         #                                               #
+                                         #    Simulation time : 1.700E+00 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=3 of max 2  unbounded lo=0 hi=1
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     52               #
+                                         #                                               #
+                                         #    Simulation time : 1.733E+00 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=3 of max 2  unbounded lo=0 hi=2
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     53               #
+                                         #                                               #
+                                         #    Simulation time : 1.767E+00 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=3 of max 2  unbounded lo=0 hi=3
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     54               #
+                                         #                                               #
+                                         #    Simulation time : 1.800E+00 [s]            #
+                                         #    Wall-clock time : 000:00:00 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     55               #
+                                         #                                               #
+                                         #    Simulation time : 1.833E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     56               #
+                                         #                                               #
+                                         #    Simulation time : 1.867E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     57               #
+                                         #                                               #
+                                         #    Simulation time : 1.900E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     58               #
+                                         #                                               #
+                                         #    Simulation time : 1.933E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     59               #
+                                         #                                               #
+                                         #    Simulation time : 1.967E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     60               #
+                                         #                                               #
+                                         #    Simulation time : 2.000E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=3 of max 2  unbounded lo=0 hi=1
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     61               #
+                                         #                                               #
+                                         #    Simulation time : 2.033E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     62               #
+                                         #                                               #
+                                         #    Simulation time : 2.067E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     63               #
+                                         #                                               #
+                                         #    Simulation time : 2.100E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     64               #
+                                         #                                               #
+                                         #    Simulation time : 2.133E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     65               #
+                                         #                                               #
+                                         #    Simulation time : 2.167E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     66               #
+                                         #                                               #
+                                         #    Simulation time : 2.200E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=3 of max 2  unbounded lo=0 hi=1
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     67               #
+                                         #                                               #
+                                         #    Simulation time : 2.233E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     68               #
+                                         #                                               #
+                                         #    Simulation time : 2.267E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     69               #
+                                         #                                               #
+                                         #    Simulation time : 2.300E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     70               #
+                                         #                                               #
+                                         #    Simulation time : 2.333E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=3 of max 2  unbounded lo=0 hi=1
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     71               #
+                                         #                                               #
+                                         #    Simulation time : 2.367E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=3 of max 2  unbounded lo=0 hi=1
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     72               #
+                                         #                                               #
+                                         #    Simulation time : 2.400E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=3 of max 2  unbounded lo=0 hi=1
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     73               #
+                                         #                                               #
+                                         #    Simulation time : 2.433E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     74               #
+                                         #                                               #
+                                         #    Simulation time : 2.467E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     75               #
+                                         #                                               #
+                                         #    Simulation time : 2.500E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     76               #
+                                         #                                               #
+                                         #    Simulation time : 2.533E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     77               #
+                                         #                                               #
+                                         #    Simulation time : 2.567E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=3 of max 2  unbounded lo=0 hi=2
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     78               #
+                                         #                                               #
+                                         #    Simulation time : 2.600E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=3 of max 2  unbounded lo=0 hi=2
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     79               #
+                                         #                                               #
+                                         #    Simulation time : 2.633E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     80               #
+                                         #                                               #
+                                         #    Simulation time : 2.667E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     81               #
+                                         #                                               #
+                                         #    Simulation time : 2.700E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=3 of max 2  unbounded lo=0 hi=1
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     82               #
+                                         #                                               #
+                                         #    Simulation time : 2.733E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=3 of max 2  unbounded lo=0 hi=5
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     83               #
+                                         #                                               #
+                                         #    Simulation time : 2.767E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=2 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     84               #
+                                         #                                               #
+                                         #    Simulation time : 2.800E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     85               #
+                                         #                                               #
+                                         #    Simulation time : 2.833E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     86               #
+                                         #                                               #
+                                         #    Simulation time : 2.867E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     87               #
+                                         #                                               #
+                                         #    Simulation time : 2.900E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=3 of max 2  unbounded lo=0 hi=1
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     88               #
+                                         #                                               #
+                                         #    Simulation time : 2.933E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=3 of max 2  unbounded lo=0 hi=1
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     89               #
+                                         #                                               #
+                                         #    Simulation time : 2.967E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=2 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     90               #
+                                         #                                               #
+                                         #    Simulation time : 3.000E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     91               #
+                                         #                                               #
+                                         #    Simulation time : 3.033E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=3 of max 2  unbounded lo=0 hi=1
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     92               #
+                                         #                                               #
+                                         #    Simulation time : 3.067E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     93               #
+                                         #                                               #
+                                         #    Simulation time : 3.100E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=3 of max 2  unbounded lo=0 hi=1
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     94               #
+                                         #                                               #
+                                         #    Simulation time : 3.133E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=3 of max 2  unbounded lo=0 hi=1
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     95               #
+                                         #                                               #
+                                         #    Simulation time : 3.167E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     96               #
+                                         #                                               #
+                                         #    Simulation time : 3.200E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     97               #
+                                         #                                               #
+                                         #    Simulation time : 3.233E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     98               #
+                                         #                                               #
+                                         #    Simulation time : 3.267E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :     99               #
+                                         #                                               #
+                                         #    Simulation time : 3.300E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :    100               #
+                                         #                                               #
+                                         #    Simulation time : 3.333E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :    101               #
+                                         #                                               #
+                                         #    Simulation time : 3.367E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=3 of max 2  unbounded lo=0 hi=1
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :    102               #
+                                         #                                               #
+                                         #    Simulation time : 3.400E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=3 of max 2  unbounded lo=0 hi=3
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :    103               #
+                                         #                                               #
+                                         #    Simulation time : 3.433E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=3 of max 2  unbounded lo=0 hi=1
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :    104               #
+                                         #                                               #
+                                         #    Simulation time : 3.467E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=3 of max 2  unbounded lo=0 hi=1
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :    105               #
+                                         #                                               #
+                                         #    Simulation time : 3.500E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=3 of max 2  unbounded lo=0 hi=2
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :    106               #
+                                         #                                               #
+                                         #    Simulation time : 3.533E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=3 of max 2  unbounded lo=0 hi=6
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :    107               #
+                                         #                                               #
+                                         #    Simulation time : 3.567E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=3 of max 2  unbounded lo=0 hi=1
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :    108               #
+                                         #                                               #
+                                         #    Simulation time : 3.600E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :    109               #
+                                         #                                               #
+                                         #    Simulation time : 3.633E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :    110               #
+                                         #                                               #
+                                         #    Simulation time : 3.667E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :    111               #
+                                         #                                               #
+                                         #    Simulation time : 3.700E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :    112               #
+                                         #                                               #
+                                         #    Simulation time : 3.733E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :    113               #
+                                         #                                               #
+                                         #    Simulation time : 3.767E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :    114               #
+                                         #                                               #
+                                         #    Simulation time : 3.800E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :    115               #
+                                         #                                               #
+                                         #    Simulation time : 3.833E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :    116               #
+                                         #                                               #
+                                         #    Simulation time : 3.867E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :    117               #
+                                         #                                               #
+                                         #    Simulation time : 3.900E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :    118               #
+                                         #                                               #
+                                         #    Simulation time : 3.933E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :    119               #
+                                         #                                               #
+                                         #    Simulation time : 3.967E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+
+
+                                         #===============================================#
+                                         #                                               #
+                                         #              Time step :    120               #
+                                         #                                               #
+                                         #    Simulation time : 4.000E+00 [s]            #
+                                         #    Wall-clock time : 000:00:01 [hhh:mm:ss]    #
+                                         #                                               #
+                                         #-----------------------------------------------#
+
+ # VOF_CORR: scheme beta    sweeps=1 of max 2  unbounded lo=0 hi=0
+  #--------------------+=========================================+=========================================+--------------------#
+                       #    Maximum Courant number: 0.000E+00    |    Maximum Peclet number: 0.000E+00     #
+                       #---------------------------+-------------+-------------+---------------------------#
+                       #    Flux x :  0.000E+00    |    Flux y :   0.00E+00    |    Flux z :   0.00E+00    #
+                       #    Pdrop x:  0.000E+00    |    Pdrop y:   0.00E+00    |    Pdrop z:   0.00E+00    #
+                       #---------------------------+---------------------------+---------------------------#
+
+ # Writing variable: time_step
+ # Writing variable: time
+ # Writing variable: n_proc
+ # Writing variable: bulk_flux_x
+ # Writing variable: bulk_flux_y
+ # Writing variable: bulk_flux_z
+ # Writing variable: bulk_flux_x_o
+ # Writing variable: bulk_flux_y_o
+ # Writing variable: bulk_flux_z_o
+ # Writing variable: bulk_p_drop_x
+ # Writing variable: bulk_p_drop_y
+ # Writing variable: bulk_p_drop_z
+ # Writing variable: u_velocity
+ # Writing variable: v_velocity
+ # Writing variable: w_velocity
+ # Writing variable: press
+ # Writing variable: press_x
+ # Writing variable: press_y
+ # Writing variable: press_z
+ # Writing variable: press_corr
+ # Writing variable: has_pressure
+ # Writing variable: vof_fun
+ # Writing variable: z_o
+ # Writing variable: variable_count
+ # Wrote           24  variables!
+ # Creating the binary file: [96mdisc10-ts000120.vtu[0m
+ # Exiting !
+                                                   #=========================#
+                                                   #     Work_Mod usage      #
+                                                   #-------------------------#
+                                                   # - Real cell arrays: 10  #
+                                                   # - Real face arrays:  2  #
+                                                   # - Real node arrays:  0  #
+                                                   # - Int. cell arrays:  3  #
+                                                   # - Int. face arrays:  0  #
+                                                   # - Int. node arrays:  0  #
+                                                   #-------------------------#
+                        #=================================================================================#
+                        #                              Profiling statistics                               #
+                        #---------------------------------------------------------------------------------#
+                        #                        Total time: 000:00:02 [hhh:mm:ss]                        #
+                        #---------------------------------------------+-----------------------------------#
+                        #        Description of the activity:         |            Spent time:            #
+                        #---------------------------------------------+-----------------+-----------------#
+                        # - Main                                      |     2.07 [s]    |     91.82 %     #
+                        # - Compute_Vof (without solvers)             |     0.04 [s]    |      1.84 %     #
+                        # - Bicg (solver for VOF)                     |     0.03 [s]    |      1.14 %     #
+                        # - Grad_Least_Variable                       |     0.02 [s]    |      1.04 %     #
+                        # - Native_Prec_Solve (all solvers)           |     0.02 [s]    |      0.89 %     #
+                        # - Interpolate_To_Faces_Linear               |     0.02 [s]    |      0.88 %     #
+                        # - Grad_Gauss                                |     0.02 [s]    |      0.74 %     #
+                        #---------------------------------------------+-----------------+-----------------#
+ 

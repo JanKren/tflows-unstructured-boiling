@@ -1,0 +1,201 @@
+ #=======================================================================
+ #
+ #    ______________________ ____    ________  __      __  _________
+ #    \__    ___/\_   _____/|    |   \_____  \/  \    /  \/   _____/
+ #      |    |    |    __)  |    |    /   |   \   \/\/   /\_____  \
+ #      |    |    |     \   |    |___/    |    \        / /        \
+ #      |____|    \___  /   |_______ \_______  /\__/\  / /_______  /
+ #                    \/            \/       \/      \/          \/
+ #                         ___  _      _    __
+ #                        / _ \(_)  __(_)__/ /__
+ #                       / // / / |/ / / _  / -_)
+ #                      /____/_/|___/_/\_,_/\__/
+ #
+ #                        Double precision mode
+ #                 Compiled with nonrecursive heapsort
+ #-----------------------------------------------------------------------
+ # Input problem name: (without extension)
+ # Number of subdomains:
+ # Reading the binary file: Scriven-Poly-125_dual.cfn
+ # Expanding memory for nodes to size:   8847280
+ # Expanding memory for cells to size:   1428219   108294
+ # Expanding memory for faces to size:  10273992        0
+ # Reading the binary file: Scriven-Poly-125_dual.dim
+ #=============================================
+ # Saving subdomain     1 with:
+ #     99977 cells
+ #    658225 nodes
+ #    745523 faces
+ #         0 shadow faces
+ #      5092 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/01/Scriven-Poly-125_dual.cfn
+ # Creating the binary file: Sub/01/Scriven-Poly-125_dual.dim
+ # Creating the binary file: Sub/01/Scriven-Poly-125_dual.vtu
+ # Creating the ASCII file: Scriven-Poly-125_dual.pvtu
+ #=============================================
+ # Saving subdomain     2 with:
+ #     96458 cells
+ #    619552 nodes
+ #    707408 faces
+ #         0 shadow faces
+ #      8800 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/02/Scriven-Poly-125_dual.cfn
+ # Creating the binary file: Sub/02/Scriven-Poly-125_dual.dim
+ # Creating the binary file: Sub/02/Scriven-Poly-125_dual.vtu
+ #=============================================
+ # Saving subdomain     3 with:
+ #     96261 cells
+ #    616405 nodes
+ #    704310 faces
+ #         0 shadow faces
+ #      9836 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/03/Scriven-Poly-125_dual.cfn
+ # Creating the binary file: Sub/03/Scriven-Poly-125_dual.dim
+ # Creating the binary file: Sub/03/Scriven-Poly-125_dual.vtu
+ #=============================================
+ # Saving subdomain     4 with:
+ #    101333 cells
+ #    672061 nodes
+ #    759229 faces
+ #         0 shadow faces
+ #      4126 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/04/Scriven-Poly-125_dual.cfn
+ # Creating the binary file: Sub/04/Scriven-Poly-125_dual.dim
+ # Creating the binary file: Sub/04/Scriven-Poly-125_dual.vtu
+ #=============================================
+ # Saving subdomain     5 with:
+ #     99622 cells
+ #    653790 nodes
+ #    741170 faces
+ #         0 shadow faces
+ #      5717 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/05/Scriven-Poly-125_dual.cfn
+ # Creating the binary file: Sub/05/Scriven-Poly-125_dual.dim
+ # Creating the binary file: Sub/05/Scriven-Poly-125_dual.vtu
+ #=============================================
+ # Saving subdomain     6 with:
+ #     96189 cells
+ #    616193 nodes
+ #    704113 faces
+ #         0 shadow faces
+ #      9718 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/06/Scriven-Poly-125_dual.cfn
+ # Creating the binary file: Sub/06/Scriven-Poly-125_dual.dim
+ # Creating the binary file: Sub/06/Scriven-Poly-125_dual.vtu
+ #=============================================
+ # Saving subdomain     7 with:
+ #     96235 cells
+ #    616854 nodes
+ #    704796 faces
+ #         0 shadow faces
+ #      9132 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/07/Scriven-Poly-125_dual.cfn
+ # Creating the binary file: Sub/07/Scriven-Poly-125_dual.dim
+ # Creating the binary file: Sub/07/Scriven-Poly-125_dual.vtu
+ #=============================================
+ # Saving subdomain     8 with:
+ #    100468 cells
+ #    663045 nodes
+ #    750349 faces
+ #         0 shadow faces
+ #      4730 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/08/Scriven-Poly-125_dual.cfn
+ # Creating the binary file: Sub/08/Scriven-Poly-125_dual.dim
+ # Creating the binary file: Sub/08/Scriven-Poly-125_dual.vtu
+ #=============================================
+ # Saving subdomain     9 with:
+ #    100185 cells
+ #    659731 nodes
+ #    746994 faces
+ #         0 shadow faces
+ #      5599 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/09/Scriven-Poly-125_dual.cfn
+ # Creating the binary file: Sub/09/Scriven-Poly-125_dual.dim
+ # Creating the binary file: Sub/09/Scriven-Poly-125_dual.vtu
+ #=============================================
+ # Saving subdomain    10 with:
+ #     97041 cells
+ #    625078 nodes
+ #    712935 faces
+ #         0 shadow faces
+ #      8986 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/10/Scriven-Poly-125_dual.cfn
+ # Creating the binary file: Sub/10/Scriven-Poly-125_dual.dim
+ # Creating the binary file: Sub/10/Scriven-Poly-125_dual.vtu
+ #=============================================
+ # Saving subdomain    11 with:
+ #     99471 cells
+ #    652901 nodes
+ #    740328 faces
+ #         0 shadow faces
+ #      5317 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/11/Scriven-Poly-125_dual.cfn
+ # Creating the binary file: Sub/11/Scriven-Poly-125_dual.dim
+ # Creating the binary file: Sub/11/Scriven-Poly-125_dual.vtu
+ #=============================================
+ # Saving subdomain    12 with:
+ #     96484 cells
+ #    619452 nodes
+ #    707271 faces
+ #         0 shadow faces
+ #      9324 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/12/Scriven-Poly-125_dual.cfn
+ # Creating the binary file: Sub/12/Scriven-Poly-125_dual.dim
+ # Creating the binary file: Sub/12/Scriven-Poly-125_dual.vtu
+ #=============================================
+ # Saving subdomain    13 with:
+ #     96760 cells
+ #    622370 nodes
+ #    710162 faces
+ #         0 shadow faces
+ #      8870 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/13/Scriven-Poly-125_dual.cfn
+ # Creating the binary file: Sub/13/Scriven-Poly-125_dual.dim
+ # Creating the binary file: Sub/13/Scriven-Poly-125_dual.vtu
+ #=============================================
+ # Saving subdomain    14 with:
+ #    100482 cells
+ #    663833 nodes
+ #    751048 faces
+ #         0 shadow faces
+ #      4335 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/14/Scriven-Poly-125_dual.cfn
+ # Creating the binary file: Sub/14/Scriven-Poly-125_dual.dim
+ # Creating the binary file: Sub/14/Scriven-Poly-125_dual.vtu
+ #=============================================
+ # Saving subdomain    15 with:
+ #     99791 cells
+ #    656700 nodes
+ #    743985 faces
+ #         0 shadow faces
+ #      4861 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/15/Scriven-Poly-125_dual.cfn
+ # Creating the binary file: Sub/15/Scriven-Poly-125_dual.dim
+ # Creating the binary file: Sub/15/Scriven-Poly-125_dual.vtu
+ #=============================================
+ # Saving subdomain    16 with:
+ #     96308 cells
+ #    616858 nodes
+ #    704811 faces
+ #         0 shadow faces
+ #      9705 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/16/Scriven-Poly-125_dual.cfn
+ # Creating the binary file: Sub/16/Scriven-Poly-125_dual.dim
+ # Creating the binary file: Sub/16/Scriven-Poly-125_dual.vtu
+ # Time =         86.812 seconds.

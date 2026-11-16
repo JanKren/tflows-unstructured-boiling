@@ -1,0 +1,24 @@
+    503 sweeps=1 lo=0 hi=0
+     21 sweeps=2 lo=0 hi=0
+    275 sweeps=3 lo=0 hi=1
+    121 sweeps=3 lo=0 hi=2
+     28 sweeps=3 lo=0 hi=3
+      9 sweeps=3 lo=0 hi=4
+      3 sweeps=3 lo=0 hi=5
+      1 sweeps=3 lo=0 hi=7
+    113 sweeps=3 lo=1 hi=0
+     43 sweeps=3 lo=1 hi=1
+     15 sweeps=3 lo=1 hi=2
+      5 sweeps=3 lo=1 hi=3
+      1 sweeps=3 lo=1 hi=4
+     30 sweeps=3 lo=2 hi=0
+      8 sweeps=3 lo=2 hi=1
+      4 sweeps=3 lo=2 hi=2
+      1 sweeps=3 lo=2 hi=3
+      9 sweeps=3 lo=3 hi=0
+      5 sweeps=3 lo=3 hi=1
+      1 sweeps=3 lo=3 hi=3
+      1 sweeps=3 lo=3 hi=5
+      2 sweeps=3 lo=4 hi=0
+      1 sweeps=3 lo=4 hi=2
+sum unbounded lo 323 hi 785

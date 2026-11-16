@@ -1,0 +1,17 @@
+    663 sweeps=1 lo=0 hi=0
+      3 sweeps=2 lo=0 hi=0
+    100 sweeps=3 lo=0 hi=1
+      1 sweeps=3 lo=0 hi=10
+      1 sweeps=3 lo=0 hi=17
+     49 sweeps=3 lo=0 hi=2
+     24 sweeps=3 lo=0 hi=3
+     15 sweeps=3 lo=0 hi=4
+     14 sweeps=3 lo=0 hi=5
+     12 sweeps=3 lo=0 hi=6
+      1 sweeps=3 lo=0 hi=7
+      3 sweeps=3 lo=1 hi=0
+      3 sweeps=3 lo=1 hi=1
+      2 sweeps=3 lo=1 hi=2
+      2 sweeps=3 lo=1 hi=3
+      1 sweeps=3 lo=1 hi=5
+sum unbounded lo 11 hi 524

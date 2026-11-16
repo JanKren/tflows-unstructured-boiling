@@ -1,0 +1,47 @@
+ #=======================================================================
+ #
+ #    ______________________ ____    ________  __      __  _________
+ #    \__    ___/\_   _____/|    |   \_____  \/  \    /  \/   _____/
+ #      |    |    |    __)  |    |    /   |   \   \/\/   /\_____  \
+ #      |    |    |     \   |    |___/    |    \        / /        \
+ #      |____|    \___  /   |_______ \_______  /\__/\  / /_______  /
+ #                    \/            \/       \/      \/          \/
+ #                         ___  _      _    __
+ #                        / _ \(_)  __(_)__/ /__
+ #                       / // / / |/ / / _  / -_)
+ #                      /____/_/|___/_/\_,_/\__/
+ #
+ #                        Double precision mode
+ #                 Compiled with nonrecursive heapsort
+ #-----------------------------------------------------------------------
+ # Input problem name: (without extension)
+ # Number of subdomains:
+ # Reading the binary file: [96mdrop3d_hex32.cfn[0m
+ # Expanding memory for nodes to size:     35937
+ # Expanding memory for cells to size:     32768     6144
+ # Expanding memory for faces to size:    101376        0
+ # Reading the binary file: [96mdrop3d_hex32.dim[0m
+ #=============================================
+ # Saving subdomain     1 with:
+ #     17543 cells
+ #     19824 nodes
+ #     54826 faces
+ #         0 shadow faces
+ #      3237 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: [96mSub/1/drop3d_hex32.cfn[0m
+ # Creating the binary file: [96mSub/1/drop3d_hex32.dim[0m
+ # Creating the binary file: [96mSub/1/drop3d_hex32.vtu[0m
+ # Creating the ASCII file: [96mdrop3d_hex32.pvtu[0m
+ #=============================================
+ # Saving subdomain     2 with:
+ #     17547 cells
+ #     19803 nodes
+ #     54813 faces
+ #         0 shadow faces
+ #      3179 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: [96mSub/2/drop3d_hex32.cfn[0m
+ # Creating the binary file: [96mSub/2/drop3d_hex32.dim[0m
+ # Creating the binary file: [96mSub/2/drop3d_hex32.vtu[0m
+ # Time =          0.147 seconds.

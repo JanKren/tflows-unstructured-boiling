@@ -1,0 +1,159 @@
+ #=======================================================================
+ #
+ #    ______________________ ____    ________  __      __  _________
+ #    \__    ___/\_   _____/|    |   \_____  \/  \    /  \/   _____/
+ #      |    |    |    __)  |    |    /   |   \   \/\/   /\_____  \
+ #      |    |    |     \   |    |___/    |    \        / /        \
+ #      |____|    \___  /   |_______ \_______  /\__/\  / /_______  /
+ #                    \/            \/       \/      \/          \/
+ #                   _____                      __
+ #                  / ___/__ ___  ___ _______ _/ /____
+ #                 / (_ / -_) _ \/ -_) __/ _ `/ __/ -_)
+ #                 \___/\__/_//_/\__/_/  \_,_/\__/\__/
+ #
+ #                        Double precision mode
+ #                 Compiled with nonrecursive heapsort
+ #-----------------------------------------------------------------------
+ #========================================
+ # Input problem name: (without extension)
+ #----------------------------------------
+ # Reading the ASCII file: bubble.dom
+ # Allocating memory for: 
+ #  6000000 nodes and cells
+ #  2000000 boundary cells
+ # 18000000 cell faces
+ # Expanding memory for nodes to size:   6000000
+ # Expanding memory for cells to size:   6000000  2000000
+ # Expanding memory for faces to size:  18000000        0
+ # Expanding memory for cells in Refines_Mod to size:   6000000  2000000
+ # Allocation successfull !
+ # Number of periodic boundaries:           0
+ # Number of refinement levels:             0
+ # Number of (non)smoothing ranges:         0
+ # Generating block:                        1
+ #=======================================================
+ # Grid currently has the following boundary conditions:
+ #- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ # 1. WALL
+ #-------------------------------------------------------
+ # Now determining the topology. This may take a while !
+ # Cell centers calculated !
+ # Face surfaces calculated !
+ # Face centers calculated !
+ # Now smoothing the cells. This may take a while !
+ # Now determining the topology. This may take a while !
+ # Cell centers calculated !
+ # Face surfaces calculated !
+ # Face centers calculated !
+ # Number of periodic faces:                0
+ # Periodicity in x direction            0.000
+ # Periodicity in y direction            0.000
+ # Periodicity in z direction            0.000
+ # Cell volumes calculated !
+ # Minimal cell volume is:                    4.21875E-16
+ # Maximal cell volume is:                    4.21875E-16
+ # Total domain volume is:                    2.70000E-11
+ # Cell volumes calculated !
+ # Cell volumes calculated !
+ #=====================================================
+ # Face interpolation factors have been calculated
+ #- - - - - - - - - - - - - - - - - - - - - - - - - - -
+ # It is useful to keep in mind that factors closer to
+ # 0.5 and shifts closer to 0.0 are better
+ #-----------------------------------------------------
+ # Minimum factor:  5.00000E-01
+ # Maximum factor:  5.00000E-01
+ # Average factor:  5.00000E-01
+ # Minimum shift :  0.00000E+00
+ # Maximum shift :  8.08117E-15
+ # Average shift :  1.55291E-15
+ #==========================================================
+ # In Sort_Cells_By_Coordinates
+ #----------------------------------------------------------
+ # Maximum cell difference at single face:        1600
+ # Maximum cell difference betwen two faces:     64001
+ #==========================================================
+ # In Sort_Faces_By_Region
+ #----------------------------------------------------------
+ # Maximum cell difference at single face:        1600
+ # Maximum cell difference betwen two faces:      1599
+ #=======================================================
+ # Grid currently has the following boundary conditions:
+ #- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ # 1. WALL
+ #-------------------------------------------------------
+ #===========================================================
+ # Calculating distance from the walls
+ #- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ # Type ordinal number(s) of wall or wall_flux boundary
+ # condition(s) from the boundary condition list (see above)
+ # separated by space. Cells' centers distances to the
+ # nearest wall will be calculated for the listed wall
+ # boundary(s).
+ #
+ # This is needed for RANS and HYBRID turbulence models, for
+ # proper initialization with potential pressure-like field,
+ # but also for problems in multiple domains, such as
+ # conjugate heat transfer.
+ #
+ # Type "skip" to skip this and set wall distance to -1.0
+ # everywhere.
+ #-----------------------------------------------------------
+ # Distance to the wall set to -1.0 everywhere !
+ # Creating the binary file: bubble.cfn
+ # Creating the binary file: bubble.dim
+ # Creating the binary file: bubble.vtu
+ # Creating the binary file: bubble.faces.vtu
+ # Creating the binary file: bubble.bnd.faces.vtu
+ # NOTE: No shadow faces in this domain, nothing to plot!
+ # Creating the ASCII file: control_template_for_bubble
+ #======================================================
+ # Searching for nodal coordinate clusters
+ #------------------------------------------------------
+ # Number of clusters in x, y and z:     41    41    41                         
+ # Grid is homogeneous in x direction
+ # Grid is homogeneous in y direction
+ # Grid is homogeneous in z direction
+ #------------------------------------------------------
+ #===========================================
+ # Creating 1d file with the node 
+ # coordinates in non-homogeneous directions 
+ #-------------------------------------------
+ # Insert non-homogeneous direction 
+ # (x, y, z, rx, ry, rz or skip)
+ #-------------------------------------------
+ #================================================
+ # Generated grid statistics                      
+ #------------------------------------------------
+ # Number of nodes         :   68921
+ # Number of cells         :   64000
+ # Number of faces         :  196800
+ # Number of shadow faces  :       0
+ # Number of boundary cells:    9600
+ #------------------------------------------------
+ # Number of non zero matrix entries:  438400
+ # Average stencil size             :   6.850
+ #------------------------------------------------
+ # Number of cells with   3 neighbours:        8
+ # Number of cells with   4 neighbours:      456
+ # Number of cells with   5 neighbours:     8664
+ # Number of cells with   6 neighbours:    54872
+ #------------------------------------------------
+ #=================================================================================#
+ #                              Profiling statistics                               #
+ #---------------------------------------------------------------------------------#
+ #                        Total time: 000:00:03 [hhh:mm:ss]                        #
+ #---------------------------------------------+-----------------------------------#
+ #        Description of the activity:         |            Spent time:            #
+ #---------------------------------------------+-----------------+-----------------#
+ # - Main                                      |     2.63 [s]    |     80.75 %     #
+ # - Calculate_Geometry                        |     0.36 [s]    |     11.12 %     #
+ # - Find_Cells_Faces                          |     0.13 [s]    |      3.92 %     #
+ # - Save_Vtu_Faces                            |     0.05 [s]    |      1.47 %     #
+ # - Save_Dim                                  |     0.03 [s]    |      0.78 %     #
+ # - Save_Cfn                                  |     0.02 [s]    |      0.76 %     #
+ # - Calculate_Wall_Distance                   |     0.02 [s]    |      0.57 %     #
+ # - Save_Vtu_Cells                            |     0.01 [s]    |      0.41 %     #
+ # - Save_Cfn (error traps only)               |     0.01 [s]    |      0.22 %     #
+ #---------------------------------------------+-----------------+-----------------#
+ 

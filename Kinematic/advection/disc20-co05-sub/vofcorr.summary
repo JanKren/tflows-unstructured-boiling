@@ -1,0 +1,12 @@
+    290 sweeps=1 lo=0 hi=0
+      4 sweeps=2 lo=0 hi=0
+    100 sweeps=3 lo=0 hi=1
+     18 sweeps=3 lo=0 hi=2
+     11 sweeps=3 lo=0 hi=3
+     31 sweeps=3 lo=1 hi=0
+     14 sweeps=3 lo=1 hi=1
+      3 sweeps=3 lo=1 hi=2
+      1 sweeps=3 lo=1 hi=3
+      5 sweeps=3 lo=2 hi=0
+      3 sweeps=3 lo=2 hi=1
+sum unbounded lo 65 hi 195

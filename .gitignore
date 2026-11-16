@@ -1,0 +1,10 @@
+# build products and run output
+*.o
+*.mod
+__pycache__/
+*.pyc
+*.cfn
+*.dim
+*.vtu
+*.pvtu
+*.backup

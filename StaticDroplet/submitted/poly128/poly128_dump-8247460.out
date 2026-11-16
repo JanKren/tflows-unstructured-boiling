@@ -1,0 +1,124 @@
+ #=======================================================================
+ #
+ #    ______________________ ____    ________  __      __  _________
+ #    \__    ___/\_   _____/|    |   \_____  \/  \    /  \/   _____/
+ #      |    |    |    __)  |    |    /   |   \   \/\/   /\_____  \
+ #      |    |    |     \   |    |___/    |    \        / /        \
+ #      |____|    \___  /   |_______ \_______  /\__/\  / /_______  /
+ #                    \/            \/       \/      \/          \/
+ #                      ___
+ #                     / _ \_______  _______ ___ ___
+ #                    / ___/ __/ _ \/ __/ -_|_-<(_-<
+ #                   /_/  /_/  \___/\__/\__/___/___/
+ #
+ #                        Double precision mode
+ #                    Only native solvers available
+ #-----------------------------------------------------------------------
+ # Reading the ASCII file: control
+ # NOTE! Could not find the keyword: WALL_TIME_MAX_HOURS. Using the default:  1.680E+02
+ # Reading the binary files: Sub/001/drop3d_poly128_dual.cfn ... Sub/128/drop3d_poly128_dual.cfn
+ # Reading the binary files: Sub/001/drop3d_poly128_dual.dim ... Sub/128/drop3d_poly128_dual.dim
+ # Checking the integrity of cell faces ...
+ # All integrity tests passed
+ # Forming cells communication patterns ...
+ # Done !
+ # NOTE! Could not find the keyword: STARTING_TIME_STEP_FOR_TURB_STATISTICS. Using the default HUGE_INT value
+ # NOTE! Could not find the keyword: STARTING_TIME_STEP_FOR_SWARM_STATISTICS. Using the default HUGE_INT value
+ # NOTE! Could not find the keyword: STARTING_TIME_STEP_FOR_SWARM_COMPUTATION. Using the default:      1200
+ # Reading about physical models
+ # NOTE! Could not find the keyword: BUOYANCY. Using the default: none
+ # NOTE! Could not find the keyword: REFERENCE_DENSITY. Using the default:  0.000E+00
+ # NOTE! Could not find the keyword: REFERENCE_TEMPERATURE. Using the default:  0.000E+00
+ # NOTE! Could not find the keyword: VOLUME_EXPANSION_COEFFICIENT. Using the default:  1.000E+00
+ # NOTE! Could not find the keyword: EXTRAPOLATE_TEMPERATURE_EXP. Using the default: no
+ # NOTE! Could not find the keyword: ROUGH_WALLS. Using the default: no
+ # NOTE! Could not find the keyword: MONIN_OBUKOV. Using the default: no
+ # NOTE! Could not find the keyword: TURBULENT_HEAT_FLUX_MODEL. Using the default: SGDH
+ # NOTE! Could not find the keyword: NUMBER_OF_SCALARS. Using the default:         0
+ # NOTE! Could not find the keyword: TRACK_FRONT. Using the default: no
+ # NOTE! Could not find the keyword: TRACK_SURFACE. Using the default: no
+ # NOTE! Could not find the keyword: GeometricVOF. Using the default: no
+ # NOTE! Could not find the keyword: MASS_TRANSFER_MODEL. Using the default: none
+ # NOTE! Could not find the keyword: NUCLEATION. Using the default: no
+  # Nucleation model is off
+ # NOTE! Could not find the keyword: PARTICLE_TRACKING. Using the default: no
+ # NOTE! Could not find the keyword: LINEAR_SOLVERS. Using the default: native
+ # Reading info about native (home-brewed) solvers
+ # Determining matrix topology.
+ # Finished !
+ # Creating the turbulence module
+ # Creating the volume of fluid (VOF) module
+ # Reading info about discretization schemes
+ # Reading about physical properties
+ # Reading boundary conditions
+ # Reading variable: variable_count
+ # Backup file holds           24  variables.
+ # Reading variable: time_step
+ # Reading variable: time
+ # Reading variable: bulk_flux_x
+ # Reading variable: bulk_flux_y
+ # Reading variable: bulk_flux_z
+ # Reading variable: bulk_flux_x_o
+ # Reading variable: bulk_flux_y_o
+ # Reading variable: bulk_flux_z_o
+ # Reading variable: bulk_p_drop_x
+ # Reading variable: bulk_p_drop_y
+ # Reading variable: bulk_p_drop_z
+ # Reading variable: u_velocity
+ # Reading variable: v_velocity
+ # Reading variable: w_velocity
+ # Reading variable: press
+ # Reading variable: press_x
+ # Reading variable: press_y
+ # Reading variable: press_z
+ # Reading variable: press_corr
+ # Reading variable: has_pressure
+ # Reading variable: vof_fun
+ # Reading variable: z_o
+ # NOTE! Could not find the keyword: NUMBER_OF_POROUS_REGIONS. Using the default:         0
+ # Ax : 4.01028E+00
+ # Ay : 4.00896E+00
+ # Az : 4.00884E+00
+ # NOTE! Could not find the keyword: SAVE_INITIAL_CONDITION. Using the default: yes
+ # NOTE! Could not find the keyword: SWARM_SAVE_INTERVAL. Using the default:        60
+ # Computing wall distance ...
+ # ... with  24 fake time steps.
+ # This might take a while, please wait
+ # Computed wall distance in  113 iterations with residual:   0.8587E-06
+ # Computed wall distance in    0 iterations with residual:   0.8587E-06
+ # Creating the binary file: drop3d_poly128_dual-ts000000.pvtu
+ # Creating the binary files: Sub/001/drop3d_poly128_dual-ts000000.vtu ... Sub/128/drop3d_poly128_dual-ts000000.vtu
+ # Creating the binary file: drop3d_poly128_dual-bnd-ts000000.pvtu
+ # Creating the binary files: Sub/001/drop3d_poly128_dual-bnd-ts000000.vtu ... Sub/128/drop3d_poly128_dual-bnd-ts000000.vtu
+ # Exiting !
+                                                   #=========================#
+                                                   #     Work_Mod usage      #
+                                                   #-------------------------#
+                                                   # - Real cell arrays: 11  #
+                                                   # - Real face arrays:  6  #
+                                                   # - Real node arrays:  0  #
+                                                   # - Int. cell arrays:  4  #
+                                                   # - Int. face arrays:  6  #
+                                                   # - Int. node arrays:  0  #
+                                                   #-------------------------#
+                        #=================================================================================#
+                        #                              Profiling statistics                               #
+                        #---------------------------------------------------------------------------------#
+                        #                        Total time: 000:02:47 [hhh:mm:ss]                        #
+                        #---------------------------------------------+-----------------------------------#
+                        #        Description of the activity:         |            Spent time:            #
+                        #---------------------------------------------+-----------------+-----------------#
+                        # - Main                                      |   163.24 [s]    |     97.66 %     #
+                        # - Save_Vtu_Results                          |     2.05 [s]    |      1.23 %     #
+                        # - Backup_Mod_Load                           |     0.61 [s]    |      0.36 %     #
+                        # - Load_Cfn                                  |     0.46 [s]    |      0.27 %     #
+                        # - Load_Dim                                  |     0.25 [s]    |      0.15 %     #
+                        # - Compute_Wall_Distance                     |     0.17 [s]    |      0.10 %     #
+                        # - Form_Cells_Com                            |     0.12 [s]    |      0.07 %     #
+                        # - Interpolate_To_Faces_Linear               |     0.09 [s]    |      0.05 %     #
+                        # - Native_Prec_Solve (all solvers)           |     0.05 [s]    |      0.03 %     #
+                        # - Grad_Gauss_Variable                       |     0.03 [s]    |      0.02 %     #
+                        # - Grad_Gauss                                |     0.03 [s]    |      0.02 %     #
+                        # - Grad_Gauss_Pressure                       |     0.02 [s]    |      0.01 %     #
+                        #---------------------------------------------+-----------------+-----------------#
+ 

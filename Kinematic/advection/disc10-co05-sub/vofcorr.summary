@@ -1,0 +1,6 @@
+    213 sweeps=1 lo=0 hi=0
+      2 sweeps=2 lo=0 hi=0
+     22 sweeps=3 lo=0 hi=1
+      2 sweeps=3 lo=0 hi=2
+      1 sweeps=3 lo=0 hi=3
+sum unbounded lo 0 hi 29

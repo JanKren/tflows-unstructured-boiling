@@ -1,0 +1,97 @@
+#=======================================================================
+# Compiling Process with gnu compiler                    
+#-----------------------------------------------------------------------
+# Usage:                                                                
+#   make <FORTRAN=gnu/intel/nvidia> <DEBUG=no/yes> <ASSERT=yes/no>      
+#        <FCOMP=gfortran/ifx/nvfortran/mpif90/mpiifx/...>               
+#        <PROF=no/yes> <REAL=double/single> <MPI=no/yes> <OMP=no/yes>   
+#        <SORT=heap/quick> <DIR_CASE=full_or_relative_path_to_case>     
+#        <clean>                                                        
+#                                                                       
+# Notes:                                                                
+#   1. The first item, for each of the options above, is the default.   
+#   2. If PETSC_DIR environment variable is defined, the code will      
+#      make an attempt to compile with PETSc libraries.                 
+#   3. If PETSC_DIR and PETSC_ARCH set the environment with different   
+#      compiler than you are trying to use, the compilation might fail. 
+#   4. Target "clean" removes all compiled files and binaries.          
+#                                                                       
+# Examples:                                                             
+#   make                        - sequential version with gnu compiler  
+#   make MPI=yes                - MPI version with gnu compiler         
+#   make MPI=yes FCOMP=compiler - MPI version with custom compiler      
+#   make FORTRAN=intel MPI=yes  - MPI version with intel compiler       
+#   make MPI=yes SORT=heap      - MPI version with gnu compiler and     
+#                               - heap-sort version of sorting          
+#   make clean                  - remove compiled files and binaries    
+#-----------------------------------------------------------------------
+# Using GNU Fortran compiler with options: -J .Modules -cpp -ffree-line-length-none -frecursive -O3 -ffpe-trap= -fdefault-real-8 -fdefault-double-8
+# and GNU C++ compiler with options: 
+Compling for the case in /home/user/runs/caf-review-2026-11/kinematic/case
+Linking user functions from directory /home/user/runs/caf-review-2026-11/kinematic/case/User_Mod
+ ../../../../../../../runs/caf-review-2026-11/kinematic/case/User_Mod/Beginning_Of_Compute_Vof.f90  ../../../../../../../runs/caf-review-2026-11/kinematic/case/User_Mod/End_Of_Time_Step.f90  ../../../../../../../runs/caf-review-2026-11/kinematic/case/User_Mod/Initialize_Variables.f90  ../../../../../../../runs/caf-review-2026-11/kinematic/case/User_Mod/Types.f90
+mpif90 ../../Shared/Const_Mod.f90
+mpif90 ../../Shared/Region_Mod.f90
+mpif90 ../../Shared/String_Mod.f90
+mpif90 ../../Shared/Comm_Mod.f90
+mpif90 ../../Shared/Assert_Mod.f90
+mpif90 ../../Shared/Tokenizer_Mod.f90
+mpif90 ../../Shared/Message_Mod.f90
+mpif90 ../../Shared/Memory_Mod.f90
+mpif90 ../../Shared/Math_Mod.f90
+mpif90 ../../Shared/Swap_Mod.f90
+mpif90 ../../Shared/Sort_Mod.f90
+mpif90 ../../Shared/File_Mod.f90
+mpif90 ../../Shared/Control_Mod.f90
+mpif90 ../../Shared/Profiler_Mod.f90
+mpif90 ../../Shared/Vtk_Mod.f90
+mpif90 ../../Shared/Metis_Mod.f90
+mpif90 ../../Shared/Gpu_Pointers_Mod.f90
+mpif90 ../../Shared/Gpu_Mod.f90
+mpif90 ../../Shared/Grid_Mod.f90
+mpif90 ../../Shared/Work_Mod.f90
+mpif90 ../../Shared/Stl_Mod.f90
+mpif90 ../../Shared/Porosity_Mod.f90
+mpif90 ../../Shared/Iso_Polygons_Mod.f90
+mpif90 ../../Shared/Polyhedron_Mod.f90
+mpif90 ../../Shared/Isoap_Mod.f90
+mpif90 Point_Mod.f90
+mpif90 Bulk_Mod.f90
+mpif90 Face_Mod.f90
+mpif90 Vert_Mod.f90
+mpif90 Elem_Mod.f90
+mpif90 Side_Mod.f90
+mpif90 Matrix_Mod.f90
+mpif90 Vector_Mod.f90
+mpif90 Agglomeration_Mod.f90
+mpif90 Native_Mod.f90
+mpif90 Petsc_Mod.f90
+mpif90 Var_Mod.f90
+mpif90 Solver_Mod.f90
+mpif90 Time_Mod.f90
+mpif90 Numerics_Mod.f90
+mpif90 Field_Mod.f90
+mpif90 Iter_Mod.f90
+mpif90 Front_Mod.f90
+mpif90 Surf_Mod.f90
+mpif90 Info_Mod.f90
+mpif90 Turb_Mod.f90
+mpif90 Vof_Mod.f90
+mpif90 Surface_Exporter_Mod.f90
+mpif90 Eddies_Mod.f90
+mpif90 Monitor_Mod.f90
+mpif90 Particle_Mod.f90
+mpif90 Swarm_Mod.f90
+mpif90 Interface_Mod.f90
+mpif90 User_Mod.f90
+mpif90 Backup_Mod.f90
+mpif90 Results_Mod.f90
+mpif90 Read_Controls_Mod.f90
+mpif90 Process_Mod.f90
+mpif90 Main_Pro.f90
+mpif90 ../../Shared/Key_Ind.f90
+g++ Petsc_Interface.cpp
+g++ ../../Shared/Amgx_Interface.cpp
+g++ ../../Shared/Cuda_Helpers.cpp
+Linking [0;32m  ../../Libraries/Metis_5.1.0_Linux_64/libmetis_i32_r64.a ../../../Binaries/Cpu/Process [0m
+make exit: 0

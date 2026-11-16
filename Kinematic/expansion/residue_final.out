@@ -1,0 +1,10 @@
+| case | R_front/R_vol | axis: R [um] | residue | face diag.: R | residue | body diag.: R | residue | explained |
+|---|---|---|---|---|---|---|---|---|
+| kinematic, velocity jump, struct 75^3, t = 0.5 ms | 1.0258 | 89.50 | 0.0111 | 92.61 | 0.1188 | 93.38 | 0.1505 | 100 % |
+| kinematic, solenoidal, struct 75^3, t = 0.5 ms | 0.9983 | 89.69 | 0.0000 | 89.51 | 0.0000 | 89.40 | 0.0000 | -0 % |
+| coupled production (computed mdot), struct 75^3, t = 0.6 ms | 1.0276 | 90.70 | 0.0019 | 95.10 | 0.1243 | 97.50 | 0.1579 | 65 % |
+| coupled production (computed mdot), struct 100^3, t = 0.6 ms | 1.0296 | 94.76 | 0.0073 | 99.64 | 0.1251 | 102.59 | 0.1624 | 61 % |
+| coupled production (computed mdot), struct 125^3, t = 0.6 ms | 1.0298 | 96.48 | 0.0022 | 101.88 | 0.1226 | 105.31 | 0.1611 | 56 % |
+| coupled production (computed mdot), struct 150^3, t = 0.6 ms | 1.0292 | 97.20 | 0.0012 | 103.04 | 0.1197 | 106.75 | 0.1601 | 53 % |
+| kinematic, velocity jump, poly 75^3, t = 0.5 ms | 1.0290 | 92.32 | 0.1151 | 92.35 | 0.1150 | 92.37 | 0.1160 | -- |
+| coupled production (computed mdot), poly 75^3, t = 0.6 ms | 1.0369 | 87.44 | 0.1520 | 87.70 | 0.1525 | 87.80 | 0.1528 | 7 % |

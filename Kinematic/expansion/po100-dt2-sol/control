@@ -1,0 +1,71 @@
+#-----------------------------------------------------------------------------
+#  Kinematic radial-expansion test (CAF review, comment 2.8).
+#
+#  The Scriven cube and meshes, the production volume-fraction numerics, and
+#  nothing else: no energy equation, no mass transfer, and no momentum or
+#  pressure solve (zero outer iterations).  The face fluxes are the exact
+#  fluxes of a point source at the bubble centre, imposed in
+#  User_Mod_Beginning_Of_Compute_Vof; see kinematic.in.
+#-----------------------------------------------------------------------------
+ PROBLEM_NAME           Scriven-Poly-100_dual
+ HEAT_TRANSFER          no
+ INTERFACE_TRACKING     yes
+ TRACK_FRONT            yes
+
+ NUMBER_OF_TIME_STEPS   500
+ TIME_STEP              2.0e-6
+
+ RESULTS_SAVE_INTERVAL        25
+ BACKUP_SAVE_INTERVAL         10000000
+ SAVE_INITIAL_CONDITION       no
+ SAVE_RESULTS_AT_BOUNDARIES   no
+
+ NUMBER_OF_MONITORING_POINTS    0
+ POINT_FOR_MONITORING_PLANES    0.5  0.1  0.75
+
+#-----------------
+# Physical models
+#-----------------
+ PHASE_DENSITIES          0.597       958.4
+ PHASE_VISCOSITIES        1.22e-5     2.82e-4
+ SURFACE_TENSION          0.059
+ TURBULENCE_MODEL         none
+ GRAVITATIONAL_VECTOR     0.0 0.0 0.0
+
+#----------------------
+# Numerical parameters
+#----------------------
+ PRESSURE_MOMENTUM_COUPLING   simple
+
+# No outer iterations: momentum and pressure are never solved
+ MIN_SIMPLE_ITERATIONS        0
+ MAX_SIMPLE_ITERATIONS        0
+
+ TIME_INTEGRATION_SCHEME      linear
+ ADVECTION_SCHEME_FOR_VOF     cicsam
+
+# As in the production Scriven control (the rest are the defaults, as there:
+# MAX_COURANT_VOF 0.25, MAX_SUBSTEP_CYCLES_VOF 100,
+# MAX_CORRECTION_CYCLES_BETA_VOF 2, MAX_ITERATIONS_FOR_VOF_SOLVER 6)
+ PRECONDITIONER_FOR_SYSTEM_MATRIX        incomplete_cholesky
+ TOLERANCE_FOR_VOF_SOLVER                1.e-8
+ MAX_SMOOTHING_CYCLES_CURVATURE_VOF     12
+ MAX_SMOOTHING_CYCLES_NORMAL_VOF         0
+ GRADIENT_METHOD_FOR_VOF             gauss_theorem
+ TOLERANCE_FOR_GAUSS_GRADIENTS       1.0e-4
+
+
+#--------------------
+# Initial conditions
+#--------------------
+  INITIAL_CONDITION
+    VARIABLES           u     v     w     vof
+    VALUES              0.0   0.0   0.0   1.0
+
+#---------------------
+# Boundary conditions
+#---------------------
+  BOUNDARY_CONDITION    wall
+    TYPE                outflow
+    VARIABLES           u     v     w     vof
+    VALUES              0.0   0.0   0.0   1.0

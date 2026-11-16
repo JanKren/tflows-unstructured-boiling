@@ -1,0 +1,52 @@
+#=======================================================================
+# Compiling Convert with gnu compiler                    
+#-----------------------------------------------------------------------
+# Usage:                                                                
+#   make <FORTRAN=gnu/intel/nvidia> <DEBUG=no/yes> <ASSERT=yes/no>      
+#        <FCOMP=gfortran/ifx/nvfortran/mpif90/mpiifx/...>               
+#        <PROF=no/yes> <REAL=double/single> <OMP=yes/no>                
+#        <SORT=heap/quick> <clean>                                      
+#                                                                       
+# Notes:                                                                
+#   1. The first item, for each of the options above, is the default.   
+#   2. Target "clean" removes all compiled files and binaries.          
+#                                                                       
+# Examples:                                                             
+#   make               - compile with gnu compiler                      
+#   make FORTRAN=intel - compile with intel compiler                    
+#   make DEBUG=yes     - compile with gnu compiler in debug mode        
+#   make ASSERT=no     - compile without assert with gnu compiler       
+#   make OMP=yes       - compile with gnu compiler for parallel Convert 
+#   make SORT=heap     - use heap-sort variant of sorting functions     
+#   make clean         - remove all compiled files and binaries         
+#-----------------------------------------------------------------------
+# Using GNU Fortran compiler with options: -J .Modules -cpp -ffree-line-length-none -O3 -fdefault-real-8 -fopenmp
+# and GNU C++ compiler with options: 
+gfortran ../Shared/Const_Mod.f90
+gfortran ../Shared/Region_Mod.f90
+gfortran ../Shared/String_Mod.f90
+gfortran ../Shared/Comm_Mod.f90
+gfortran ../Shared/Assert_Mod.f90
+gfortran ../Shared/Tokenizer_Mod.f90
+gfortran ../Shared/Message_Mod.f90
+gfortran ../Shared/Memory_Mod.f90
+gfortran ../Shared/Math_Mod.f90
+gfortran ../Shared/File_Mod.f90
+gfortran ../Shared/Control_Mod.f90
+gfortran ../Shared/Profiler_Mod.f90
+gfortran ../Shared/Vtk_Mod.f90
+gfortran ../Shared/Metis_Mod.f90
+gfortran ../Shared/Swap_Mod.f90
+gfortran ../Shared/Sort_Mod.f90
+gfortran ../Shared/Gpu_Pointers_Mod.f90
+gfortran ../Shared/Gpu_Mod.f90
+gfortran ../Shared/Grid_Mod.f90
+gfortran ../Shared/Work_Mod.f90
+gfortran ../Shared/Stl_Mod.f90
+gfortran ../Shared/Porosity_Mod.f90
+gfortran Pattern_Mod.f90
+gfortran Convert_Mod.f90
+gfortran Main_Con.f90
+g++ ../Shared/Amgx_Interface.cpp
+g++ ../Shared/Cuda_Helpers.cpp
+Linking [0;32m ../Libraries/Metis_5.1.0_Linux_64/libmetis_i32_r64.a ../../Binaries/Convert [0m

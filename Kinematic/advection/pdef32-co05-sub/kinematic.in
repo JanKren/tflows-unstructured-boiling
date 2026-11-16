@@ -1,0 +1,6 @@
+3                    mode: 1 expansion, 2 translation, 3 deformation
+0.35 0.35 0.35 0.15                    centre and radius
+6.0 0.0 0.0 0.0                 mode 2: Ux Uy Uz t_reverse | mode 3: T
+0                     inner (mode 1 only)
+0                 init: 0 linear estimate, 1 sub-sampled hexahedra
+0                 1: cylinder along z

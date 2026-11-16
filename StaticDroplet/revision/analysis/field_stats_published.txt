@@ -1,0 +1,18 @@
+published hex64, 12 cycles, t=0.12: 262144 cells
+  global max |u| 1.193 at r = 0.335 from the centre, 0.766 from a wall, fun = 0.998
+    interface cells    n =   5488  max    1.193  p99    1.122  median   0.3299
+    band |r-R| < R/4   n =  13608  max    1.193  p99    0.967  median   0.2431
+    inside r < 0.3     n =   3648  max    0.488  p99    0.428  median   0.1188
+    >0.2 from walls    n = 140608  max    1.193  p99    0.514  median   0.0186
+    <0.1 from walls    n =  67032  max    0.012  p99    0.012  median   0.0008
+  curvature in cells 0.05 < fun < 0.95 (n = 3296): mean 5.0649 (+1.30 % of 2/R), std 0.59 %, range -1.2 .. +2.2 %
+  centroid moved 0.0000 R; cell volume min/mean 1.000
+published poly64, 4 cycles, t=0.12: 201031 cells
+  global max |u| 23.807 at r = 1.715 from the centre, 0.010 from a wall, fun = 0.000
+    interface cells    n =  16767  max   11.515  p99    6.583  median   2.3753
+    band |r-R| < R/4   n =   9343  max   11.515  p99    6.452  median   2.7645
+    inside r < 0.3     n =   2586  max    7.438  p99    5.827  median   4.5120
+    >0.2 from walls    n =  93481  max   11.515  p99    5.330  median   0.7652
+    <0.1 from walls    n =  67694  max   23.807  p99    0.470  median   0.0462
+  curvature in cells 0.05 < fun < 0.95 (n = 5583): mean 5.0785 (+1.57 % of 2/R), std 2.47 %, range -39.8 .. +11.8 %
+  centroid moved 0.0915 R; cell volume min/mean 0.043

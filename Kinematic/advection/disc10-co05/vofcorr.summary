@@ -1,0 +1,8 @@
+     84 sweeps=1 lo=0 hi=0
+      3 sweeps=2 lo=0 hi=0
+     24 sweeps=3 lo=0 hi=1
+      5 sweeps=3 lo=0 hi=2
+      2 sweeps=3 lo=0 hi=3
+      1 sweeps=3 lo=0 hi=5
+      1 sweeps=3 lo=0 hi=6
+sum unbounded lo 0 hi 51

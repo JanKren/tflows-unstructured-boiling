@@ -1,0 +1,11 @@
+--- a/Sources/Process/Cpu/Vof_Mod/Utilities/Mass_Transfer_Vof_Source.f90
++++ b/Sources/Process/Cpu/Vof_Mod/Utilities/Mass_Transfer_Vof_Source.f90
+@@ -45,7 +45,7 @@
+     ! were not affected at all, but they should have been.
+     if(e .ne. 0) then
+       b(c) = b(c)                              &
+-           + Vof % m_dot(c) * (liquid-vapour)  &
++           - Vof % m_dot(c) * (liquid-vapour)  &
+            * (1.0/Vof % phase_dens(liquid))
+ !          * (1.0/Vof % phase_dens(vapour) - 1.0/Vof % phase_dens(liquid))
+     end if

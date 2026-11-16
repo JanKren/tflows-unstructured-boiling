@@ -1,0 +1,16 @@
+C_N100 review 100 5.0e-3 1800 SIMPLE_UNDERRELAXATION_FOR_ENERGY=1.0 --cubic --binary /home/user/runs/caf-review-2026-11/stefan/Process_review_sign
+R_cub review 100 5.0e-3 1800 --cubic
+Pfix_N100 paper 100 5.0e-3 1800 ADVECTION_SCHEME_FOR_ENERGY=upwind SIMPLE_UNDERRELAXATION_FOR_ENERGY=1.0
+C_N200 review 200 5.0e-3 1800 SIMPLE_UNDERRELAXATION_FOR_ENERGY=1.0 --cubic --binary /home/user/runs/caf-review-2026-11/stefan/Process_review_sign
+P_N200 paper 200 5.0e-3 1800
+Pfix_N200 paper 200 5.0e-3 1800 ADVECTION_SCHEME_FOR_ENERGY=upwind SIMPLE_UNDERRELAXATION_FOR_ENERGY=1.0
+C_dt2.5 review 100 2.5e-3 3600 SIMPLE_UNDERRELAXATION_FOR_ENERGY=1.0 --cubic --binary /home/user/runs/caf-review-2026-11/stefan/Process_review_sign
+Pfix_dt2.5 paper 100 2.5e-3 3600 ADVECTION_SCHEME_FOR_ENERGY=upwind SIMPLE_UNDERRELAXATION_FOR_ENERGY=1.0
+C_dt10 review 100 1.0e-2 900 SIMPLE_UNDERRELAXATION_FOR_ENERGY=1.0 --cubic --binary /home/user/runs/caf-review-2026-11/stefan/Process_review_sign
+Pfix_dt10 paper 100 1.0e-2 900 ADVECTION_SCHEME_FOR_ENERGY=upwind SIMPLE_UNDERRELAXATION_FOR_ENERGY=1.0
+P_dt10 paper 100 1.0e-2 900
+C_N040 review 40 5.0e-3 1800 SIMPLE_UNDERRELAXATION_FOR_ENERGY=1.0 --cubic --binary /home/user/runs/caf-review-2026-11/stefan/Process_review_sign
+Pfix_N040 paper 40 5.0e-3 1800 ADVECTION_SCHEME_FOR_ENERGY=upwind SIMPLE_UNDERRELAXATION_FOR_ENERGY=1.0
+P_N040 paper 40 5.0e-3 1800
+P_lin paper 100 5.0e-3 1800 TOLERANCE_FOR_ENERGY_SOLVER=1.e-10 MAX_ITERATIONS_FOR_ENERGY_SOLVER=50 TOLERANCE_FOR_MOMENTUM_SOLVER=1.e-10 MAX_ITERATIONS_FOR_MOMENTUM_SOLVER=50
+C_dt1.25 review 100 1.25e-3 7200 SIMPLE_UNDERRELAXATION_FOR_ENERGY=1.0 --cubic --binary /home/user/runs/caf-review-2026-11/stefan/Process_review_sign

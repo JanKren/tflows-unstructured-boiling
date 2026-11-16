@@ -1,0 +1,13 @@
+   1467 sweeps=1 lo=0 hi=0
+     36 sweeps=2 lo=0 hi=0
+    476 sweeps=3 lo=0 hi=1
+    103 sweeps=3 lo=0 hi=2
+      9 sweeps=3 lo=0 hi=3
+      1 sweeps=3 lo=0 hi=4
+    220 sweeps=3 lo=1 hi=0
+     20 sweeps=3 lo=1 hi=1
+      3 sweeps=3 lo=1 hi=2
+     53 sweeps=3 lo=2 hi=0
+      9 sweeps=3 lo=2 hi=1
+      3 sweeps=3 lo=3 hi=0
+sum unbounded lo 376 hi 748

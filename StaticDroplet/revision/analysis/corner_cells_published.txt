@@ -1,0 +1,15 @@
+cells further than 0.8 from the centre: 152107, of which |u| > 5: 16, > 1: 1646
+  |u|  23.81  pos [1.99 0.01 0.01]  dist to the three nearest walls [0.01 0.01 0.01]  vol/mean 0.043  fun 0.000  p -39144
+  |u|  23.71  pos [1.99 1.99 1.99]  dist to the three nearest walls [0.01 0.01 0.01]  vol/mean 0.043  fun 0.000  p -39000
+  |u|  23.69  pos [1.99 0.01 1.99]  dist to the three nearest walls [0.01 0.01 0.01]  vol/mean 0.043  fun 0.000  p -39036
+  |u|  23.47  pos [0.01 0.01 1.99]  dist to the three nearest walls [0.01 0.01 0.01]  vol/mean 0.043  fun 0.000  p -38894
+  |u|  22.83  pos [1.99 1.99 0.01]  dist to the three nearest walls [0.01 0.01 0.01]  vol/mean 0.043  fun 0.000  p -37590
+  |u|  22.70  pos [0.01 0.01 0.01]  dist to the three nearest walls [0.01 0.01 0.01]  vol/mean 0.043  fun 0.000  p -37311
+  |u|  21.81  pos [0.01 1.99 0.01]  dist to the three nearest walls [0.01 0.01 0.01]  vol/mean 0.043  fun 0.000  p -36009
+  |u|  21.79  pos [0.01 1.99 1.99]  dist to the three nearest walls [0.01 0.01 0.01]  vol/mean 0.043  fun 0.000  p -36031
+  |u|   9.57  pos [0.012 1.977 1.977]  dist to the three nearest walls [0.012 0.023 0.023]  vol/mean 0.319  fun 0.000  p -37289
+  |u|   9.56  pos [0.012 1.977 0.024]  dist to the three nearest walls [0.012 0.023 0.024]  vol/mean 0.328  fun 0.000  p -37340
+  |u|   8.48  pos [0.012 0.021 0.023]  dist to the three nearest walls [0.012 0.021 0.023]  vol/mean 0.262  fun 0.000  p -37260
+  |u|   8.00  pos [1.977 1.989 0.02 ]  dist to the three nearest walls [0.011 0.02  0.023]  vol/mean 0.249  fun 0.000  p -37278
+pressure outside (fun < 1e-6, r > 0.6): mean -37093.4  std 26.9
+max |u| over all cells excluding those within 0.05 of a wall: 11.515

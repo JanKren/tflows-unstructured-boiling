@@ -1,0 +1,34 @@
+/home/user/runs/caf-review-2026-11/static-drop/analysis/field_stats.py:36: RuntimeWarning: Mean of empty slice.
+  f"{kk.mean():.4f} ({100 * (kk.mean() / KEX - 1):+.2f} % of 2/R), "
+/home/user/anaconda3/lib/python3.12/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/home/user/anaconda3/lib/python3.12/site-packages/numpy/core/_methods.py:206: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/home/user/anaconda3/lib/python3.12/site-packages/numpy/core/_methods.py:163: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+/home/user/anaconda3/lib/python3.12/site-packages/numpy/core/_methods.py:198: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+published hex128, 12 cycles, t=0.12: 2097152 cells
+  global max |u| 0.710 at r = 0.404 from the centre, 0.742 from a wall, fun = 0.244
+    interface cells    n =  14912  max    0.710  p99    0.443  median   0.1000
+    band |r-R| < R/4   n = 107912  max    0.710  p99    0.246  median   0.0450
+    inside r < 0.3     n =  29464  max    0.044  p99    0.034  median   0.0085
+    >0.2 from walls    n = 1061208  max    0.710  p99    0.117  median   0.0094
+    <0.1 from walls    n = 536256  max    0.008  p99    0.007  median   0.0004
+  curvature in cells 0.05 < fun < 0.95 (n = 8184): mean 5.0234 (+0.47 % of 2/R), std 0.13 %, range -0.5 .. +1.1 %
+  centroid moved 0.0000 R; cell volume min/mean 1.000
+published poly128, 4 cycles, t=0.097: 1532936 cells
+  global max |u| 16.804 at r = 0.394 from the centre, 0.730 from a wall, fun = 1.000
+    interface cells    n =  53634  max   15.801  p99    7.083  median   1.9845
+    band |r-R| < R/4   n =  74952  max   16.804  p99    6.948  median   2.0565
+    inside r < 0.3     n =  20632  max    7.471  p99    7.348  median   5.4066
+    >0.2 from walls    n = 747156  max   16.804  p99    6.257  median   0.6368
+    <0.1 from walls    n = 468949  max   11.739  p99    0.332  median   0.0327
+Traceback (most recent call last):
+  File "/home/user/runs/caf-review-2026-11/static-drop/analysis/field_stats.py", line 38, in <module>
+    f"{100 * (kk.min() / KEX - 1):+.1f} .. {100 * (kk.max() / KEX - 1):+.1f} %")
+              ^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/numpy/core/_methods.py", line 45, in _amin
+    return umr_minimum(a, axis, None, out, keepdims, initial, where)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: zero-size array to reduction operation minimum which has no identity

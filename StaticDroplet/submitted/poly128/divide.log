@@ -1,0 +1,1433 @@
+ #=======================================================================
+ #
+ #    ______________________ ____    ________  __      __  _________
+ #    \__    ___/\_   _____/|    |   \_____  \/  \    /  \/   _____/
+ #      |    |    |    __)  |    |    /   |   \   \/\/   /\_____  \
+ #      |    |    |     \   |    |___/    |    \        / /        \
+ #      |____|    \___  /   |_______ \_______  /\__/\  / /_______  /
+ #                    \/            \/       \/      \/          \/
+ #                         ___  _      _    __
+ #                        / _ \(_)  __(_)__/ /__
+ #                       / // / / |/ / / _  / -_)
+ #                      /____/_/|___/_/\_,_/\__/
+ #
+ #                        Double precision mode
+ #                 Compiled with nonrecursive heapsort
+ #-----------------------------------------------------------------------
+ # Input problem name: (without extension)
+ # Number of subdomains:
+ # Reading the binary file: drop3d_poly128_dual.cfn
+ # Expanding memory for nodes to size:   9497186
+ # Expanding memory for cells to size:   1532936   113912
+ # Expanding memory for faces to size:  11028579        0
+ # Reading the binary file: drop3d_poly128_dual.dim
+ #=============================================
+ # Saving subdomain     1 with:
+ #     15037 cells
+ #    104370 nodes
+ #    115513 faces
+ #         0 shadow faces
+ #       850 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/001/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/001/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/001/drop3d_poly128_dual.vtu
+ # Creating the ASCII file: drop3d_poly128_dual.pvtu
+ #=============================================
+ # Saving subdomain     2 with:
+ #     15339 cells
+ #    107155 nodes
+ #    118250 faces
+ #         0 shadow faces
+ #       817 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/002/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/002/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/002/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain     3 with:
+ #     14605 cells
+ #     98764 nodes
+ #    110165 faces
+ #         0 shadow faces
+ #      1590 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/003/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/003/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/003/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain     4 with:
+ #     14934 cells
+ #    102626 nodes
+ #    113899 faces
+ #         0 shadow faces
+ #      1195 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/004/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/004/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/004/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain     5 with:
+ #     14702 cells
+ #     99932 nodes
+ #    111220 faces
+ #         0 shadow faces
+ #      1549 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/005/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/005/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/005/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain     6 with:
+ #     13831 cells
+ #     90269 nodes
+ #    101791 faces
+ #         0 shadow faces
+ #      2331 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/006/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/006/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/006/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain     7 with:
+ #     15219 cells
+ #    106070 nodes
+ #    117238 faces
+ #         0 shadow faces
+ #       807 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/007/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/007/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/007/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain     8 with:
+ #     14128 cells
+ #     93828 nodes
+ #    105246 faces
+ #         0 shadow faces
+ #      1934 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/008/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/008/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/008/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain     9 with:
+ #     15751 cells
+ #    112668 nodes
+ #    123495 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/009/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/009/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/009/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    10 with:
+ #     15861 cells
+ #    113528 nodes
+ #    124393 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/010/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/010/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/010/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    11 with:
+ #     15213 cells
+ #    106235 nodes
+ #    117347 faces
+ #         0 shadow faces
+ #       622 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/011/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/011/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/011/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    12 with:
+ #     15472 cells
+ #    108713 nodes
+ #    119795 faces
+ #         0 shadow faces
+ #       605 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/012/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/012/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/012/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    13 with:
+ #     15750 cells
+ #    112243 nodes
+ #    123183 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/013/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/013/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/013/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    14 with:
+ #     14745 cells
+ #    101081 nodes
+ #    112305 faces
+ #         0 shadow faces
+ #      1203 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/014/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/014/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/014/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    15 with:
+ #     15336 cells
+ #    106990 nodes
+ #    118126 faces
+ #         0 shadow faces
+ #       863 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/015/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/015/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/015/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    16 with:
+ #     14647 cells
+ #     99392 nodes
+ #    110667 faces
+ #         0 shadow faces
+ #      1564 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/016/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/016/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/016/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    17 with:
+ #     15323 cells
+ #    107232 nodes
+ #    118329 faces
+ #         0 shadow faces
+ #       731 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/017/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/017/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/017/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    18 with:
+ #     15110 cells
+ #    104670 nodes
+ #    115880 faces
+ #         0 shadow faces
+ #       901 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/018/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/018/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/018/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    19 with:
+ #     15791 cells
+ #    112905 nodes
+ #    123762 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/019/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/019/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/019/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    20 with:
+ #     15832 cells
+ #    113209 nodes
+ #    124114 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/020/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/020/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/020/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    21 with:
+ #     14233 cells
+ #     94642 nodes
+ #    106050 faces
+ #         0 shadow faces
+ #      2110 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/021/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/021/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/021/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    22 with:
+ #     15016 cells
+ #    103887 nodes
+ #    115026 faces
+ #         0 shadow faces
+ #      1019 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/022/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/022/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/022/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    23 with:
+ #     15949 cells
+ #    114053 nodes
+ #    124916 faces
+ #         0 shadow faces
+ #       211 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/023/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/023/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/023/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    24 with:
+ #     14836 cells
+ #    101086 nodes
+ #    112365 faces
+ #         0 shadow faces
+ #      1646 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/024/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/024/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/024/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    25 with:
+ #     15208 cells
+ #    105702 nodes
+ #    116844 faces
+ #         0 shadow faces
+ #       913 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/025/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/025/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/025/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    26 with:
+ #     14262 cells
+ #     95143 nodes
+ #    106592 faces
+ #         0 shadow faces
+ #      1921 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/026/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/026/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/026/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    27 with:
+ #     14580 cells
+ #     98698 nodes
+ #    110053 faces
+ #         0 shadow faces
+ #      1590 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/027/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/027/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/027/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    28 with:
+ #     13807 cells
+ #     89871 nodes
+ #    101382 faces
+ #         0 shadow faces
+ #      2449 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/028/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/028/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/028/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    29 with:
+ #     14974 cells
+ #    103606 nodes
+ #    114788 faces
+ #         0 shadow faces
+ #       900 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/029/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/029/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/029/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    30 with:
+ #     15718 cells
+ #    112026 nodes
+ #    122994 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/030/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/030/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/030/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    31 with:
+ #     15779 cells
+ #    112255 nodes
+ #    123233 faces
+ #         0 shadow faces
+ #       262 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/031/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/031/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/031/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    32 with:
+ #     14871 cells
+ #    102072 nodes
+ #    113319 faces
+ #         0 shadow faces
+ #      1289 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/032/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/032/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/032/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    33 with:
+ #     15133 cells
+ #    105250 nodes
+ #    116410 faces
+ #         0 shadow faces
+ #       800 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/033/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/033/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/033/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    34 with:
+ #     14858 cells
+ #    102368 nodes
+ #    113572 faces
+ #         0 shadow faces
+ #      1037 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/034/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/034/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/034/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    35 with:
+ #     15265 cells
+ #    106427 nodes
+ #    117580 faces
+ #         0 shadow faces
+ #       695 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/035/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/035/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/035/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    36 with:
+ #     15716 cells
+ #    112296 nodes
+ #    123105 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/036/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/036/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/036/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    37 with:
+ #     14887 cells
+ #    102426 nodes
+ #    113626 faces
+ #         0 shadow faces
+ #      1095 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/037/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/037/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/037/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    38 with:
+ #     14946 cells
+ #    102672 nodes
+ #    113907 faces
+ #         0 shadow faces
+ #      1353 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/038/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/038/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/038/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    39 with:
+ #     15798 cells
+ #    113017 nodes
+ #    123840 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/039/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/039/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/039/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    40 with:
+ #     15801 cells
+ #    113034 nodes
+ #    123881 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/040/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/040/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/040/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    41 with:
+ #     15021 cells
+ #    103923 nodes
+ #    115167 faces
+ #         0 shadow faces
+ #       867 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/041/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/041/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/041/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    42 with:
+ #     15184 cells
+ #    105573 nodes
+ #    116743 faces
+ #         0 shadow faces
+ #       828 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/042/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/042/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/042/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    43 with:
+ #     14551 cells
+ #     98154 nodes
+ #    109539 faces
+ #         0 shadow faces
+ #      1663 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/043/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/043/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/043/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    44 with:
+ #     14951 cells
+ #    102608 nodes
+ #    113940 faces
+ #         0 shadow faces
+ #      1224 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/044/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/044/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/044/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    45 with:
+ #     14279 cells
+ #     94913 nodes
+ #    106336 faces
+ #         0 shadow faces
+ #      2121 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/045/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/045/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/045/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    46 with:
+ #     14996 cells
+ #    103633 nodes
+ #    114831 faces
+ #         0 shadow faces
+ #       973 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/046/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/046/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/046/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    47 with:
+ #     14658 cells
+ #     99538 nodes
+ #    110850 faces
+ #         0 shadow faces
+ #      1520 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/047/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/047/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/047/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    48 with:
+ #     13732 cells
+ #     89206 nodes
+ #    100734 faces
+ #         0 shadow faces
+ #      2521 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/048/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/048/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/048/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    49 with:
+ #     14797 cells
+ #    100877 nodes
+ #    112200 faces
+ #         0 shadow faces
+ #      1430 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/049/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/049/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/049/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    50 with:
+ #     13796 cells
+ #     89786 nodes
+ #    101332 faces
+ #         0 shadow faces
+ #      2443 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/050/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/050/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/050/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    51 with:
+ #     14260 cells
+ #     95226 nodes
+ #    106626 faces
+ #         0 shadow faces
+ #      1809 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/051/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/051/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/051/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    52 with:
+ #     15291 cells
+ #    106889 nodes
+ #    117998 faces
+ #         0 shadow faces
+ #       685 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/052/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/052/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/052/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    53 with:
+ #     14393 cells
+ #     96792 nodes
+ #    108158 faces
+ #         0 shadow faces
+ #      1666 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/053/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/053/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/053/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    54 with:
+ #     15245 cells
+ #    106358 nodes
+ #    117493 faces
+ #         0 shadow faces
+ #       717 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/054/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/054/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/054/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    55 with:
+ #     15315 cells
+ #    107211 nodes
+ #    118353 faces
+ #         0 shadow faces
+ #       604 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/055/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/055/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/055/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    56 with:
+ #     15125 cells
+ #    104996 nodes
+ #    116212 faces
+ #         0 shadow faces
+ #       765 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/056/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/056/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/056/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    57 with:
+ #     15336 cells
+ #    107522 nodes
+ #    118593 faces
+ #         0 shadow faces
+ #       651 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/057/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/057/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/057/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    58 with:
+ #     14999 cells
+ #    103579 nodes
+ #    114799 faces
+ #         0 shadow faces
+ #      1012 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/058/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/058/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/058/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    59 with:
+ #     14195 cells
+ #     94553 nodes
+ #    105970 faces
+ #         0 shadow faces
+ #      1869 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/059/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/059/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/059/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    60 with:
+ #     15416 cells
+ #    108095 nodes
+ #    119209 faces
+ #         0 shadow faces
+ #       649 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/060/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/060/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/060/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    61 with:
+ #     15411 cells
+ #    107872 nodes
+ #    119004 faces
+ #         0 shadow faces
+ #       774 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/061/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/061/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/061/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    62 with:
+ #     15351 cells
+ #    107800 nodes
+ #    118865 faces
+ #         0 shadow faces
+ #       516 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/062/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/062/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/062/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    63 with:
+ #     15883 cells
+ #    114061 nodes
+ #    124864 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/063/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/063/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/063/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    64 with:
+ #     15882 cells
+ #    113786 nodes
+ #    124704 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/064/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/064/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/064/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    65 with:
+ #     15208 cells
+ #    105792 nodes
+ #    116972 faces
+ #         0 shadow faces
+ #       875 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/065/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/065/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/065/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    66 with:
+ #     15559 cells
+ #    109646 nodes
+ #    120689 faces
+ #         0 shadow faces
+ #       636 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/066/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/066/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/066/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    67 with:
+ #     15144 cells
+ #    105012 nodes
+ #    116214 faces
+ #         0 shadow faces
+ #       921 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/067/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/067/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/067/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    68 with:
+ #     14247 cells
+ #     95179 nodes
+ #    106582 faces
+ #         0 shadow faces
+ #      1852 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/068/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/068/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/068/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    69 with:
+ #     14917 cells
+ #    103036 nodes
+ #    114209 faces
+ #         0 shadow faces
+ #       885 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/069/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/069/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/069/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    70 with:
+ #     15239 cells
+ #    106136 nodes
+ #    117295 faces
+ #         0 shadow faces
+ #       833 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/070/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/070/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/070/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    71 with:
+ #     15841 cells
+ #    113285 nodes
+ #    124138 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/071/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/071/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/071/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    72 with:
+ #     15837 cells
+ #    113387 nodes
+ #    124233 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/072/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/072/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/072/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    73 with:
+ #     14308 cells
+ #     95975 nodes
+ #    107359 faces
+ #         0 shadow faces
+ #      1698 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/073/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/073/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/073/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    74 with:
+ #     15208 cells
+ #    106047 nodes
+ #    117189 faces
+ #         0 shadow faces
+ #       685 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/074/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/074/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/074/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    75 with:
+ #     14323 cells
+ #     96020 nodes
+ #    107377 faces
+ #         0 shadow faces
+ #      1754 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/075/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/075/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/075/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    76 with:
+ #     13717 cells
+ #     89256 nodes
+ #    100779 faces
+ #         0 shadow faces
+ #      2361 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/076/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/076/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/076/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    77 with:
+ #     14465 cells
+ #     97479 nodes
+ #    108813 faces
+ #         0 shadow faces
+ #      1632 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/077/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/077/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/077/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    78 with:
+ #     14852 cells
+ #    101466 nodes
+ #    112802 faces
+ #         0 shadow faces
+ #      1423 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/078/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/078/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/078/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    79 with:
+ #     14906 cells
+ #    102540 nodes
+ #    113749 faces
+ #         0 shadow faces
+ #      1197 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/079/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/079/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/079/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    80 with:
+ #     15908 cells
+ #    113922 nodes
+ #    124778 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/080/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/080/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/080/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    81 with:
+ #     15688 cells
+ #    111773 nodes
+ #    122705 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/081/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/081/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/081/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    82 with:
+ #     16034 cells
+ #    115189 nodes
+ #    125999 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/082/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/082/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/082/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    83 with:
+ #     15053 cells
+ #    104242 nodes
+ #    115381 faces
+ #         0 shadow faces
+ #      1092 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/083/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/083/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/083/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    84 with:
+ #     16030 cells
+ #    115451 nodes
+ #    126201 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/084/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/084/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/084/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    85 with:
+ #     15386 cells
+ #    107664 nodes
+ #    118802 faces
+ #         0 shadow faces
+ #       681 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/085/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/085/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/085/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    86 with:
+ #     15343 cells
+ #    106779 nodes
+ #    117976 faces
+ #         0 shadow faces
+ #       925 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/086/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/086/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/086/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    87 with:
+ #     14899 cells
+ #    101952 nodes
+ #    113254 faces
+ #         0 shadow faces
+ #      1331 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/087/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/087/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/087/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    88 with:
+ #     14695 cells
+ #    100264 nodes
+ #    111563 faces
+ #         0 shadow faces
+ #      1277 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/088/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/088/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/088/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    89 with:
+ #     15724 cells
+ #    111659 nodes
+ #    122623 faces
+ #         0 shadow faces
+ #       328 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/089/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/089/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/089/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    90 with:
+ #     14597 cells
+ #     98904 nodes
+ #    110196 faces
+ #         0 shadow faces
+ #      1695 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/090/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/090/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/090/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    91 with:
+ #     14442 cells
+ #     97112 nodes
+ #    108502 faces
+ #         0 shadow faces
+ #      1631 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/091/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/091/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/091/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    92 with:
+ #     13812 cells
+ #     90301 nodes
+ #    101787 faces
+ #         0 shadow faces
+ #      2328 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/092/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/092/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/092/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    93 with:
+ #     14788 cells
+ #    101031 nodes
+ #    112328 faces
+ #         0 shadow faces
+ #      1387 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/093/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/093/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/093/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    94 with:
+ #     14522 cells
+ #     97843 nodes
+ #    109251 faces
+ #         0 shadow faces
+ #      1669 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/094/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/094/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/094/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    95 with:
+ #     14957 cells
+ #    102942 nodes
+ #    114173 faces
+ #         0 shadow faces
+ #      1238 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/095/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/095/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/095/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    96 with:
+ #     15627 cells
+ #    111418 nodes
+ #    122283 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/096/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/096/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/096/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    97 with:
+ #     15486 cells
+ #    109071 nodes
+ #    120130 faces
+ #         0 shadow faces
+ #       633 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/097/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/097/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/097/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    98 with:
+ #     15741 cells
+ #    111960 nodes
+ #    122910 faces
+ #         0 shadow faces
+ #       299 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/098/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/098/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/098/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain    99 with:
+ #     14225 cells
+ #     94646 nodes
+ #    106022 faces
+ #         0 shadow faces
+ #      2194 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/099/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/099/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/099/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain   100 with:
+ #     15158 cells
+ #    104944 nodes
+ #    116181 faces
+ #         0 shadow faces
+ #      1041 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/100/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/100/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/100/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain   101 with:
+ #     15638 cells
+ #    111272 nodes
+ #    122177 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/101/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/101/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/101/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain   102 with:
+ #     14891 cells
+ #    102375 nodes
+ #    113564 faces
+ #         0 shadow faces
+ #      1195 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/102/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/102/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/102/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain   103 with:
+ #     14833 cells
+ #    101807 nodes
+ #    113006 faces
+ #         0 shadow faces
+ #      1144 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/103/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/103/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/103/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain   104 with:
+ #     15945 cells
+ #    114444 nodes
+ #    125274 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/104/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/104/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/104/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain   105 with:
+ #     14866 cells
+ #    102103 nodes
+ #    113377 faces
+ #         0 shadow faces
+ #      1274 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/105/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/105/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/105/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain   106 with:
+ #     15742 cells
+ #    112540 nodes
+ #    123388 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/106/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/106/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/106/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain   107 with:
+ #     14808 cells
+ #    101039 nodes
+ #    112322 faces
+ #         0 shadow faces
+ #      1566 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/107/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/107/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/107/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain   108 with:
+ #     14995 cells
+ #    103224 nodes
+ #    114441 faces
+ #         0 shadow faces
+ #      1337 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/108/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/108/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/108/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain   109 with:
+ #     14988 cells
+ #    103530 nodes
+ #    114695 faces
+ #         0 shadow faces
+ #      1036 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/109/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/109/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/109/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain   110 with:
+ #     14433 cells
+ #     97228 nodes
+ #    108587 faces
+ #         0 shadow faces
+ #      1671 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/110/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/110/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/110/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain   111 with:
+ #     14454 cells
+ #     97344 nodes
+ #    108711 faces
+ #         0 shadow faces
+ #      1619 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/111/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/111/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/111/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain   112 with:
+ #     14034 cells
+ #     92393 nodes
+ #    103824 faces
+ #         0 shadow faces
+ #      2314 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/112/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/112/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/112/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain   113 with:
+ #     15322 cells
+ #    107446 nodes
+ #    118505 faces
+ #         0 shadow faces
+ #       614 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/113/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/113/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/113/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain   114 with:
+ #     14299 cells
+ #     95526 nodes
+ #    106953 faces
+ #         0 shadow faces
+ #      1824 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/114/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/114/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/114/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain   115 with:
+ #     15780 cells
+ #    112780 nodes
+ #    123659 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/115/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/115/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/115/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain   116 with:
+ #     14746 cells
+ #    100899 nodes
+ #    112149 faces
+ #         0 shadow faces
+ #      1341 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/116/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/116/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/116/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain   117 with:
+ #     14376 cells
+ #     96770 nodes
+ #    108160 faces
+ #         0 shadow faces
+ #      1563 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/117/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/117/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/117/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain   118 with:
+ #     15129 cells
+ #    105260 nodes
+ #    116426 faces
+ #         0 shadow faces
+ #       757 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/118/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/118/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/118/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain   119 with:
+ #     14577 cells
+ #     98549 nodes
+ #    109938 faces
+ #         0 shadow faces
+ #      1600 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/119/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/119/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/119/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain   120 with:
+ #     13702 cells
+ #     88997 nodes
+ #    100551 faces
+ #         0 shadow faces
+ #      2398 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/120/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/120/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/120/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain   121 with:
+ #     14963 cells
+ #    103361 nodes
+ #    114592 faces
+ #         0 shadow faces
+ #       932 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/121/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/121/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/121/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain   122 with:
+ #     14202 cells
+ #     94710 nodes
+ #    106092 faces
+ #         0 shadow faces
+ #      1832 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/122/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/122/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/122/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain   123 with:
+ #     15236 cells
+ #    106202 nodes
+ #    117375 faces
+ #         0 shadow faces
+ #       699 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/123/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/123/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/123/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain   124 with:
+ #     15570 cells
+ #    110031 nodes
+ #    120989 faces
+ #         0 shadow faces
+ #       530 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/124/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/124/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/124/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain   125 with:
+ #     15763 cells
+ #    112499 nodes
+ #    123396 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/125/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/125/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/125/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain   126 with:
+ #     15684 cells
+ #    111763 nodes
+ #    122715 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/126/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/126/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/126/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain   127 with:
+ #     16051 cells
+ #    115338 nodes
+ #    126166 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/127/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/127/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/127/drop3d_poly128_dual.vtu
+ #=============================================
+ # Saving subdomain   128 with:
+ #     15144 cells
+ #    105156 nodes
+ #    116279 faces
+ #         0 shadow faces
+ #      1002 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/128/drop3d_poly128_dual.cfn
+ # Creating the binary file: Sub/128/drop3d_poly128_dual.dim
+ # Creating the binary file: Sub/128/drop3d_poly128_dual.vtu
+ # Time =        719.742 seconds.

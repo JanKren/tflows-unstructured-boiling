@@ -1,0 +1,13 @@
+    746 sweeps=1 lo=0 hi=0
+      6 sweeps=2 lo=0 hi=0
+    132 sweeps=3 lo=0 hi=1
+     46 sweeps=3 lo=0 hi=2
+      7 sweeps=3 lo=0 hi=3
+      2 sweeps=3 lo=0 hi=4
+      2 sweeps=3 lo=0 hi=5
+     13 sweeps=3 lo=1 hi=0
+      2 sweeps=3 lo=1 hi=1
+      2 sweeps=3 lo=1 hi=2
+      1 sweeps=3 lo=1 hi=3
+      1 sweeps=3 lo=2 hi=1
+sum unbounded lo 20 hi 273

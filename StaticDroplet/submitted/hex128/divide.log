@@ -1,0 +1,1433 @@
+ #=======================================================================
+ #
+ #    ______________________ ____    ________  __      __  _________
+ #    \__    ___/\_   _____/|    |   \_____  \/  \    /  \/   _____/
+ #      |    |    |    __)  |    |    /   |   \   \/\/   /\_____  \
+ #      |    |    |     \   |    |___/    |    \        / /        \
+ #      |____|    \___  /   |_______ \_______  /\__/\  / /_______  /
+ #                    \/            \/       \/      \/          \/
+ #                         ___  _      _    __
+ #                        / _ \(_)  __(_)__/ /__
+ #                       / // / / |/ / / _  / -_)
+ #                      /____/_/|___/_/\_,_/\__/
+ #
+ #                        Double precision mode
+ #                 Compiled with nonrecursive heapsort
+ #-----------------------------------------------------------------------
+ # Input problem name: (without extension)
+ # Number of subdomains:
+ # Reading the binary file: drop3d_hex128.cfn
+ # Expanding memory for nodes to size:   2146689
+ # Expanding memory for cells to size:   2097152    98304
+ # Expanding memory for faces to size:   6340608        0
+ # Reading the binary file: drop3d_hex128.dim
+ #=============================================
+ # Saving subdomain     1 with:
+ #     20305 cells
+ #     22841 nodes
+ #     63360 faces
+ #         0 shadow faces
+ #       732 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/001/drop3d_hex128.cfn
+ # Creating the binary file: Sub/001/drop3d_hex128.dim
+ # Creating the binary file: Sub/001/drop3d_hex128.vtu
+ # Creating the ASCII file: drop3d_hex128.pvtu
+ #=============================================
+ # Saving subdomain     2 with:
+ #     19444 cells
+ #     21812 nodes
+ #     60614 faces
+ #         0 shadow faces
+ #      1365 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/002/drop3d_hex128.cfn
+ # Creating the binary file: Sub/002/drop3d_hex128.dim
+ # Creating the binary file: Sub/002/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain     3 with:
+ #     19399 cells
+ #     21795 nodes
+ #     60505 faces
+ #         0 shadow faces
+ #      1453 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/003/drop3d_hex128.cfn
+ # Creating the binary file: Sub/003/drop3d_hex128.dim
+ # Creating the binary file: Sub/003/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain     4 with:
+ #     18512 cells
+ #     20748 nodes
+ #     57690 faces
+ #         0 shadow faces
+ #      2099 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/004/drop3d_hex128.cfn
+ # Creating the binary file: Sub/004/drop3d_hex128.dim
+ # Creating the binary file: Sub/004/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain     5 with:
+ #     19956 cells
+ #     22438 nodes
+ #     62260 faces
+ #         0 shadow faces
+ #       994 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/005/drop3d_hex128.cfn
+ # Creating the binary file: Sub/005/drop3d_hex128.dim
+ # Creating the binary file: Sub/005/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain     6 with:
+ #     21274 cells
+ #     24001 nodes
+ #     66453 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/006/drop3d_hex128.cfn
+ # Creating the binary file: Sub/006/drop3d_hex128.dim
+ # Creating the binary file: Sub/006/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain     7 with:
+ #     20035 cells
+ #     22448 nodes
+ #     62430 faces
+ #         0 shadow faces
+ #       771 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/007/drop3d_hex128.cfn
+ # Creating the binary file: Sub/007/drop3d_hex128.dim
+ # Creating the binary file: Sub/007/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain     8 with:
+ #     19012 cells
+ #     21306 nodes
+ #     59246 faces
+ #         0 shadow faces
+ #      1664 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/008/drop3d_hex128.cfn
+ # Creating the binary file: Sub/008/drop3d_hex128.dim
+ # Creating the binary file: Sub/008/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain     9 with:
+ #     20619 cells
+ #     23318 nodes
+ #     64461 faces
+ #         0 shadow faces
+ #       722 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/009/drop3d_hex128.cfn
+ # Creating the binary file: Sub/009/drop3d_hex128.dim
+ # Creating the binary file: Sub/009/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    10 with:
+ #     20735 cells
+ #     23457 nodes
+ #     64830 faces
+ #         0 shadow faces
+ #       632 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/010/drop3d_hex128.cfn
+ # Creating the binary file: Sub/010/drop3d_hex128.dim
+ # Creating the binary file: Sub/010/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    11 with:
+ #     21536 cells
+ #     24415 nodes
+ #     67384 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/011/drop3d_hex128.cfn
+ # Creating the binary file: Sub/011/drop3d_hex128.dim
+ # Creating the binary file: Sub/011/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    12 with:
+ #     21248 cells
+ #     23968 nodes
+ #     66366 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/012/drop3d_hex128.cfn
+ # Creating the binary file: Sub/012/drop3d_hex128.dim
+ # Creating the binary file: Sub/012/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    13 with:
+ #     20337 cells
+ #     22939 nodes
+ #     63520 faces
+ #         0 shadow faces
+ #       822 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/013/drop3d_hex128.cfn
+ # Creating the binary file: Sub/013/drop3d_hex128.dim
+ # Creating the binary file: Sub/013/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    14 with:
+ #     20580 cells
+ #     23168 nodes
+ #     64235 faces
+ #         0 shadow faces
+ #       525 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/014/drop3d_hex128.cfn
+ # Creating the binary file: Sub/014/drop3d_hex128.dim
+ # Creating the binary file: Sub/014/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    15 with:
+ #     19786 cells
+ #     22287 nodes
+ #     61769 faces
+ #         0 shadow faces
+ #      1270 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/015/drop3d_hex128.cfn
+ # Creating the binary file: Sub/015/drop3d_hex128.dim
+ # Creating the binary file: Sub/015/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    16 with:
+ #     20031 cells
+ #     22656 nodes
+ #     62623 faces
+ #         0 shadow faces
+ #      1245 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/016/drop3d_hex128.cfn
+ # Creating the binary file: Sub/016/drop3d_hex128.dim
+ # Creating the binary file: Sub/016/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    17 with:
+ #     21388 cells
+ #     24175 nodes
+ #     66854 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/017/drop3d_hex128.cfn
+ # Creating the binary file: Sub/017/drop3d_hex128.dim
+ # Creating the binary file: Sub/017/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    18 with:
+ #     21954 cells
+ #     25057 nodes
+ #     68857 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/018/drop3d_hex128.cfn
+ # Creating the binary file: Sub/018/drop3d_hex128.dim
+ # Creating the binary file: Sub/018/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    19 with:
+ #     21672 cells
+ #     24622 nodes
+ #     67862 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/019/drop3d_hex128.cfn
+ # Creating the binary file: Sub/019/drop3d_hex128.dim
+ # Creating the binary file: Sub/019/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    20 with:
+ #     20478 cells
+ #     23182 nodes
+ #     64040 faces
+ #         0 shadow faces
+ #       870 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/020/drop3d_hex128.cfn
+ # Creating the binary file: Sub/020/drop3d_hex128.dim
+ # Creating the binary file: Sub/020/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    21 with:
+ #     20326 cells
+ #     22890 nodes
+ #     63449 faces
+ #         0 shadow faces
+ #       758 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/021/drop3d_hex128.cfn
+ # Creating the binary file: Sub/021/drop3d_hex128.dim
+ # Creating the binary file: Sub/021/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    22 with:
+ #     20705 cells
+ #     23438 nodes
+ #     64751 faces
+ #         0 shadow faces
+ #       693 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/022/drop3d_hex128.cfn
+ # Creating the binary file: Sub/022/drop3d_hex128.dim
+ # Creating the binary file: Sub/022/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    23 with:
+ #     19688 cells
+ #     22108 nodes
+ #     61397 faces
+ #         0 shadow faces
+ #      1210 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/023/drop3d_hex128.cfn
+ # Creating the binary file: Sub/023/drop3d_hex128.dim
+ # Creating the binary file: Sub/023/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    24 with:
+ #     19861 cells
+ #     22396 nodes
+ #     62029 faces
+ #         0 shadow faces
+ #      1259 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/024/drop3d_hex128.cfn
+ # Creating the binary file: Sub/024/drop3d_hex128.dim
+ # Creating the binary file: Sub/024/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    25 with:
+ #     19165 cells
+ #     21500 nodes
+ #     59745 faces
+ #         0 shadow faces
+ #      1587 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/025/drop3d_hex128.cfn
+ # Creating the binary file: Sub/025/drop3d_hex128.dim
+ # Creating the binary file: Sub/025/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    26 with:
+ #     20294 cells
+ #     22802 nodes
+ #     63300 faces
+ #         0 shadow faces
+ #       690 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/026/drop3d_hex128.cfn
+ # Creating the binary file: Sub/026/drop3d_hex128.dim
+ # Creating the binary file: Sub/026/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    27 with:
+ #     20051 cells
+ #     22538 nodes
+ #     62550 faces
+ #         0 shadow faces
+ #       899 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/027/drop3d_hex128.cfn
+ # Creating the binary file: Sub/027/drop3d_hex128.dim
+ # Creating the binary file: Sub/027/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    28 with:
+ #     21228 cells
+ #     23929 nodes
+ #     66290 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/028/drop3d_hex128.cfn
+ # Creating the binary file: Sub/028/drop3d_hex128.dim
+ # Creating the binary file: Sub/028/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    29 with:
+ #     19773 cells
+ #     22230 nodes
+ #     61687 faces
+ #         0 shadow faces
+ #      1190 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/029/drop3d_hex128.cfn
+ # Creating the binary file: Sub/029/drop3d_hex128.dim
+ # Creating the binary file: Sub/029/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    30 with:
+ #     18668 cells
+ #     21037 nodes
+ #     58287 faces
+ #         0 shadow faces
+ #      2197 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/030/drop3d_hex128.cfn
+ # Creating the binary file: Sub/030/drop3d_hex128.dim
+ # Creating the binary file: Sub/030/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    31 with:
+ #     20687 cells
+ #     23299 nodes
+ #     64581 faces
+ #         0 shadow faces
+ #       471 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/031/drop3d_hex128.cfn
+ # Creating the binary file: Sub/031/drop3d_hex128.dim
+ # Creating the binary file: Sub/031/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    32 with:
+ #     19357 cells
+ #     21775 nodes
+ #     60401 faces
+ #         0 shadow faces
+ #      1543 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/032/drop3d_hex128.cfn
+ # Creating the binary file: Sub/032/drop3d_hex128.dim
+ # Creating the binary file: Sub/032/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    33 with:
+ #     21948 cells
+ #     25063 nodes
+ #     68846 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/033/drop3d_hex128.cfn
+ # Creating the binary file: Sub/033/drop3d_hex128.dim
+ # Creating the binary file: Sub/033/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    34 with:
+ #     21660 cells
+ #     24622 nodes
+ #     67832 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/034/drop3d_hex128.cfn
+ # Creating the binary file: Sub/034/drop3d_hex128.dim
+ # Creating the binary file: Sub/034/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    35 with:
+ #     20583 cells
+ #     23259 nodes
+ #     64328 faces
+ #         0 shadow faces
+ #       705 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/035/drop3d_hex128.cfn
+ # Creating the binary file: Sub/035/drop3d_hex128.dim
+ # Creating the binary file: Sub/035/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    36 with:
+ #     20691 cells
+ #     23410 nodes
+ #     64697 faces
+ #         0 shadow faces
+ #       691 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/036/drop3d_hex128.cfn
+ # Creating the binary file: Sub/036/drop3d_hex128.dim
+ # Creating the binary file: Sub/036/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    37 with:
+ #     20477 cells
+ #     23091 nodes
+ #     63952 faces
+ #         0 shadow faces
+ #       703 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/037/drop3d_hex128.cfn
+ # Creating the binary file: Sub/037/drop3d_hex128.dim
+ # Creating the binary file: Sub/037/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    38 with:
+ #     19320 cells
+ #     21783 nodes
+ #     60333 faces
+ #         0 shadow faces
+ #      1665 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/038/drop3d_hex128.cfn
+ # Creating the binary file: Sub/038/drop3d_hex128.dim
+ # Creating the binary file: Sub/038/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    39 with:
+ #     21087 cells
+ #     23981 nodes
+ #     66053 faces
+ #         0 shadow faces
+ #       585 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/039/drop3d_hex128.cfn
+ # Creating the binary file: Sub/039/drop3d_hex128.dim
+ # Creating the binary file: Sub/039/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    40 with:
+ #     21480 cells
+ #     24495 nodes
+ #     67347 faces
+ #         0 shadow faces
+ #       376 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/040/drop3d_hex128.cfn
+ # Creating the binary file: Sub/040/drop3d_hex128.dim
+ # Creating the binary file: Sub/040/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    41 with:
+ #     19634 cells
+ #     22305 nodes
+ #     61476 faces
+ #         0 shadow faces
+ #      1744 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/041/drop3d_hex128.cfn
+ # Creating the binary file: Sub/041/drop3d_hex128.dim
+ # Creating the binary file: Sub/041/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    42 with:
+ #     20532 cells
+ #     23191 nodes
+ #     64159 faces
+ #         0 shadow faces
+ #       724 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/042/drop3d_hex128.cfn
+ # Creating the binary file: Sub/042/drop3d_hex128.dim
+ # Creating the binary file: Sub/042/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    43 with:
+ #     21742 cells
+ #     24724 nodes
+ #     68105 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/043/drop3d_hex128.cfn
+ # Creating the binary file: Sub/043/drop3d_hex128.dim
+ # Creating the binary file: Sub/043/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    44 with:
+ #     20239 cells
+ #     22891 nodes
+ #     63273 faces
+ #         0 shadow faces
+ #      1025 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/044/drop3d_hex128.cfn
+ # Creating the binary file: Sub/044/drop3d_hex128.dim
+ # Creating the binary file: Sub/044/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    45 with:
+ #     18553 cells
+ #     20827 nodes
+ #     57849 faces
+ #         0 shadow faces
+ #      2127 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/045/drop3d_hex128.cfn
+ # Creating the binary file: Sub/045/drop3d_hex128.dim
+ # Creating the binary file: Sub/045/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    46 with:
+ #     19755 cells
+ #     22262 nodes
+ #     61681 faces
+ #         0 shadow faces
+ #      1304 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/046/drop3d_hex128.cfn
+ # Creating the binary file: Sub/046/drop3d_hex128.dim
+ # Creating the binary file: Sub/046/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    47 with:
+ #     19343 cells
+ #     21722 nodes
+ #     60321 faces
+ #         0 shadow faces
+ #      1489 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/047/drop3d_hex128.cfn
+ # Creating the binary file: Sub/047/drop3d_hex128.dim
+ # Creating the binary file: Sub/047/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    48 with:
+ #     20418 cells
+ #     23027 nodes
+ #     63769 faces
+ #         0 shadow faces
+ #       744 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/048/drop3d_hex128.cfn
+ # Creating the binary file: Sub/048/drop3d_hex128.dim
+ # Creating the binary file: Sub/048/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    49 with:
+ #     19278 cells
+ #     21789 nodes
+ #     60253 faces
+ #         0 shadow faces
+ #      1796 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/049/drop3d_hex128.cfn
+ # Creating the binary file: Sub/049/drop3d_hex128.dim
+ # Creating the binary file: Sub/049/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    50 with:
+ #     20393 cells
+ #     23060 nodes
+ #     63750 faces
+ #         0 shadow faces
+ #       885 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/050/drop3d_hex128.cfn
+ # Creating the binary file: Sub/050/drop3d_hex128.dim
+ # Creating the binary file: Sub/050/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    51 with:
+ #     20740 cells
+ #     23487 nodes
+ #     64870 faces
+ #         0 shadow faces
+ #       690 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/051/drop3d_hex128.cfn
+ # Creating the binary file: Sub/051/drop3d_hex128.dim
+ # Creating the binary file: Sub/051/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    52 with:
+ #     21950 cells
+ #     25045 nodes
+ #     68839 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/052/drop3d_hex128.cfn
+ # Creating the binary file: Sub/052/drop3d_hex128.dim
+ # Creating the binary file: Sub/052/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    53 with:
+ #     19844 cells
+ #     22352 nodes
+ #     61949 faces
+ #         0 shadow faces
+ #      1205 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/053/drop3d_hex128.cfn
+ # Creating the binary file: Sub/053/drop3d_hex128.dim
+ # Creating the binary file: Sub/053/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    54 with:
+ #     18565 cells
+ #     20859 nodes
+ #     57904 faces
+ #         0 shadow faces
+ #      2151 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/054/drop3d_hex128.cfn
+ # Creating the binary file: Sub/054/drop3d_hex128.dim
+ # Creating the binary file: Sub/054/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    55 with:
+ #     19882 cells
+ #     22509 nodes
+ #     62177 faces
+ #         0 shadow faces
+ #      1387 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/055/drop3d_hex128.cfn
+ # Creating the binary file: Sub/055/drop3d_hex128.dim
+ # Creating the binary file: Sub/055/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    56 with:
+ #     20729 cells
+ #     23384 nodes
+ #     64748 faces
+ #         0 shadow faces
+ #       505 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/056/drop3d_hex128.cfn
+ # Creating the binary file: Sub/056/drop3d_hex128.dim
+ # Creating the binary file: Sub/056/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    57 with:
+ #     20474 cells
+ #     23158 nodes
+ #     64008 faces
+ #         0 shadow faces
+ #       832 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/057/drop3d_hex128.cfn
+ # Creating the binary file: Sub/057/drop3d_hex128.dim
+ # Creating the binary file: Sub/057/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    58 with:
+ #     22076 cells
+ #     25261 nodes
+ #     69298 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/058/drop3d_hex128.cfn
+ # Creating the binary file: Sub/058/drop3d_hex128.dim
+ # Creating the binary file: Sub/058/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    59 with:
+ #     19917 cells
+ #     22523 nodes
+ #     62263 faces
+ #         0 shadow faces
+ #      1326 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/059/drop3d_hex128.cfn
+ # Creating the binary file: Sub/059/drop3d_hex128.dim
+ # Creating the binary file: Sub/059/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    60 with:
+ #     19681 cells
+ #     22178 nodes
+ #     61449 faces
+ #         0 shadow faces
+ #      1354 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/060/drop3d_hex128.cfn
+ # Creating the binary file: Sub/060/drop3d_hex128.dim
+ # Creating the binary file: Sub/060/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    61 with:
+ #     20678 cells
+ #     23490 nodes
+ #     64743 faces
+ #         0 shadow faces
+ #       846 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/061/drop3d_hex128.cfn
+ # Creating the binary file: Sub/061/drop3d_hex128.dim
+ # Creating the binary file: Sub/061/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    62 with:
+ #     21082 cells
+ #     24096 nodes
+ #     66145 faces
+ #         0 shadow faces
+ #       774 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/062/drop3d_hex128.cfn
+ # Creating the binary file: Sub/062/drop3d_hex128.dim
+ # Creating the binary file: Sub/062/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    63 with:
+ #     20867 cells
+ #     23686 nodes
+ #     65320 faces
+ #         0 shadow faces
+ #       685 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/063/drop3d_hex128.cfn
+ # Creating the binary file: Sub/063/drop3d_hex128.dim
+ # Creating the binary file: Sub/063/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    64 with:
+ #     22131 cells
+ #     25341 nodes
+ #     69489 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/064/drop3d_hex128.cfn
+ # Creating the binary file: Sub/064/drop3d_hex128.dim
+ # Creating the binary file: Sub/064/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    65 with:
+ #     20906 cells
+ #     23738 nodes
+ #     65449 faces
+ #         0 shadow faces
+ #       658 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/065/drop3d_hex128.cfn
+ # Creating the binary file: Sub/065/drop3d_hex128.dim
+ # Creating the binary file: Sub/065/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    66 with:
+ #     19619 cells
+ #     22122 nodes
+ #     61270 faces
+ #         0 shadow faces
+ #      1431 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/066/drop3d_hex128.cfn
+ # Creating the binary file: Sub/066/drop3d_hex128.dim
+ # Creating the binary file: Sub/066/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    67 with:
+ #     18750 cells
+ #     21129 nodes
+ #     58543 faces
+ #         0 shadow faces
+ #      2134 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/067/drop3d_hex128.cfn
+ # Creating the binary file: Sub/067/drop3d_hex128.dim
+ # Creating the binary file: Sub/067/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    68 with:
+ #     19778 cells
+ #     22310 nodes
+ #     61775 faces
+ #         0 shadow faces
+ #      1332 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/068/drop3d_hex128.cfn
+ # Creating the binary file: Sub/068/drop3d_hex128.dim
+ # Creating the binary file: Sub/068/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    69 with:
+ #     20376 cells
+ #     22982 nodes
+ #     63640 faces
+ #         0 shadow faces
+ #       792 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/069/drop3d_hex128.cfn
+ # Creating the binary file: Sub/069/drop3d_hex128.dim
+ # Creating the binary file: Sub/069/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    70 with:
+ #     19328 cells
+ #     21845 nodes
+ #     60409 faces
+ #         0 shadow faces
+ #      1765 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/070/drop3d_hex128.cfn
+ # Creating the binary file: Sub/070/drop3d_hex128.dim
+ # Creating the binary file: Sub/070/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    71 with:
+ #     21576 cells
+ #     24475 nodes
+ #     67524 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/071/drop3d_hex128.cfn
+ # Creating the binary file: Sub/071/drop3d_hex128.dim
+ # Creating the binary file: Sub/071/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    72 with:
+ #     20043 cells
+ #     22607 nodes
+ #     62599 faces
+ #         0 shadow faces
+ #      1055 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/072/drop3d_hex128.cfn
+ # Creating the binary file: Sub/072/drop3d_hex128.dim
+ # Creating the binary file: Sub/072/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    73 with:
+ #     20694 cells
+ #     23473 nodes
+ #     64758 faces
+ #         0 shadow faces
+ #       778 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/073/drop3d_hex128.cfn
+ # Creating the binary file: Sub/073/drop3d_hex128.dim
+ # Creating the binary file: Sub/073/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    74 with:
+ #     21220 cells
+ #     24203 nodes
+ #     66537 faces
+ #         0 shadow faces
+ #       624 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/074/drop3d_hex128.cfn
+ # Creating the binary file: Sub/074/drop3d_hex128.dim
+ # Creating the binary file: Sub/074/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    75 with:
+ #     21554 cells
+ #     24439 nodes
+ #     67445 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/075/drop3d_hex128.cfn
+ # Creating the binary file: Sub/075/drop3d_hex128.dim
+ # Creating the binary file: Sub/075/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    76 with:
+ #     21744 cells
+ #     24727 nodes
+ #     68112 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/076/drop3d_hex128.cfn
+ # Creating the binary file: Sub/076/drop3d_hex128.dim
+ # Creating the binary file: Sub/076/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    77 with:
+ #     19896 cells
+ #     22457 nodes
+ #     62159 faces
+ #         0 shadow faces
+ #      1284 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/077/drop3d_hex128.cfn
+ # Creating the binary file: Sub/077/drop3d_hex128.dim
+ # Creating the binary file: Sub/077/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    78 with:
+ #     20488 cells
+ #     23354 nodes
+ #     64228 faces
+ #         0 shadow faces
+ #      1245 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/078/drop3d_hex128.cfn
+ # Creating the binary file: Sub/078/drop3d_hex128.dim
+ # Creating the binary file: Sub/078/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    79 with:
+ #     21005 cells
+ #     23915 nodes
+ #     65818 faces
+ #         0 shadow faces
+ #       687 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/079/drop3d_hex128.cfn
+ # Creating the binary file: Sub/079/drop3d_hex128.dim
+ # Creating the binary file: Sub/079/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    80 with:
+ #     20995 cells
+ #     23922 nodes
+ #     65808 faces
+ #         0 shadow faces
+ #       765 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/080/drop3d_hex128.cfn
+ # Creating the binary file: Sub/080/drop3d_hex128.dim
+ # Creating the binary file: Sub/080/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    81 with:
+ #     20253 cells
+ #     23091 nodes
+ #     63493 faces
+ #         0 shadow faces
+ #      1413 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/081/drop3d_hex128.cfn
+ # Creating the binary file: Sub/081/drop3d_hex128.dim
+ # Creating the binary file: Sub/081/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    82 with:
+ #     19298 cells
+ #     21782 nodes
+ #     60285 faces
+ #         0 shadow faces
+ #      1722 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/082/drop3d_hex128.cfn
+ # Creating the binary file: Sub/082/drop3d_hex128.dim
+ # Creating the binary file: Sub/082/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    83 with:
+ #     20217 cells
+ #     22778 nodes
+ #     63121 faces
+ #         0 shadow faces
+ #       883 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/083/drop3d_hex128.cfn
+ # Creating the binary file: Sub/083/drop3d_hex128.dim
+ # Creating the binary file: Sub/083/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    84 with:
+ #     20640 cells
+ #     23399 nodes
+ #     64580 faces
+ #         0 shadow faces
+ #       816 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/084/drop3d_hex128.cfn
+ # Creating the binary file: Sub/084/drop3d_hex128.dim
+ # Creating the binary file: Sub/084/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    85 with:
+ #     21640 cells
+ #     24589 nodes
+ #     67760 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/085/drop3d_hex128.cfn
+ # Creating the binary file: Sub/085/drop3d_hex128.dim
+ # Creating the binary file: Sub/085/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    86 with:
+ #     21600 cells
+ #     24523 nodes
+ #     67616 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/086/drop3d_hex128.cfn
+ # Creating the binary file: Sub/086/drop3d_hex128.dim
+ # Creating the binary file: Sub/086/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    87 with:
+ #     20375 cells
+ #     22971 nodes
+ #     63627 faces
+ #         0 shadow faces
+ #       771 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/087/drop3d_hex128.cfn
+ # Creating the binary file: Sub/087/drop3d_hex128.dim
+ # Creating the binary file: Sub/087/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    88 with:
+ #     20408 cells
+ #     22986 nodes
+ #     63709 faces
+ #         0 shadow faces
+ #       692 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/088/drop3d_hex128.cfn
+ # Creating the binary file: Sub/088/drop3d_hex128.dim
+ # Creating the binary file: Sub/088/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    89 with:
+ #     21826 cells
+ #     24941 nodes
+ #     68478 faces
+ #         0 shadow faces
+ #       158 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/089/drop3d_hex128.cfn
+ # Creating the binary file: Sub/089/drop3d_hex128.dim
+ # Creating the binary file: Sub/089/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    90 with:
+ #     19859 cells
+ #     22574 nodes
+ #     62189 faces
+ #         0 shadow faces
+ #      1568 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/090/drop3d_hex128.cfn
+ # Creating the binary file: Sub/090/drop3d_hex128.dim
+ # Creating the binary file: Sub/090/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    91 with:
+ #     20292 cells
+ #     23018 nodes
+ #     63508 faces
+ #         0 shadow faces
+ #      1182 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/091/drop3d_hex128.cfn
+ # Creating the binary file: Sub/091/drop3d_hex128.dim
+ # Creating the binary file: Sub/091/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    92 with:
+ #     18888 cells
+ #     21336 nodes
+ #     59022 faces
+ #         0 shadow faces
+ #      2113 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/092/drop3d_hex128.cfn
+ # Creating the binary file: Sub/092/drop3d_hex128.dim
+ # Creating the binary file: Sub/092/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    93 with:
+ #     20565 cells
+ #     23285 nodes
+ #     64317 faces
+ #         0 shadow faces
+ #       815 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/093/drop3d_hex128.cfn
+ # Creating the binary file: Sub/093/drop3d_hex128.dim
+ # Creating the binary file: Sub/093/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    94 with:
+ #     19460 cells
+ #     22045 nodes
+ #     60871 faces
+ #         0 shadow faces
+ #      1754 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/094/drop3d_hex128.cfn
+ # Creating the binary file: Sub/094/drop3d_hex128.dim
+ # Creating the binary file: Sub/094/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    95 with:
+ #     21408 cells
+ #     24205 nodes
+ #     66924 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/095/drop3d_hex128.cfn
+ # Creating the binary file: Sub/095/drop3d_hex128.dim
+ # Creating the binary file: Sub/095/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    96 with:
+ #     20232 cells
+ #     22833 nodes
+ #     63203 faces
+ #         0 shadow faces
+ #       928 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/096/drop3d_hex128.cfn
+ # Creating the binary file: Sub/096/drop3d_hex128.dim
+ # Creating the binary file: Sub/096/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    97 with:
+ #     18684 cells
+ #     20979 nodes
+ #     58263 faces
+ #         0 shadow faces
+ #      2037 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/097/drop3d_hex128.cfn
+ # Creating the binary file: Sub/097/drop3d_hex128.dim
+ # Creating the binary file: Sub/097/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    98 with:
+ #     19583 cells
+ #     22052 nodes
+ #     61128 faces
+ #         0 shadow faces
+ #      1404 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/098/drop3d_hex128.cfn
+ # Creating the binary file: Sub/098/drop3d_hex128.dim
+ # Creating the binary file: Sub/098/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain    99 with:
+ #     19352 cells
+ #     21739 nodes
+ #     60356 faces
+ #         0 shadow faces
+ #      1486 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/099/drop3d_hex128.cfn
+ # Creating the binary file: Sub/099/drop3d_hex128.dim
+ # Creating the binary file: Sub/099/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain   100 with:
+ #     20611 cells
+ #     23312 nodes
+ #     64437 faces
+ #         0 shadow faces
+ #       725 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/100/drop3d_hex128.cfn
+ # Creating the binary file: Sub/100/drop3d_hex128.dim
+ # Creating the binary file: Sub/100/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain   101 with:
+ #     19139 cells
+ #     21543 nodes
+ #     59733 faces
+ #         0 shadow faces
+ #      1745 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/101/drop3d_hex128.cfn
+ # Creating the binary file: Sub/101/drop3d_hex128.dim
+ # Creating the binary file: Sub/101/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain   102 with:
+ #     20162 cells
+ #     22669 nodes
+ #     62903 faces
+ #         0 shadow faces
+ #       832 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/102/drop3d_hex128.cfn
+ # Creating the binary file: Sub/102/drop3d_hex128.dim
+ # Creating the binary file: Sub/102/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain   103 with:
+ #     21368 cells
+ #     24148 nodes
+ #     66786 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/103/drop3d_hex128.cfn
+ # Creating the binary file: Sub/103/drop3d_hex128.dim
+ # Creating the binary file: Sub/103/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain   104 with:
+ #     20272 cells
+ #     22850 nodes
+ #     63303 faces
+ #         0 shadow faces
+ #       858 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/104/drop3d_hex128.cfn
+ # Creating the binary file: Sub/104/drop3d_hex128.dim
+ # Creating the binary file: Sub/104/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain   105 with:
+ #     19705 cells
+ #     22273 nodes
+ #     61587 faces
+ #         0 shadow faces
+ #      1456 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/105/drop3d_hex128.cfn
+ # Creating the binary file: Sub/105/drop3d_hex128.dim
+ # Creating the binary file: Sub/105/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain   106 with:
+ #     20417 cells
+ #     22974 nodes
+ #     63717 faces
+ #         0 shadow faces
+ #       659 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/106/drop3d_hex128.cfn
+ # Creating the binary file: Sub/106/drop3d_hex128.dim
+ # Creating the binary file: Sub/106/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain   107 with:
+ #     20371 cells
+ #     22917 nodes
+ #     63568 faces
+ #         0 shadow faces
+ #       679 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/107/drop3d_hex128.cfn
+ # Creating the binary file: Sub/107/drop3d_hex128.dim
+ # Creating the binary file: Sub/107/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain   108 with:
+ #     20410 cells
+ #     22962 nodes
+ #     63689 faces
+ #         0 shadow faces
+ #       640 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/108/drop3d_hex128.cfn
+ # Creating the binary file: Sub/108/drop3d_hex128.dim
+ # Creating the binary file: Sub/108/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain   109 with:
+ #     20978 cells
+ #     23894 nodes
+ #     65745 faces
+ #         0 shadow faces
+ #       752 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/109/drop3d_hex128.cfn
+ # Creating the binary file: Sub/109/drop3d_hex128.dim
+ # Creating the binary file: Sub/109/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain   110 with:
+ #     21500 cells
+ #     24483 nodes
+ #     67377 faces
+ #         0 shadow faces
+ #       304 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/110/drop3d_hex128.cfn
+ # Creating the binary file: Sub/110/drop3d_hex128.dim
+ # Creating the binary file: Sub/110/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain   111 with:
+ #     21796 cells
+ #     24826 nodes
+ #     68308 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/111/drop3d_hex128.cfn
+ # Creating the binary file: Sub/111/drop3d_hex128.dim
+ # Creating the binary file: Sub/111/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain   112 with:
+ #     21612 cells
+ #     24526 nodes
+ #     67648 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/112/drop3d_hex128.cfn
+ # Creating the binary file: Sub/112/drop3d_hex128.dim
+ # Creating the binary file: Sub/112/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain   113 with:
+ #     19582 cells
+ #     21992 nodes
+ #     61070 faces
+ #         0 shadow faces
+ #      1302 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/113/drop3d_hex128.cfn
+ # Creating the binary file: Sub/113/drop3d_hex128.dim
+ # Creating the binary file: Sub/113/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain   114 with:
+ #     18523 cells
+ #     20785 nodes
+ #     57748 faces
+ #         0 shadow faces
+ #      2140 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/114/drop3d_hex128.cfn
+ # Creating the binary file: Sub/114/drop3d_hex128.dim
+ # Creating the binary file: Sub/114/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain   115 with:
+ #     19210 cells
+ #     21591 nodes
+ #     59923 faces
+ #         0 shadow faces
+ #      1622 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/115/drop3d_hex128.cfn
+ # Creating the binary file: Sub/115/drop3d_hex128.dim
+ # Creating the binary file: Sub/115/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain   116 with:
+ #     20339 cells
+ #     22930 nodes
+ #     63512 faces
+ #         0 shadow faces
+ #       785 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/116/drop3d_hex128.cfn
+ # Creating the binary file: Sub/116/drop3d_hex128.dim
+ # Creating the binary file: Sub/116/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain   117 with:
+ #     21620 cells
+ #     24532 nodes
+ #     67672 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/117/drop3d_hex128.cfn
+ # Creating the binary file: Sub/117/drop3d_hex128.dim
+ # Creating the binary file: Sub/117/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain   118 with:
+ #     20408 cells
+ #     23006 nodes
+ #     63728 faces
+ #         0 shadow faces
+ #       734 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/118/drop3d_hex128.cfn
+ # Creating the binary file: Sub/118/drop3d_hex128.dim
+ # Creating the binary file: Sub/118/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain   119 with:
+ #     19654 cells
+ #     22251 nodes
+ #     61463 faces
+ #         0 shadow faces
+ #      1569 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/119/drop3d_hex128.cfn
+ # Creating the binary file: Sub/119/drop3d_hex128.dim
+ # Creating the binary file: Sub/119/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain   120 with:
+ #     20824 cells
+ #     23597 nodes
+ #     65144 faces
+ #         0 shadow faces
+ #       614 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/120/drop3d_hex128.cfn
+ # Creating the binary file: Sub/120/drop3d_hex128.dim
+ # Creating the binary file: Sub/120/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain   121 with:
+ #     21732 cells
+ #     24724 nodes
+ #     68080 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/121/drop3d_hex128.cfn
+ # Creating the binary file: Sub/121/drop3d_hex128.dim
+ # Creating the binary file: Sub/121/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain   122 with:
+ #     22070 cells
+ #     25246 nodes
+ #     69273 faces
+ #         0 shadow faces
+ #         0 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/122/drop3d_hex128.cfn
+ # Creating the binary file: Sub/122/drop3d_hex128.dim
+ # Creating the binary file: Sub/122/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain   123 with:
+ #     20464 cells
+ #     23191 nodes
+ #     64020 faces
+ #         0 shadow faces
+ #       920 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/123/drop3d_hex128.cfn
+ # Creating the binary file: Sub/123/drop3d_hex128.dim
+ # Creating the binary file: Sub/123/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain   124 with:
+ #     21370 cells
+ #     24398 nodes
+ #     67027 faces
+ #         0 shadow faces
+ #       516 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/124/drop3d_hex128.cfn
+ # Creating the binary file: Sub/124/drop3d_hex128.dim
+ # Creating the binary file: Sub/124/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain   125 with:
+ #     20488 cells
+ #     23075 nodes
+ #     63959 faces
+ #         0 shadow faces
+ #       632 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/125/drop3d_hex128.cfn
+ # Creating the binary file: Sub/125/drop3d_hex128.dim
+ # Creating the binary file: Sub/125/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain   126 with:
+ #     20771 cells
+ #     23459 nodes
+ #     64905 faces
+ #         0 shadow faces
+ #       521 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/126/drop3d_hex128.cfn
+ # Creating the binary file: Sub/126/drop3d_hex128.dim
+ # Creating the binary file: Sub/126/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain   127 with:
+ #     19726 cells
+ #     22209 nodes
+ #     61571 faces
+ #         0 shadow faces
+ #      1288 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/127/drop3d_hex128.cfn
+ # Creating the binary file: Sub/127/drop3d_hex128.dim
+ # Creating the binary file: Sub/127/drop3d_hex128.vtu
+ #=============================================
+ # Saving subdomain   128 with:
+ #     19833 cells
+ #     22353 nodes
+ #     61928 faces
+ #         0 shadow faces
+ #      1249 boundary cells
+ #---------------------------------------------
+ # Creating the binary file: Sub/128/drop3d_hex128.cfn
+ # Creating the binary file: Sub/128/drop3d_hex128.dim
+ # Creating the binary file: Sub/128/drop3d_hex128.vtu
+ # Time =        327.106 seconds.

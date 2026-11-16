@@ -1,0 +1,42 @@
+#=======================================================================
+# Compiling Process with gnu compiler                    
+#-----------------------------------------------------------------------
+# Usage:                                                                
+#   make <FORTRAN=gnu/intel/nvidia> <DEBUG=no/yes> <ASSERT=yes/no>      
+#        <FCOMP=gfortran/ifort/nvfortran/mpif90/mpiifort/...>           
+#        <PROF=no/yes> <REAL=double/single> <MPI=no/yes> <OMP=no/yes>   
+#        <SORT=heap/quick> <DIR_CASE=full_or_relative_path_to_case>     
+#        <clean>                                                        
+#                                                                       
+# Notes:                                                                
+#   1. The first item, for each of the options above, is the default.   
+#   2. If PETSC_DIR environment variable is defined, the code will      
+#      make an attempt to compile with PETSc libraries.                 
+#   3. If PETSC_DIR and PETSC_ARCH set the environment with different   
+#      compiler than you are trying to use, the compilation might fail. 
+#   4. Target "clean" removes all compiled files and binaries.          
+#                                                                       
+# Examples:                                                             
+#   make                        - sequential version with gnu compiler  
+#   make MPI=yes                - MPI version with gnu compiler         
+#   make MPI=yes FCOMP=compiler - MPI version with custom compiler      
+#   make FORTRAN=intel MPI=yes  - MPI version with intel compiler       
+#   make MPI=yes SORT=heap      - MPI version with gnu compiler and     
+#                               - heap-sort version of sorting          
+#   make clean                  - remove compiled files and binaries    
+#-----------------------------------------------------------------------
+# Using GNU Fortran compiler with options: -J .Modules -cpp -ffree-line-length-none -O3 -ffpe-trap= -fdefault-real-8
+Compling for the case in /home/user/runs/caf-review-2026-11/stefan/scriven_tpl
+Linking user functions from directory /home/user/runs/caf-review-2026-11/stefan/scriven_tpl/User_Mod
+ ../../../../../../../runs/caf-review-2026-11/stefan/scriven_tpl/User_Mod/Bulk_Velocity.f90  ../../../../../../../runs/caf-review-2026-11/stefan/scriven_tpl/User_Mod/End_Of_Time_Step.f90  ../../../../../../../runs/caf-review-2026-11/stefan/scriven_tpl/User_Mod/Initialize_Variables.f90  ../../../../../../../runs/caf-review-2026-11/stefan/scriven_tpl/User_Mod/Vof_Initialization_Ellipsoid.f90
+mpif90 Vof_Mod.f90
+mpif90 Surface_Exporter_Mod.f90
+mpif90 Particle_Mod.f90
+mpif90 Swarm_Mod.f90
+mpif90 User_Mod.f90
+mpif90 Backup_Mod.f90
+mpif90 Results_Mod.f90
+mpif90 Read_Controls_Mod.f90
+mpif90 Process_Mod.f90
+mpif90 Main_Pro.f90
+Linking [0;32m  ../../Libraries/Metis_5.1.0_Linux_64/libmetis_i32_r64.a ../../../Binaries/Cpu/Process [0m

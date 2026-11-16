@@ -1,0 +1,67 @@
+18:06:56 start st075-dt2-mix
+18:11:58 done  st075-dt2-mix  exit 0
+18:11:58 start st075-dt2-step
+18:16:07 done  st075-dt2-step  exit 0
+18:16:07 start st100-dt2-sol
+18:28:48 done  st100-dt2-sol  exit 0
+18:28:48 start exp st100-dt2-step
+18:42:02 done  st100-dt2-step  exit 0
+18:42:02 start exp st075-dt2-mask
+18:46:09 done  st075-dt2-mask  exit 0
+18:46:09 start exp diag075-step-keep
+18:47:53 done  diag075-step-keep  exit 0
+18:47:53 start exp diag075-sol-keep
+18:49:36 done  diag075-sol-keep  exit 0
+18:49:36 start exp po075-dt2-step
+19:02:46 done  po075-dt2-step  exit 0
+19:02:46 start exp po075-dt2-sol
+19:15:04 done  po075-dt2-sol  exit 0
+19:15:04 start exp st125-dt2-step
+19:52:37 done  st125-dt2-step  exit 0
+19:52:37 start exp st075-dt1-step
+19:59:57 done  st075-dt1-step  exit 0
+19:59:57 start exp diagpo075-step-keep
+20:05:04 done  diagpo075-step-keep  exit 0
+20:05:04 start adv sph32-co05 8
+20:05:30 done  sph32-co05  exit 0
+20:05:30 start adv sph32-co05-sub 8
+20:05:56 done  sph32-co05-sub  exit 0
+20:05:56 start adv sph32-co05-rev 8
+20:06:21 done  sph32-co05-rev  exit 0
+20:06:21 start adv psph32-co05-rev 8
+20:09:21 done  psph32-co05-rev  exit 0
+20:09:21 start adv def64-co05 8
+20:12:00 done  def64-co05  exit 0
+20:12:00 start adv def64-co05-sub 8
+20:15:05 done  def64-co05-sub  exit 0
+20:15:05 start adv psph32-co05-rev 8
+20:18:25 done  psph32-co05-rev  exit 0
+20:18:25 start adv pdef64-co05-sub 8
+20:27:17 done  pdef64-co05-sub  exit 0
+20:27:17 start adv psph32-co05-rev 8
+20:29:15 done  psph32-co05-rev  exit 0
+20:29:15 start adv def32-co05 4
+20:29:32 done  def32-co05  exit 0
+20:29:32 start adv def32-co05-sub 4
+20:29:50 done  def32-co05-sub  exit 0
+20:29:50 start adv pdef32-co05-sub 4
+20:30:23 done  pdef32-co05-sub  exit 0
+20:30:23 start exp po100-dt2-step
+20:58:06 done  po100-dt2-step  exit 0
+20:58:06 start exp st075-dt2-step-samp
+21:01:53 done  st075-dt2-step-samp  exit 0
+21:01:53 start adv sph32-co002 8
+21:07:42 done  sph32-co002  exit 0
+21:07:42 start adv sph32-co01 8
+21:09:51 done  sph32-co01  exit 0
+21:09:51 start adv sph32-co01-rev 8
+21:11:17 done  sph32-co01-rev  exit 0
+21:11:17 start adv disc40-co002 1 keep
+21:20:21 done  disc40-co002  exit 0
+21:20:21 start adv psph32-co01-rev 8
+21:22:58 done  psph32-co01-rev  exit 0
+21:22:58 start exp po125-dt2-step
+22:30:58 done  po125-dt2-step  exit 0
+22:30:59 start exp st125-dt2-sol
+23:04:15 done  st125-dt2-sol  exit 0
+23:04:15 QUEUE FINISHED
