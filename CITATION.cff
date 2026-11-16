@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "T-Flows: sharp-interface phase change on unstructured meshes"
+type: software
+authors:
+  - family-names: Kren
+    given-names: Jan
+    affiliation: Paul Scherrer Institute PSI
+  - family-names: Ničeno
+    given-names: Bojan
+    affiliation: Paul Scherrer Institute PSI
+  - family-names: Sato
+    given-names: Yohei
+    affiliation: Paul Scherrer Institute PSI
+date-released: "2026-11-16"
+commit: "e36541a8024beb309105b6e012e5eb05885173e7"
+license: GPL-3.0-only
+preferred-citation:
+  type: article
+  title: "Sharp-interface VOF method for phase-change simulations on unstructured meshes"
+  authors:
+    - family-names: Kren
+      given-names: Jan
+    - family-names: Ničeno
+      given-names: Bojan
+    - family-names: Sato
+      given-names: Yohei
+  journal: "Computers & Fluids"
+  year: 2026
+  status: submitted

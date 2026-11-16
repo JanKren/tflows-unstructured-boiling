@@ -1,0 +1,23 @@
+# build products
+*.o
+*.mod
+*genmod.f90
+Binaries/Generate
+Binaries/Convert
+Binaries/Divide
+Binaries/Cpu/Process
+__pycache__/
+# meshes and run output
+*.cfn
+*.dim
+*.vtu
+*.pvtu
+*.backup
+# cases: binaries, logs, staged meshes and runs
+Cases/build_*.log
+Cases/*/build_Process.log
+Cases/*/Process
+Cases/*/runs/
+Cases/*/meshes/
+Cases/Kinematic/st[0-9]*/
+Cases/Kinematic/po[0-9]*/
