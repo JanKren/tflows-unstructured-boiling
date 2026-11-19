@@ -21,10 +21,11 @@ given keywords in `control`, and runs on one rank. `--cubic` makes the cells
 cubes; `--stage` only prepares the folder.
 
 The check prints the position of the front against the Stefan solution and
-compares `caf-terms.dat` with `expected/caf-terms.dat`. That file is the
-record of the run `R_urf1` of the review series (the command above, made
-with the full development tree). Run from this tree with gfortran 7.5, the
-result is equal to it in every digit.
+compares `caf-terms.dat` with `expected/caf-terms.dat`, the record of the
+command above made from this tree with gfortran 7.5. Its mass error at 9 s is
+-1.7e-6 of the initial mass. With the correction of the volume-fraction
+source reversed (`KNOWN_ISSUES.md`, item 1) the same command gives the record
+`R_urf1` of the review series in every digit, and a mass error of +1.14e-3.
 
 ## Files
 

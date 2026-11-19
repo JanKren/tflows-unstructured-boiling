@@ -22,6 +22,9 @@
 !   mode 3  three-dimensional deformation (LeVeque): the circulation of the    !
 !           vector potential around the face edges, and each edge of a         !
 !           closed cell is traversed once in each direction.                   !
+!   mode 4  two-dimensional single vortex (Rider and Kothe; the spiralling     !
+!           disc of Roenby et al. 2016, Section 4.2): as mode 3, with the      !
+!           vector potential (0, 0, psi) of the stream function psi.           !
 !                                                                              !
 !   The measured defect is written to kin-flux.dat at every step.              !
 !------------------------------------------------------------------------------!
@@ -101,8 +104,8 @@
         geo(s) = par(1) * Grid % sx(s)  &
                + par(2) * Grid % sy(s)  &
                + par(3) * Grid % sz(s)
-      else if(mode .eq. 3) then
-        geo(s) = Kin_Circulation(nn, xyz)
+      else if(mode .eq. 3 .or. mode .eq. 4) then
+        geo(s) = Kin_Circulation(nn, xyz, mode)
       end if
     end do
 
@@ -255,8 +258,9 @@
       Flow % v_flux % n(s) = fac * geo(s)
     end do
 
-  ! Deformation, reversing with the cosine of period par(1)
-  else if(mode .eq. 3) then
+  ! Deformation (3) or single vortex (4), reversing with the cosine of
+  ! period par(1)
+  else if(mode .eq. 3 .or. mode .eq. 4) then
     fac = cos(2.0 * PI * tm / par(1))
     do s = 1, Grid % n_faces
       Flow % v_flux % n(s) = fac * geo(s)
@@ -381,10 +385,12 @@
   end function
 
 !==============================================================================!
-  real function Kin_Circulation(nn, xyz)
+  real function Kin_Circulation(nn, xyz, mode)
 !------------------------------------------------------------------------------!
-!   Circulation around a face of the vector potential of the deformation       !
-!   field of LeVeque (1996),                                                   !
+!   Circulation around a face of a vector potential A, the face flux of the    !
+!   velocity curl(A).                                                          !
+!                                                                              !
+!   mode 3: the deformation field of LeVeque (1996),                           !
 !                                                                              !
 !     u =  2 sin^2(pi x) sin(2 pi y) sin(2 pi z)                               !
 !     v = -  sin(2 pi x) sin^2(pi y) sin(2 pi z)                               !
@@ -395,6 +401,13 @@
 !     A = (0, -sin^2(pi x) sin(2 pi y) sin^2(pi z),                            !
 !              sin^2(pi x) sin^2(pi y) sin(2 pi z)) / pi                       !
 !                                                                              !
+!   mode 4: the single vortex (Roenby et al. 2016, Eq. 4.3),                   !
+!                                                                              !
+!     u = - sin^2(pi x) sin(2 pi y)                                            !
+!     v =   sin(2 pi x) sin^2(pi y)                                            !
+!                                                                              !
+!   which is the curl of A = (0, 0, -sin^2(pi x) sin^2(pi y) / pi).            !
+!                                                                              !
 !   Each edge is integrated from its lexicographically smaller end, with a     !
 !   symmetric Gauss rule, so both faces sharing it get the same number.        !
 !------------------------------------------------------------------------------!
@@ -402,6 +415,7 @@
 !---------------------------------[Arguments]----------------------------------!
   integer, intent(in) :: nn
   real,    intent(in) :: xyz(3, nn)   ! nodes, counter-clockwise about S
+  integer, intent(in) :: mode         ! 3 deformation, 4 single vortex
 !-----------------------------------[Locals]-----------------------------------!
   integer, parameter :: NG = 5
   real,    parameter :: XG(NG) = (/ -0.9061798459386640, -0.5384693101056831, &
@@ -438,8 +452,13 @@
     do g = 1, NG
       x(:)   = 0.5 * (a(:) + b(:)) + 0.5 * XG(g) * d(:)
       pot(1) = 0.0
-      pot(2) = - sin(PI*x(1))**2 * sin(2.0*PI*x(2)) * sin(PI*x(3))**2 / PI
-      pot(3) =   sin(PI*x(1))**2 * sin(PI*x(2))**2 * sin(2.0*PI*x(3)) / PI
+      if(mode .eq. 4) then
+        pot(2) = 0.0
+        pot(3) = - sin(PI*x(1))**2 * sin(PI*x(2))**2 / PI
+      else
+        pot(2) = - sin(PI*x(1))**2 * sin(2.0*PI*x(2)) * sin(PI*x(3))**2 / PI
+        pot(3) =   sin(PI*x(1))**2 * sin(PI*x(2))**2 * sin(2.0*PI*x(3)) / PI
+      end if
       edge   = edge + 0.5 * WG(g) * dot_product(pot, d)
     end do
 

@@ -4,8 +4,8 @@
     check_stefan.py runs/<name>
 
 Reads caf-terms.dat of the run (columns in User_Mod/End_Of_Time_Step.f90) and
-compares it with expected/caf-terms.dat, the record of the run R_urf1 of the
-review series.  Then prints the interface position against the Stefan solution
+compares it with expected/caf-terms.dat, the record of the command in
+README.md made from this tree.  Then prints the interface position against the Stefan solution
 of the case and the energy imbalance at the end of the run.
 """
 import math

@@ -1,8 +1,8 @@
 {
  "name": "T-Flows, sharp-interface phase change on unstructured meshes",
- "date": "2026-11-16",
- "tflows_commit": "e36541a8024beb309105b6e012e5eb05885173e7",
- "tflows_commit_date": "2026-11-16",
+ "date": "2026-11-19",
+ "tflows_commit": "0ce2122640a9f6a576e77251842577923ffa6475",
+ "tflows_commit_date": "2026-11-19",
  "tflows_branch": "unstructured-boiling-release",
  "based_on_commit": "2c095ac0705be55d4aabdaad37471793853d5138",
  "based_on_commit_date": "2026-11-11",
@@ -45,8 +45,7 @@
   "Cases/Kinematic/User_Mod": "~/runs/caf-review-2026-11/kinematic/case/User_Mod",
   "Cases/Kinematic/control.expansion": "~/runs/caf-review-2026-11/kinematic/control.expansion",
   "Cases/Kinematic/kinematic.in.expansion": "~/runs/caf-review-2026-11/kinematic/kinematic.in.expansion",
-  "Cases/Kinematic/control.adv": "~/runs/caf-review-2026-11/kinematic/adv/control.adv",
-  "patches/vof_source_sign.patch": "~/papers/UnstructuredBoiling/instrumentation/caf_stefan_terms/vof_source_sign.patch"
+  "Cases/Kinematic/control.adv": "~/runs/caf-review-2026-11/kinematic/adv/control.adv"
  },
  "files": {
   ".gitignore": {
@@ -66,7 +65,7 @@
    "bytes": 40
   },
   "CITATION.cff": {
-   "sha256": "9b8a92e75e305329218bb9f3897641c06391ab5cff8e86236d16bfbfaba12c45",
+   "sha256": "64986e9029f78484aebda9dd0b6d7cb302c4842d128f995c27c747b655ef6f83",
    "bytes": 907
   },
   "Cases/Kinematic/README.md": {
@@ -74,8 +73,8 @@
    "bytes": 3863
   },
   "Cases/Kinematic/User_Mod/Beginning_Of_Compute_Vof.f90": {
-   "sha256": "0ab9fd2fc108ff15c340f3d108b013922adf9fbd1e99bc3e410cb926512b6b8e",
-   "bytes": 19067
+   "sha256": "16257b99f31dc9a73fbf099424dec8d27fce6fcb8a571ba7587fceb5cd55b34b",
+   "bytes": 20319
   },
   "Cases/Kinematic/User_Mod/End_Of_Time_Step.f90": {
    "sha256": "303b55b20ab51ef2a35ac89ded110c795aa35563bedd5f05fe98223dfd28ef75",
@@ -134,8 +133,8 @@
    "bytes": 1280
   },
   "Cases/Stefan/README.md": {
-   "sha256": "617f7bdcb6ae63ed840cc6d3fb4cd9c6ad846b9bbfe829f0d9ec2b179c35ccb8",
-   "bytes": 3458
+   "sha256": "ad021440880e1c03b686e04f988b7d14738ce05538ada7bf4ca97bac183ed44b",
+   "bytes": 3577
   },
   "Cases/Stefan/User_Mod/Beginning_Of_Iteration.f90": {
    "sha256": "23016ef8debecf841cc53ea31416f4425d5e82b2a02b3100f99292703bbb31e5",
@@ -182,15 +181,15 @@
    "bytes": 178
   },
   "Cases/Stefan/check_stefan.py": {
-   "sha256": "72dc6a4b9c8e1748b3affb15431c0ab981c363dfeed2fa71dcc72cc6522e04ca",
-   "bytes": 2467
+   "sha256": "1beebc436ab6b23825a36295267048d42b134c6b77234edb8cb16bd78074bfc6",
+   "bytes": 2476
   },
   "Cases/Stefan/control": {
    "sha256": "f8d03fd28074b7724e54d590b3736ab9cf2441e575001af2b1dd39a8c5182f77",
    "bytes": 3040
   },
   "Cases/Stefan/expected/caf-terms.dat": {
-   "sha256": "9e9203d3097780b995546781850c26f0078d8b522ce59e407f3c868b661c1f48",
+   "sha256": "4e408a1929bd4dd4f94835df522fd759b109fb6133d0a0dfa90dda5d37ac1407",
    "bytes": 777600
   },
   "Cases/Stefan/run_stefan.py": {
@@ -330,20 +329,20 @@
    "bytes": 5834
   },
   "KNOWN_ISSUES.md": {
-   "sha256": "8b95f67ae8c304848037f7aa97a5e8abe5e19e0b7cdd06fe7079ea1d2683e01f",
-   "bytes": 3694
+   "sha256": "53721bd2c32ef196c4c8628e363eb955abd1e5fccbfcb34098ed3cbcf936f36b",
+   "bytes": 3881
   },
   "LICENSE": {
    "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809",
    "bytes": 35823
   },
   "NOTICE.md": {
-   "sha256": "c832d4972901400a933b8f064b53482bdd6ec86bcc644f3e706d945f23850052",
+   "sha256": "431c6bf460c726c1238e0bfd3c836bd9b13aeecf2b4a567935019ee8dd1814f3",
    "bytes": 1633
   },
   "README.md": {
-   "sha256": "f83b9df7db7bb6772f72365f13e85313296c1b5fa91130addab3cfccb09f11b7",
-   "bytes": 6553
+   "sha256": "01d2717f6ecd5705a74cafbba7712ad541c7b1a2d34add29fddfe3d52f8095a5",
+   "bytes": 6712
   },
   "Sources/Convert/.Modules/readme": {
    "sha256": "8a981d1e203e904d79ef9f4e5dec9a0f1cfcaa953e6104faf0085f30e5783726",
@@ -2399,8 +2398,8 @@
    "bytes": 1470
   },
   "Sources/Process/Cpu/Vof_Mod/Utilities/Mass_Transfer_Vof_Source.f90": {
-   "sha256": "f7c8108122090a479690daa464110739b3c9f620379fb14b456092ba0ccf4f3f",
-   "bytes": 2422
+   "sha256": "6e69d37c953ef342480fab3ed22e00deded3e164f75fcbef849aeb50c6700e70",
+   "bytes": 2577
   },
   "Sources/Process/Cpu/Vof_Mod/Utilities/Surface_Tension_Force.f90": {
    "sha256": "15e1d3f0a5f37303ffb9e945b6a1e7f0fa5632487e1db82d33b15762f7d6079c",
@@ -4654,8 +4653,8 @@
    "bytes": 7742
   },
   "patches/vof_source_sign.patch": {
-   "sha256": "f1489dc2a2b01b2da716a69c82c1ca05100736dbbb28f0e368d245500cfd51b4",
-   "bytes": 530
+   "sha256": "face94312296a8ab4477fec645867a1365ea5f5894a4b6c50f9f73dacdce8130",
+   "bytes": 3260
   }
  }
 }

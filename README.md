@@ -75,7 +75,7 @@ and `Process`, is the `readme.md` of the
 
 ## What this branch is, exactly
 
-- **Source.** `Sources/` is the tree of commit `e36541a802` of the branch
+- **Source.** `Sources/` is the tree of commit `0ce2122640` of the branch
   `unstructured-boiling-release` of the authors' development repository,
   reduced to `Generate`, `Convert`, `Divide`, `Process/Cpu`, `Shared` and
   `Libraries`. That commit is commit `2c095ac070` (2026-11-11) of the
@@ -106,7 +106,9 @@ and `Process`, is the `readme.md` of the
   synthetic inlet eddies and the surface exporter are kept for the annular
   case of the paper.
 - **Which results it reproduces.** The runs of the paper were made with
-  several builds of the solver; this source is the latest of them. The branch
+  several builds of the solver; this source is the latest of them, with one
+  correction made after them, the sign of the phase-change source of the
+  volume-fraction equation (`KNOWN_ISSUES.md`, item 1). The branch
   `paper-runs` states which build produced which result.
 
 ## Layout
@@ -116,7 +118,7 @@ Sources/            Generate, Convert, Divide, Process/Cpu, Shared, Libraries
 Binaries/           where the programs are put by their makefiles
 Cases/              cases, build scripts, default user hooks
 doc/                documentation of the phase-change model and of the build
-patches/            corrections that are not applied in this tree
+patches/            the sign correction of KNOWN_ISSUES.md item 1 (patch -R undoes it)
 MANIFEST.json       every file with its sha256; what was left out
 ```
 

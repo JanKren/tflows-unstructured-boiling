@@ -12,8 +12,8 @@ authors:
   - family-names: Sato
     given-names: Yohei
     affiliation: Paul Scherrer Institute PSI
-date-released: "2026-11-16"
-commit: "e36541a8024beb309105b6e012e5eb05885173e7"
+date-released: "2026-11-19"
+commit: "0ce2122640a9f6a576e77251842577923ffa6475"
 license: GPL-3.0-only
 preferred-citation:
   type: article

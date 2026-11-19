@@ -1,7 +1,7 @@
 # Notices
 
 T-Flows is developed by the T-Flows Development Team. This branch is a reduced
-copy of commit `e36541a802` of the branch `unstructured-boiling-release`, which is
+copy of commit `0ce2122640` of the branch `unstructured-boiling-release`, which is
 commit `2c095ac070` of the branch `T-Flows-jan-review` without the parts
 that the paper does not use.
 

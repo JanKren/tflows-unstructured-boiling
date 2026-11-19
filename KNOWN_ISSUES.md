@@ -3,19 +3,22 @@
 Each item states what is wrong or untested, how large the effect is where it
 was measured, and what the paper's runs did about it.
 
-## 1. Sign of the liquid source term of the volume-fraction equation
+## 1. Sign of the liquid source term of the volume-fraction equation (corrected here)
 
-`Sources/Process/Cpu/Vof_Mod/Utilities/Mass_Transfer_Vof_Source.f90` adds the
+`Sources/Process/Cpu/Vof_Mod/Utilities/Mass_Transfer_Vof_Source.f90` added the
 source term of the volume-fraction equation, the mass transfer rate divided by
-the liquid density, with the wrong sign. The mass that leaves the domain then differs from the
-mass that evaporated by 2 ρ_v/ρ_l of the expelled mass: 1.25 × 10⁻³ for water
-and steam at 1 bar, on every record of the Stefan problem. With the sign
-corrected the error is −2 × 10⁻⁶. The interface speed changes by 0.12 %.
+the liquid density, with the wrong sign: each kilogram evaporated left two
+kilograms of liquid in the domain. The mass in the domain plus the mass that
+left it then grew by 2 ρ_v/ρ_l of the expelled mass, 1.25 × 10⁻³ for water and
+steam at 1 bar, at any time step and mesh, and the interface moved 0.12 % too
+fast. **This tree has the sign corrected.** The mass error of the Stefan
+problem is then −2 × 10⁻⁶ at a time step of 5 ms, and it falls in proportion
+to the time step.
 
-The correction is `patches/vof_source_sign.patch`. **It is not applied in this
-tree**, because the runs of the paper were made without it, except the Stefan
-runs that measure it (branch `paper-runs`). Apply it with
-`patch -p1 < patches/vof_source_sign.patch` from the root of this branch.
+**The runs of the paper were made with the old sign**, except the Stefan runs
+that measure it (branch `paper-runs`). `patches/vof_source_sign.patch` is the
+correction; `patch -R -p1 < patches/vof_source_sign.patch` from the root of
+this branch undoes it, to repeat a run of the paper as it was made.
 
 ## 2. Boundedness of the volume fraction
 
